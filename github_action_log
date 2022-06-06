@@ -1,0 +1,1418 @@
+Run maierj/fastlane-action@v1.4.0
+Executing lane closed_beta on Linux.
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>500 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered an error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+Moving to subdirectory android
+Successfully installed bundler-2.3.15
+Parsing documentation for bundler-2.3.15
+Installing ri documentation for bundler-2.3.15
+Done installing documentation for bundler after 0 seconds
+1 gem installed
+Following files may not be writable, so sudo is needed:
+  /var/lib/gems/2.7.0
+  /var/lib/gems/2.7.0/build_info
+  /var/lib/gems/2.7.0/cache
+  /var/lib/gems/2.7.0/doc
+  /var/lib/gems/2.7.0/extensions
+  /var/lib/gems/2.7.0/gems
+  /var/lib/gems/2.7.0/specifications
+Fetching https://github.com/tianhaoz95/fastlane-plugin-flutter-version
+Fetching gem metadata from https://rubygems.org/........
+Resolving dependencies............................
+Fetching rake 13.0.6
+Installing rake 13.0.6
+Using rexml 3.2.5
+Using public_suffix 4.0.7
+Using artifactory 3.0.15
+Using atomos 0.1.3
+Using aws-eventstream 1.2.0
+Fetching aws-partitions 1.595.0
+Using jmespath 1.6.1
+Using babosa 1.0.4
+Using bundler 2.3.15
+Using claide 1.1.0
+Using colored 1.2
+Using colored2 3.1.2
+Using highline 2.0.3
+Using declarative 0.0.20
+Using digest-crc 0.6.4
+Using unf_ext 0.0.8.2
+Using dotenv 2.7.6
+Using emoji_regex 3.2.3
+Using excon 0.92.3
+Using faraday-em_http 1.0.0
+Using faraday-em_synchrony 1.0.0
+Using faraday-excon 1.1.0
+Using faraday-httpclient 1.0.1
+Using multipart-post 2.0.0
+Using faraday-net_http 1.0.1
+Using faraday-net_http_persistent 1.2.0
+Using faraday-patron 1.0.0
+Using faraday-rack 1.0.0
+Using faraday-retry 1.0.3
+Using ruby2_keywords 0.0.5
+Using fastimage 2.2.6
+Using gh_inspector 1.1.3
+Using jwt 2.3.0
+Using memoist 0.16.2
+Using multi_json 1.15.0
+Using os 1.1.4
+Using httpclient 2.8.3
+Using mini_mime 1.1.2
+Using trailblazer-option 0.1.2
+Using uber 0.1.0
+Using retriable 3.1.2
+Fetching webrick 1.7.0
+Installing aws-partitions 1.595.0
+Installing webrick 1.7.0
+Using google-cloud-errors 1.2.0
+Fetching json 2.6.2
+Using mini_magick 4.11.0
+Using naturally 2.2.1
+Using optparse 0.1.1
+Using plist 3.6.0
+Using rubyzip 2.3.2
+Using security 0.1.3
+Using terminal-notifier 2.0.0
+Using unicode-display_width 1.8.0
+Using tty-screen 0.8.1
+Using tty-cursor 0.7.1
+Using word_wrap 1.0.0
+Using nanaimo 0.3.0
+Using rouge 2.0.7
+Installing json 2.6.2 with native extensions
+Using fastlane-plugin-flutter_version 1.1.15 from https://github.com/tianhaoz95/fastlane-plugin-flutter-version (at master@d9da955)
+Using CFPropertyList 3.0.5
+Using addressable 2.8.0
+Using aws-sigv4 1.5.0
+Using commander 4.6.0
+Using unf 0.1.4
+Using faraday-multipart 1.0.3
+Using representable 3.2.0
+Using terminal-table 1.8.0
+Using tty-spinner 0.9.3
+Using xcpretty 0.3.0
+Using simctl 1.6.8
+Using xcodeproj 1.21.0
+Using aws-sdk-core 3.131.1
+Using domain_name 0.5.20190701
+Using faraday 1.10.0
+Using xcpretty-travis-formatter 1.0.1
+Using aws-sdk-kms 1.57.0
+Using http-cookie 1.0.5
+Using faraday_middleware 1.2.0
+Using signet 0.16.1
+Using google-cloud-env 1.6.0
+Using aws-sdk-s3 1.114.0
+Using faraday-cookie_jar 0.0.7
+Using googleauth 1.1.3
+Using google-cloud-core 1.6.0
+Using google-apis-core 0.5.0
+Using google-apis-androidpublisher_v3 0.21.0
+Using google-apis-playcustomapp_v1 0.7.0
+Using google-apis-iamcredentials_v1 0.10.0
+Using google-apis-storage_v1 0.14.0
+Using google-cloud-storage 1.36.2
+Using fastlane 2.206.2
+Bundle complete! 2 Gemfile dependencies, 91 gems now installed.
+Use `bundle info [gemname]` to see where a bundled gem is installed.
++---------------------------------+---------+-----------------+
+|                        Used plugins                         |
++---------------------------------+---------+-----------------+
+| Plugin                          | Version | Action          |
++---------------------------------+---------+-----------------+
+| fastlane-plugin-flutter_version | 1.1.15  | flutter_version |
++---------------------------------+---------+-----------------+
+[17:56:50]: Sending anonymous analytics information
+[17:56:50]: Learn more at https://docs.fastlane.tools/#metrics
+[17:56:50]: No personal or sensitive data is sent.
+[17:56:50]: You can disable this by adding `opt_out_usage` at the top of your Fastfile
+[17:56:50]: ------------------------------
+[17:56:50]: --- Step: default_platform ---
+[17:56:50]: ------------------------------
+[17:56:50]: Driving the lane 'android closed_beta' 🚀
+[17:56:50]: -----------------------------------
+[17:56:50]: --- Step: clean assembleRelease ---
+[17:56:50]: -----------------------------------
+[17:56:50]: $ /home/runner/work/lessimp/lessimp/android/gradlew clean assembleRelease -p .
+[17:56:51]: ▸ Welcome to Gradle 7.4.2!
+[17:56:51]: ▸ Here are the highlights of this release:
+[17:56:51]: ▸ - Aggregated test and JaCoCo reports
+[17:56:51]: ▸ - Marking additional test source directories as tests in IntelliJ
+[17:56:51]: ▸ - Support for Adoptium JDKs in Java toolchains
+[17:56:51]: ▸ For more details see https://docs.gradle.org/7.4.2/release-notes.html
+[17:56:53]: ▸ WARNING:We recommend using a newer Android Gradle plugin to use compileSdk = 32
+[17:56:53]: ▸ This Android Gradle plugin (7.0.1) was tested up to compileSdk = 31
+[17:56:53]: ▸ This warning can be suppressed by adding
+[17:56:53]: ▸ android.suppressUnsupportedCompileSdk=32
+[17:56:53]: ▸ to this project's gradle.properties
+[17:56:53]: ▸ The build will continue, but you are strongly encouraged to update your project to
+[17:56:53]: ▸ use a newer Android Gradle Plugin that has been tested with compileSdk = 32
+[17:56:53]: ▸ WARNING:We recommend using a newer Android Gradle plugin to use compileSdk = 32
+[17:56:53]: ▸ This Android Gradle plugin (7.0.1) was tested up to compileSdk = 31
+[17:56:53]: ▸ This warning can be suppressed by adding
+[17:56:53]: ▸ android.suppressUnsupportedCompileSdk=32
+[17:56:53]: ▸ to this project's gradle.properties
+[17:56:53]: ▸ The build will continue, but you are strongly encouraged to update your project to
+[17:56:53]: ▸ use a newer Android Gradle Plugin that has been tested with compileSdk = 32
+[17:56:54]: ▸ > Task :clean
+[17:56:54]: ▸ > Task :app:clean UP-TO-DATE
+[17:56:54]: ▸ > Task :cloud_firestore:clean UP-TO-DATE
+[17:56:54]: ▸ > Task :firebase_auth:clean UP-TO-DATE
+[17:56:54]: ▸ > Task :firebase_core:clean UP-TO-DATE
+[17:56:54]: ▸ > Task :firebase_crashlytics:clean UP-TO-DATE
+[17:56:54]: ▸ > Task :firebase_storage:clean UP-TO-DATE
+[17:56:54]: ▸ > Task :flutter_chat_bubble:clean UP-TO-DATE
+[17:56:54]: ▸ > Task :flutter_plugin_android_lifecycle:clean UP-TO-DATE
+[17:56:54]: ▸ > Task :fluttertoast:clean UP-TO-DATE
+[17:56:54]: ▸ > Task :image_picker_android:clean UP-TO-DATE
+[17:56:54]: ▸ > Task :location:clean UP-TO-DATE
+[17:56:54]: ▸ > Task :mobile_scanner:clean UP-TO-DATE
+[17:56:54]: ▸ > Task :path_provider_android:clean UP-TO-DATE
+[17:56:54]: ▸ > Task :pay_android:clean UP-TO-DATE
+[17:56:54]: ▸ > Task :url_launcher_android:clean UP-TO-DATE
+[17:56:54]: ▸ > Task :app:preBuild UP-TO-DATE
+[17:56:54]: ▸ > Task :app:preReleaseBuild UP-TO-DATE
+[17:56:54]: ▸ > Task :cloud_firestore:preBuild UP-TO-DATE
+[17:56:54]: ▸ > Task :cloud_firestore:preReleaseBuild UP-TO-DATE
+[17:56:54]: ▸ > Task :firebase_core:preBuild UP-TO-DATE
+[17:56:54]: ▸ > Task :firebase_core:preReleaseBuild UP-TO-DATE
+[17:56:54]: ▸ > Task :firebase_auth:preBuild UP-TO-DATE
+[17:56:54]: ▸ > Task :firebase_auth:preReleaseBuild UP-TO-DATE
+[17:56:54]: ▸ > Task :firebase_crashlytics:preBuild UP-TO-DATE
+[17:56:54]: ▸ > Task :firebase_crashlytics:preReleaseBuild UP-TO-DATE
+[17:56:54]: ▸ > Task :firebase_storage:preBuild UP-TO-DATE
+[17:56:54]: ▸ > Task :firebase_storage:preReleaseBuild UP-TO-DATE
+[17:56:54]: ▸ > Task :flutter_chat_bubble:preBuild UP-TO-DATE
+[17:56:54]: ▸ > Task :flutter_chat_bubble:preReleaseBuild UP-TO-DATE
+[17:56:54]: ▸ > Task :flutter_plugin_android_lifecycle:preBuild UP-TO-DATE
+[17:56:54]: ▸ > Task :flutter_plugin_android_lifecycle:preReleaseBuild UP-TO-DATE
+[17:56:54]: ▸ > Task :fluttertoast:preBuild UP-TO-DATE
+[17:56:54]: ▸ > Task :fluttertoast:preReleaseBuild UP-TO-DATE
+[17:56:54]: ▸ > Task :image_picker_android:preBuild UP-TO-DATE
+[17:56:54]: ▸ > Task :image_picker_android:preReleaseBuild UP-TO-DATE
+[17:56:54]: ▸ > Task :location:preBuild UP-TO-DATE
+[17:56:54]: ▸ > Task :location:preReleaseBuild UP-TO-DATE
+[17:56:54]: ▸ > Task :mobile_scanner:preBuild UP-TO-DATE
+[17:56:54]: ▸ > Task :mobile_scanner:preReleaseBuild UP-TO-DATE
+[17:56:54]: ▸ > Task :path_provider_android:preBuild UP-TO-DATE
+[17:56:54]: ▸ > Task :path_provider_android:preReleaseBuild UP-TO-DATE
+[17:56:54]: ▸ > Task :pay_android:preBuild UP-TO-DATE
+[17:56:54]: ▸ > Task :pay_android:preReleaseBuild UP-TO-DATE
+[17:56:54]: ▸ > Task :url_launcher_android:preBuild UP-TO-DATE
+[17:56:54]: ▸ > Task :url_launcher_android:preReleaseBuild UP-TO-DATE
+[17:56:54]: ▸ > Task :app:cleanMergeReleaseAssets UP-TO-DATE
+[17:57:05]: ▸ > Task :app:compileFlutterBuildRelease
+[17:57:05]: ▸ /opt/hostedtoolcache/flutter/3.0.1-stable/x64/.pub-cache/hosted/pub.dartlang.org/mobile_scanner-1.1.2/lib/src/mobile_scanner.dart:50:20: Warning: Operand of null-aware operation '?.' has type 'WidgetsBinding' which excludes null.
+[17:57:05]: ▸ - 'WidgetsBinding' is from 'package:flutter/src/widgets/binding.dart' ('/opt/hostedtoolcache/flutter/3.0.1-stable/x64/packages/flutter/lib/src/widgets/binding.dart').
+[17:57:05]: ▸ WidgetsBinding.instance?.addObserver(this);
+[17:57:05]: ▸ ^
+[17:57:05]: ▸ /opt/hostedtoolcache/flutter/3.0.1-stable/x64/.pub-cache/hosted/pub.dartlang.org/mobile_scanner-1.1.2/lib/src/mobile_scanner.dart:134:20: Warning: Operand of null-aware operation '?.' has type 'WidgetsBinding' which excludes null.
+[17:57:05]: ▸ - 'WidgetsBinding' is from 'package:flutter/src/widgets/binding.dart' ('/opt/hostedtoolcache/flutter/3.0.1-stable/x64/packages/flutter/lib/src/widgets/binding.dart').
+[17:57:05]: ▸ WidgetsBinding.instance?.removeObserver(this);
+[17:57:05]: ▸ ^
+[17:58:05]: ▸ > Task :app:packLibsflutterBuildRelease
+[17:58:05]: ▸ > Task :firebase_core:compileReleaseAidl NO-SOURCE
+[17:58:05]: ▸ > Task :cloud_firestore:compileReleaseAidl NO-SOURCE
+[17:58:05]: ▸ > Task :firebase_auth:compileReleaseAidl NO-SOURCE
+[17:58:05]: ▸ > Task :firebase_crashlytics:compileReleaseAidl NO-SOURCE
+[17:58:05]: ▸ > Task :firebase_storage:compileReleaseAidl NO-SOURCE
+[17:58:05]: ▸ > Task :flutter_chat_bubble:compileReleaseAidl NO-SOURCE
+[17:58:05]: ▸ > Task :flutter_plugin_android_lifecycle:compileReleaseAidl NO-SOURCE
+[17:58:05]: ▸ > Task :fluttertoast:compileReleaseAidl NO-SOURCE
+[17:58:05]: ▸ > Task :image_picker_android:compileReleaseAidl NO-SOURCE
+[17:58:05]: ▸ > Task :location:compileReleaseAidl NO-SOURCE
+[17:58:05]: ▸ > Task :mobile_scanner:compileReleaseAidl NO-SOURCE
+[17:58:05]: ▸ > Task :path_provider_android:compileReleaseAidl NO-SOURCE
+[17:58:05]: ▸ > Task :pay_android:compileReleaseAidl NO-SOURCE
+[17:58:05]: ▸ > Task :url_launcher_android:compileReleaseAidl NO-SOURCE
+[17:58:05]: ▸ > Task :app:compileReleaseAidl NO-SOURCE
+[17:58:05]: ▸ > Task :cloud_firestore:packageReleaseRenderscript NO-SOURCE
+[17:58:05]: ▸ > Task :firebase_auth:packageReleaseRenderscript NO-SOURCE
+[17:58:05]: ▸ > Task :firebase_core:packageReleaseRenderscript NO-SOURCE
+[17:58:05]: ▸ > Task :firebase_crashlytics:packageReleaseRenderscript NO-SOURCE
+[17:58:05]: ▸ > Task :firebase_storage:packageReleaseRenderscript NO-SOURCE
+[17:58:05]: ▸ > Task :flutter_chat_bubble:packageReleaseRenderscript NO-SOURCE
+[17:58:05]: ▸ > Task :flutter_plugin_android_lifecycle:packageReleaseRenderscript NO-SOURCE
+[17:58:05]: ▸ > Task :fluttertoast:packageReleaseRenderscript NO-SOURCE
+[17:58:05]: ▸ > Task :image_picker_android:packageReleaseRenderscript NO-SOURCE
+[17:58:05]: ▸ > Task :location:packageReleaseRenderscript NO-SOURCE
+[17:58:05]: ▸ > Task :mobile_scanner:packageReleaseRenderscript NO-SOURCE
+[17:58:05]: ▸ > Task :path_provider_android:packageReleaseRenderscript NO-SOURCE
+[17:58:05]: ▸ > Task :pay_android:packageReleaseRenderscript NO-SOURCE
+[17:58:05]: ▸ > Task :url_launcher_android:packageReleaseRenderscript NO-SOURCE
+[17:58:05]: ▸ > Task :app:compileReleaseRenderscript NO-SOURCE
+[17:58:05]: ▸ > Task :app:generateReleaseBuildConfig
+[17:58:05]: ▸ > Task :firebase_auth:writeReleaseAarMetadata
+[17:58:05]: ▸ > Task :firebase_core:writeReleaseAarMetadata
+[17:58:05]: ▸ > Task :firebase_crashlytics:writeReleaseAarMetadata
+[17:58:05]: ▸ > Task :cloud_firestore:writeReleaseAarMetadata
+[17:58:05]: ▸ > Task :firebase_storage:writeReleaseAarMetadata
+[17:58:05]: ▸ > Task :flutter_plugin_android_lifecycle:writeReleaseAarMetadata
+[17:58:05]: ▸ > Task :flutter_chat_bubble:writeReleaseAarMetadata
+[17:58:05]: ▸ > Task :fluttertoast:writeReleaseAarMetadata
+[17:58:05]: ▸ > Task :image_picker_android:writeReleaseAarMetadata
+[17:58:05]: ▸ > Task :location:writeReleaseAarMetadata
+[17:58:05]: ▸ > Task :mobile_scanner:writeReleaseAarMetadata
+[17:58:05]: ▸ > Task :path_provider_android:writeReleaseAarMetadata
+[17:58:05]: ▸ > Task :pay_android:writeReleaseAarMetadata
+[17:58:05]: ▸ > Task :url_launcher_android:writeReleaseAarMetadata
+[17:58:05]: ▸ > Task :app:mergeReleaseShaders
+[17:58:05]: ▸ > Task :app:compileReleaseShaders NO-SOURCE
+[17:58:05]: ▸ > Task :app:generateReleaseAssets UP-TO-DATE
+[17:58:05]: ▸ > Task :app:checkReleaseAarMetadata
+[17:58:05]: ▸ > Task :cloud_firestore:mergeReleaseShaders
+[17:58:05]: ▸ > Task :cloud_firestore:compileReleaseShaders NO-SOURCE
+[17:58:05]: ▸ > Task :cloud_firestore:generateReleaseAssets UP-TO-DATE
+[17:58:05]: ▸ > Task :cloud_firestore:packageReleaseAssets
+[17:58:05]: ▸ > Task :firebase_auth:mergeReleaseShaders
+[17:58:05]: ▸ > Task :firebase_auth:compileReleaseShaders NO-SOURCE
+[17:58:05]: ▸ > Task :firebase_auth:generateReleaseAssets UP-TO-DATE
+[17:58:05]: ▸ > Task :firebase_auth:packageReleaseAssets
+[17:58:05]: ▸ > Task :firebase_core:mergeReleaseShaders
+[17:58:05]: ▸ > Task :firebase_core:compileReleaseShaders NO-SOURCE
+[17:58:05]: ▸ > Task :firebase_core:generateReleaseAssets UP-TO-DATE
+[17:58:05]: ▸ > Task :firebase_core:packageReleaseAssets
+[17:58:05]: ▸ > Task :firebase_crashlytics:mergeReleaseShaders
+[17:58:05]: ▸ > Task :firebase_crashlytics:compileReleaseShaders NO-SOURCE
+[17:58:05]: ▸ > Task :firebase_crashlytics:generateReleaseAssets UP-TO-DATE
+[17:58:05]: ▸ > Task :firebase_crashlytics:packageReleaseAssets
+[17:58:05]: ▸ > Task :firebase_storage:mergeReleaseShaders
+[17:58:05]: ▸ > Task :firebase_storage:compileReleaseShaders NO-SOURCE
+[17:58:05]: ▸ > Task :firebase_storage:generateReleaseAssets UP-TO-DATE
+[17:58:05]: ▸ > Task :firebase_storage:packageReleaseAssets
+[17:58:05]: ▸ > Task :flutter_chat_bubble:mergeReleaseShaders
+[17:58:05]: ▸ > Task :flutter_chat_bubble:compileReleaseShaders NO-SOURCE
+[17:58:05]: ▸ > Task :flutter_chat_bubble:generateReleaseAssets UP-TO-DATE
+[17:58:05]: ▸ > Task :flutter_chat_bubble:packageReleaseAssets
+[17:58:05]: ▸ > Task :flutter_plugin_android_lifecycle:mergeReleaseShaders
+[17:58:05]: ▸ > Task :flutter_plugin_android_lifecycle:compileReleaseShaders NO-SOURCE
+[17:58:05]: ▸ > Task :flutter_plugin_android_lifecycle:generateReleaseAssets UP-TO-DATE
+[17:58:05]: ▸ > Task :flutter_plugin_android_lifecycle:packageReleaseAssets
+[17:58:05]: ▸ > Task :fluttertoast:mergeReleaseShaders
+[17:58:05]: ▸ > Task :fluttertoast:compileReleaseShaders NO-SOURCE
+[17:58:05]: ▸ > Task :fluttertoast:generateReleaseAssets UP-TO-DATE
+[17:58:05]: ▸ > Task :fluttertoast:packageReleaseAssets
+[17:58:05]: ▸ > Task :image_picker_android:mergeReleaseShaders
+[17:58:05]: ▸ > Task :image_picker_android:compileReleaseShaders NO-SOURCE
+[17:58:05]: ▸ > Task :image_picker_android:generateReleaseAssets UP-TO-DATE
+[17:58:05]: ▸ > Task :image_picker_android:packageReleaseAssets
+[17:58:05]: ▸ > Task :location:mergeReleaseShaders
+[17:58:05]: ▸ > Task :location:compileReleaseShaders NO-SOURCE
+[17:58:05]: ▸ > Task :location:generateReleaseAssets UP-TO-DATE
+[17:58:05]: ▸ > Task :location:packageReleaseAssets
+[17:58:05]: ▸ > Task :mobile_scanner:mergeReleaseShaders
+[17:58:05]: ▸ > Task :mobile_scanner:compileReleaseShaders NO-SOURCE
+[17:58:05]: ▸ > Task :mobile_scanner:generateReleaseAssets UP-TO-DATE
+[17:58:05]: ▸ > Task :mobile_scanner:packageReleaseAssets
+[17:58:05]: ▸ > Task :path_provider_android:mergeReleaseShaders
+[17:58:05]: ▸ > Task :path_provider_android:compileReleaseShaders NO-SOURCE
+[17:58:05]: ▸ > Task :path_provider_android:generateReleaseAssets UP-TO-DATE
+[17:58:05]: ▸ > Task :path_provider_android:packageReleaseAssets
+[17:58:05]: ▸ > Task :pay_android:mergeReleaseShaders
+[17:58:05]: ▸ > Task :pay_android:compileReleaseShaders NO-SOURCE
+[17:58:05]: ▸ > Task :pay_android:generateReleaseAssets UP-TO-DATE
+[17:58:05]: ▸ > Task :pay_android:packageReleaseAssets
+[17:58:05]: ▸ > Task :url_launcher_android:mergeReleaseShaders
+[17:58:05]: ▸ > Task :url_launcher_android:compileReleaseShaders NO-SOURCE
+[17:58:05]: ▸ > Task :url_launcher_android:generateReleaseAssets UP-TO-DATE
+[17:58:05]: ▸ > Task :url_launcher_android:packageReleaseAssets
+[17:58:05]: ▸ > Task :app:mergeReleaseAssets
+[17:58:06]: ▸ > Task :app:copyFlutterAssetsRelease
+[17:58:06]: ▸ > Task :app:generateReleaseResValues
+[17:58:06]: ▸ > Task :app:generateReleaseResources
+[17:58:06]: ▸ > Task :app:processReleaseGoogleServices
+[17:58:06]: ▸ > Task :cloud_firestore:compileReleaseRenderscript NO-SOURCE
+[17:58:06]: ▸ > Task :cloud_firestore:generateReleaseResValues
+[17:58:06]: ▸ > Task :cloud_firestore:generateReleaseResources
+[17:58:06]: ▸ > Task :cloud_firestore:packageReleaseResources
+[17:58:06]: ▸ > Task :firebase_auth:compileReleaseRenderscript NO-SOURCE
+[17:58:06]: ▸ > Task :firebase_auth:generateReleaseResValues
+[17:58:06]: ▸ > Task :firebase_auth:generateReleaseResources
+[17:58:06]: ▸ > Task :firebase_auth:packageReleaseResources
+[17:58:06]: ▸ > Task :firebase_core:compileReleaseRenderscript NO-SOURCE
+[17:58:06]: ▸ > Task :firebase_core:generateReleaseResValues
+[17:58:06]: ▸ > Task :firebase_core:generateReleaseResources
+[17:58:06]: ▸ > Task :firebase_core:packageReleaseResources
+[17:58:06]: ▸ > Task :firebase_crashlytics:compileReleaseRenderscript NO-SOURCE
+[17:58:06]: ▸ > Task :firebase_crashlytics:generateReleaseResValues
+[17:58:06]: ▸ > Task :firebase_crashlytics:generateReleaseResources
+[17:58:06]: ▸ > Task :firebase_crashlytics:packageReleaseResources
+[17:58:06]: ▸ > Task :firebase_storage:compileReleaseRenderscript NO-SOURCE
+[17:58:06]: ▸ > Task :firebase_storage:generateReleaseResValues
+[17:58:06]: ▸ > Task :firebase_storage:generateReleaseResources
+[17:58:06]: ▸ > Task :firebase_storage:packageReleaseResources
+[17:58:06]: ▸ > Task :flutter_chat_bubble:compileReleaseRenderscript NO-SOURCE
+[17:58:06]: ▸ > Task :flutter_chat_bubble:generateReleaseResValues
+[17:58:06]: ▸ > Task :flutter_chat_bubble:generateReleaseResources
+[17:58:06]: ▸ > Task :flutter_chat_bubble:packageReleaseResources
+[17:58:06]: ▸ > Task :flutter_plugin_android_lifecycle:compileReleaseRenderscript NO-SOURCE
+[17:58:06]: ▸ > Task :flutter_plugin_android_lifecycle:generateReleaseResValues
+[17:58:06]: ▸ > Task :flutter_plugin_android_lifecycle:generateReleaseResources
+[17:58:06]: ▸ > Task :flutter_plugin_android_lifecycle:packageReleaseResources
+[17:58:06]: ▸ > Task :fluttertoast:compileReleaseRenderscript NO-SOURCE
+[17:58:06]: ▸ > Task :fluttertoast:generateReleaseResValues
+[17:58:06]: ▸ > Task :fluttertoast:generateReleaseResources
+[17:58:06]: ▸ > Task :fluttertoast:packageReleaseResources
+[17:58:06]: ▸ > Task :image_picker_android:compileReleaseRenderscript NO-SOURCE
+[17:58:06]: ▸ > Task :image_picker_android:generateReleaseResValues
+[17:58:06]: ▸ > Task :image_picker_android:generateReleaseResources
+[17:58:06]: ▸ > Task :image_picker_android:packageReleaseResources
+[17:58:06]: ▸ > Task :location:compileReleaseRenderscript NO-SOURCE
+[17:58:06]: ▸ > Task :location:generateReleaseResValues
+[17:58:06]: ▸ > Task :location:generateReleaseResources
+[17:58:06]: ▸ > Task :location:packageReleaseResources
+[17:58:06]: ▸ > Task :mobile_scanner:compileReleaseRenderscript NO-SOURCE
+[17:58:06]: ▸ > Task :mobile_scanner:generateReleaseResValues
+[17:58:06]: ▸ > Task :mobile_scanner:generateReleaseResources
+[17:58:06]: ▸ > Task :mobile_scanner:packageReleaseResources
+[17:58:06]: ▸ > Task :path_provider_android:compileReleaseRenderscript NO-SOURCE
+[17:58:06]: ▸ > Task :path_provider_android:generateReleaseResValues
+[17:58:06]: ▸ > Task :path_provider_android:generateReleaseResources
+[17:58:06]: ▸ > Task :path_provider_android:packageReleaseResources
+[17:58:06]: ▸ > Task :pay_android:compileReleaseRenderscript NO-SOURCE
+[17:58:06]: ▸ > Task :pay_android:generateReleaseResValues
+[17:58:06]: ▸ > Task :pay_android:generateReleaseResources
+[17:58:06]: ▸ > Task :pay_android:packageReleaseResources
+[17:58:06]: ▸ > Task :url_launcher_android:compileReleaseRenderscript NO-SOURCE
+[17:58:06]: ▸ > Task :url_launcher_android:generateReleaseResValues
+[17:58:06]: ▸ > Task :url_launcher_android:generateReleaseResources
+[17:58:06]: ▸ > Task :url_launcher_android:packageReleaseResources
+[17:58:07]: ▸ > Task :app:createReleaseCompatibleScreenManifests
+[17:58:07]: ▸ > Task :app:extractDeepLinksRelease
+[17:58:07]: ▸ > Task :cloud_firestore:extractDeepLinksRelease
+[17:58:07]: ▸ > Task :cloud_firestore:processReleaseManifest
+[17:58:07]: ▸ > Task :firebase_auth:extractDeepLinksRelease
+[17:58:07]: ▸ > Task :firebase_auth:processReleaseManifest
+[17:58:07]: ▸ > Task :firebase_core:extractDeepLinksRelease
+[17:58:07]: ▸ > Task :firebase_core:processReleaseManifest
+[17:58:07]: ▸ > Task :firebase_crashlytics:extractDeepLinksRelease
+[17:58:07]: ▸ > Task :firebase_crashlytics:processReleaseManifest
+[17:58:07]: ▸ > Task :firebase_storage:extractDeepLinksRelease
+[17:58:07]: ▸ > Task :firebase_storage:processReleaseManifest
+[17:58:07]: ▸ > Task :flutter_chat_bubble:extractDeepLinksRelease
+[17:58:07]: ▸ > Task :flutter_chat_bubble:processReleaseManifest
+[17:58:07]: ▸ > Task :flutter_plugin_android_lifecycle:extractDeepLinksRelease
+[17:58:07]: ▸ > Task :flutter_plugin_android_lifecycle:processReleaseManifest
+[17:58:07]: ▸ > Task :fluttertoast:extractDeepLinksRelease
+[17:58:07]: ▸ > Task :fluttertoast:processReleaseManifest
+[17:58:07]: ▸ > Task :image_picker_android:extractDeepLinksRelease
+[17:58:07]: ▸ > Task :image_picker_android:processReleaseManifest
+[17:58:07]: ▸ > Task :location:extractDeepLinksRelease
+[17:58:07]: ▸ > Task :location:processReleaseManifest
+[17:58:07]: ▸ > Task :mobile_scanner:extractDeepLinksRelease
+[17:58:07]: ▸ > Task :mobile_scanner:processReleaseManifest
+[17:58:07]: ▸ > Task :path_provider_android:extractDeepLinksRelease
+[17:58:07]: ▸ > Task :path_provider_android:processReleaseManifest
+[17:58:07]: ▸ > Task :pay_android:extractDeepLinksRelease
+[17:58:07]: ▸ > Task :pay_android:processReleaseManifest
+[17:58:07]: ▸ > Task :url_launcher_android:extractDeepLinksRelease
+[17:58:07]: ▸ > Task :url_launcher_android:processReleaseManifest
+[17:58:08]: ▸ > Task :app:processReleaseMainManifest
+[17:58:08]: ▸ > Task :app:processReleaseManifest
+[17:58:08]: ▸ > Task :app:processReleaseManifestForPackage
+[17:58:08]: ▸ > Task :cloud_firestore:parseReleaseLocalResources
+[17:58:08]: ▸ > Task :firebase_core:parseReleaseLocalResources
+[17:58:08]: ▸ > Task :firebase_core:generateReleaseRFile
+[17:58:08]: ▸ > Task :cloud_firestore:generateReleaseRFile
+[17:58:08]: ▸ > Task :firebase_auth:parseReleaseLocalResources
+[17:58:08]: ▸ > Task :firebase_auth:generateReleaseRFile
+[17:58:08]: ▸ > Task :firebase_crashlytics:parseReleaseLocalResources
+[17:58:08]: ▸ > Task :app:mergeReleaseResources
+[17:58:08]: ▸ > Task :firebase_storage:parseReleaseLocalResources
+[17:58:08]: ▸ > Task :firebase_crashlytics:generateReleaseRFile
+[17:58:08]: ▸ > Task :firebase_storage:generateReleaseRFile
+[17:58:08]: ▸ > Task :flutter_chat_bubble:parseReleaseLocalResources
+[17:58:08]: ▸ > Task :flutter_plugin_android_lifecycle:parseReleaseLocalResources
+[17:58:08]: ▸ > Task :flutter_chat_bubble:generateReleaseRFile
+[17:58:08]: ▸ > Task :fluttertoast:parseReleaseLocalResources
+[17:58:08]: ▸ > Task :flutter_plugin_android_lifecycle:generateReleaseRFile
+[17:58:08]: ▸ > Task :image_picker_android:parseReleaseLocalResources
+[17:58:08]: ▸ > Task :fluttertoast:generateReleaseRFile
+[17:58:08]: ▸ > Task :location:parseReleaseLocalResources
+[17:58:08]: ▸ > Task :image_picker_android:generateReleaseRFile
+[17:58:08]: ▸ > Task :mobile_scanner:parseReleaseLocalResources
+[17:58:08]: ▸ > Task :location:generateReleaseRFile
+[17:58:08]: ▸ > Task :path_provider_android:parseReleaseLocalResources
+[17:58:08]: ▸ > Task :mobile_scanner:generateReleaseRFile
+[17:58:08]: ▸ > Task :pay_android:parseReleaseLocalResources
+[17:58:08]: ▸ > Task :path_provider_android:generateReleaseRFile
+[17:58:08]: ▸ > Task :url_launcher_android:parseReleaseLocalResources
+[17:58:08]: ▸ > Task :pay_android:generateReleaseRFile
+[17:58:08]: ▸ > Task :cloud_firestore:generateReleaseBuildConfig
+[17:58:08]: ▸ > Task :cloud_firestore:javaPreCompileRelease
+[17:58:08]: ▸ > Task :url_launcher_android:generateReleaseRFile
+[17:58:08]: ▸ > Task :firebase_core:generateReleaseBuildConfig
+[17:58:08]: ▸ > Task :firebase_core:javaPreCompileRelease
+[17:58:09]: ▸ > Task :firebase_core:compileReleaseJavaWithJavac
+[17:58:09]: ▸ > Task :firebase_core:bundleLibCompileToJarRelease
+[17:58:10]: ▸ > Task :cloud_firestore:compileReleaseJavaWithJavac
+[17:58:10]: ▸ > Task :app:processReleaseResources
+[17:58:10]: ▸ > Task :cloud_firestore:bundleLibCompileToJarRelease
+[17:58:10]: ▸ > Task :firebase_auth:generateReleaseBuildConfig
+[17:58:10]: ▸ > Task :firebase_auth:javaPreCompileRelease
+[17:58:10]: ▸ > Task :firebase_crashlytics:generateReleaseBuildConfig
+[17:58:10]: ▸ > Task :firebase_auth:compileReleaseJavaWithJavac
+[17:58:10]: ▸ > Task :firebase_auth:bundleLibCompileToJarRelease
+[17:58:10]: ▸ > Task :firebase_crashlytics:javaPreCompileRelease
+[17:58:10]: ▸ > Task :firebase_crashlytics:compileReleaseJavaWithJavac
+[17:58:10]: ▸ Note: /opt/hostedtoolcache/flutter/3.0.1-stable/x64/.pub-cache/hosted/pub.dartlang.org/firebase_crashlytics-2.8.1/android/src/main/java/io/flutter/plugins/firebase/crashlytics/FlutterFirebaseCrashlyticsPlugin.java uses or overrides a deprecated API.
+[17:58:10]: ▸ Note: Recompile with -Xlint:deprecation for details.
+[17:58:10]: ▸ > Task :firebase_crashlytics:bundleLibCompileToJarRelease
+[17:58:10]: ▸ > Task :firebase_storage:generateReleaseBuildConfig
+[17:58:10]: ▸ > Task :firebase_storage:javaPreCompileRelease
+[17:58:10]: ▸ > Task :flutter_chat_bubble:generateReleaseBuildConfig
+[17:58:10]: ▸ > Task :firebase_storage:compileReleaseJavaWithJavac
+[17:58:10]: ▸ > Task :firebase_storage:bundleLibCompileToJarRelease
+[17:58:11]: ▸ > Task :flutter_chat_bubble:javaPreCompileRelease
+[17:58:11]: ▸ > Task :flutter_plugin_android_lifecycle:generateReleaseBuildConfig
+[17:58:11]: ▸ > Task :flutter_plugin_android_lifecycle:javaPreCompileRelease
+[17:58:11]: ▸ > Task :flutter_plugin_android_lifecycle:compileReleaseJavaWithJavac
+[17:58:11]: ▸ > Task :flutter_plugin_android_lifecycle:bundleLibCompileToJarRelease
+[17:58:11]: ▸ > Task :fluttertoast:generateReleaseBuildConfig
+[17:58:11]: ▸ > Task :flutter_chat_bubble:compileReleaseKotlin
+[17:58:11]: ▸ w: /opt/hostedtoolcache/flutter/3.0.1-stable/x64/.pub-cache/hosted/pub.dartlang.org/flutter_chat_bubble-2.0.0/android/src/main/kotlin/chat/com/flutter_chat_bubble/FlutterChatBubblePlugin.kt: (9, 48): 'Registrar' is deprecated. Deprecated in Java
+[17:58:11]: ▸ w: /opt/hostedtoolcache/flutter/3.0.1-stable/x64/.pub-cache/hosted/pub.dartlang.org/flutter_chat_bubble-2.0.0/android/src/main/kotlin/chat/com/flutter_chat_bubble/FlutterChatBubblePlugin.kt: (14, 54): 'getFlutterEngine(): FlutterEngine' is deprecated. Deprecated in Java
+[17:58:11]: ▸ w: /opt/hostedtoolcache/flutter/3.0.1-stable/x64/.pub-cache/hosted/pub.dartlang.org/flutter_chat_bubble-2.0.0/android/src/main/kotlin/chat/com/flutter_chat_bubble/FlutterChatBubblePlugin.kt: (29, 33): 'Registrar' is deprecated. Deprecated in Java
+[17:58:11]: ▸ > Task :flutter_chat_bubble:compileReleaseJavaWithJavac
+[17:58:11]: ▸ > Task :flutter_chat_bubble:bundleLibCompileToJarRelease
+[17:58:11]: ▸ > Task :fluttertoast:javaPreCompileRelease
+[17:58:11]: ▸ > Task :image_picker_android:generateReleaseBuildConfig
+[17:58:11]: ▸ > Task :image_picker_android:javaPreCompileRelease
+[17:58:12]: ▸ > Task :image_picker_android:compileReleaseJavaWithJavac
+[17:58:12]: ▸ > Task :image_picker_android:bundleLibCompileToJarRelease
+[17:58:12]: ▸ > Task :location:generateReleaseBuildConfig
+[17:58:12]: ▸ > Task :fluttertoast:compileReleaseKotlin
+[17:58:12]: ▸ w: /opt/hostedtoolcache/flutter/3.0.1-stable/x64/.pub-cache/hosted/pub.dartlang.org/fluttertoast-8.0.9/android/src/main/kotlin/io/github/ponnamkarthik/toast/fluttertoast/FlutterToastPlugin.kt: (7, 48): 'Registrar' is deprecated. Deprecated in Java
+[17:58:12]: ▸ w: /opt/hostedtoolcache/flutter/3.0.1-stable/x64/.pub-cache/hosted/pub.dartlang.org/fluttertoast-8.0.9/android/src/main/kotlin/io/github/ponnamkarthik/toast/fluttertoast/FlutterToastPlugin.kt: (16, 33): 'Registrar' is deprecated. Deprecated in Java
+[17:58:12]: ▸ w: /opt/hostedtoolcache/flutter/3.0.1-stable/x64/.pub-cache/hosted/pub.dartlang.org/fluttertoast-8.0.9/android/src/main/kotlin/io/github/ponnamkarthik/toast/fluttertoast/MethodCallHandlerImpl.kt: (57, 43): 'getDrawable(Int): Drawable!' is deprecated. Deprecated in Java
+[17:58:12]: ▸ w: /opt/hostedtoolcache/flutter/3.0.1-stable/x64/.pub-cache/hosted/pub.dartlang.org/fluttertoast-8.0.9/android/src/main/kotlin/io/github/ponnamkarthik/toast/fluttertoast/MethodCallHandlerImpl.kt: (59, 25): Condition 'bgcolor != null' is always 'true'
+[17:58:12]: ▸ w: /opt/hostedtoolcache/flutter/3.0.1-stable/x64/.pub-cache/hosted/pub.dartlang.org/fluttertoast-8.0.9/android/src/main/kotlin/io/github/ponnamkarthik/toast/fluttertoast/MethodCallHandlerImpl.kt: (60, 42): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
+[17:58:12]: ▸ w: /opt/hostedtoolcache/flutter/3.0.1-stable/x64/.pub-cache/hosted/pub.dartlang.org/fluttertoast-8.0.9/android/src/main/kotlin/io/github/ponnamkarthik/toast/fluttertoast/MethodCallHandlerImpl.kt: (122, 39): Condition 'mToast != null' is always 'true'
+[17:58:13]: ▸ > Task :fluttertoast:compileReleaseJavaWithJavac
+[17:58:13]: ▸ > Task :fluttertoast:bundleLibCompileToJarRelease
+[17:58:13]: ▸ > Task :location:javaPreCompileRelease
+[17:58:13]: ▸ > Task :mobile_scanner:generateReleaseBuildConfig
+[17:58:15]: ▸ > Task :location:compileReleaseKotlin
+[17:58:15]: ▸ w: /opt/hostedtoolcache/flutter/3.0.1-stable/x64/.pub-cache/hosted/pub.dartlang.org/location-4.4.0/android/src/main/java/com/lyokone/location/FlutterLocationService.kt: (259, 125): Unnecessary non-null assertion (!!) on a non-null receiver of type Array<out String>
+[17:58:15]: ▸ w: /opt/hostedtoolcache/flutter/3.0.1-stable/x64/.pub-cache/hosted/pub.dartlang.org/location-4.4.0/android/src/main/java/com/lyokone/location/FlutterLocationService.kt: (261, 29): Unnecessary non-null assertion (!!) on a non-null receiver of type IntArray
+[17:58:15]: ▸ > Task :location:compileReleaseJavaWithJavac
+[17:58:15]: ▸ Note: /opt/hostedtoolcache/flutter/3.0.1-stable/x64/.pub-cache/hosted/pub.dartlang.org/location-4.4.0/android/src/main/java/com/lyokone/location/FlutterLocation.java uses or overrides a deprecated API.
+[17:58:15]: ▸ Note: Recompile with -Xlint:deprecation for details.
+[17:58:15]: ▸ > Task :location:bundleLibCompileToJarRelease
+[17:58:15]: ▸ > Task :mobile_scanner:javaPreCompileRelease
+[17:58:15]: ▸ > Task :path_provider_android:generateReleaseBuildConfig
+[17:58:15]: ▸ > Task :path_provider_android:javaPreCompileRelease
+[17:58:16]: ▸ > Task :path_provider_android:compileReleaseJavaWithJavac
+[17:58:16]: ▸ > Task :path_provider_android:bundleLibCompileToJarRelease
+[17:58:16]: ▸ > Task :pay_android:generateReleaseBuildConfig
+[17:58:17]: ▸ > Task :mobile_scanner:compileReleaseKotlin
+[17:58:17]: ▸ > Task :mobile_scanner:compileReleaseJavaWithJavac
+[17:58:17]: ▸ > Task :mobile_scanner:bundleLibCompileToJarRelease
+[17:58:17]: ▸ > Task :pay_android:javaPreCompileRelease
+[17:58:17]: ▸ > Task :url_launcher_android:generateReleaseBuildConfig
+[17:58:17]: ▸ > Task :url_launcher_android:javaPreCompileRelease
+[17:58:18]: ▸ > Task :url_launcher_android:compileReleaseJavaWithJavac
+[17:58:18]: ▸ > Task :url_launcher_android:bundleLibCompileToJarRelease
+[17:58:18]: ▸ > Task :app:javaPreCompileRelease
+[17:58:18]: ▸ > Task :app:mergeReleaseJniLibFolders
+[17:58:18]: ▸ > Task :cloud_firestore:mergeReleaseJniLibFolders
+[17:58:18]: ▸ > Task :cloud_firestore:mergeReleaseNativeLibs NO-SOURCE
+[17:58:18]: ▸ > Task :cloud_firestore:stripReleaseDebugSymbols NO-SOURCE
+[17:58:18]: ▸ > Task :cloud_firestore:copyReleaseJniLibsProjectOnly
+[17:58:18]: ▸ > Task :firebase_auth:mergeReleaseJniLibFolders
+[17:58:18]: ▸ > Task :firebase_auth:mergeReleaseNativeLibs NO-SOURCE
+[17:58:18]: ▸ > Task :firebase_auth:stripReleaseDebugSymbols NO-SOURCE
+[17:58:18]: ▸ > Task :firebase_auth:copyReleaseJniLibsProjectOnly
+[17:58:18]: ▸ > Task :firebase_core:mergeReleaseJniLibFolders
+[17:58:18]: ▸ > Task :firebase_core:mergeReleaseNativeLibs NO-SOURCE
+[17:58:18]: ▸ > Task :firebase_core:stripReleaseDebugSymbols NO-SOURCE
+[17:58:18]: ▸ > Task :firebase_core:copyReleaseJniLibsProjectOnly
+[17:58:18]: ▸ > Task :firebase_crashlytics:mergeReleaseJniLibFolders
+[17:58:18]: ▸ > Task :firebase_crashlytics:mergeReleaseNativeLibs NO-SOURCE
+[17:58:18]: ▸ > Task :firebase_crashlytics:stripReleaseDebugSymbols NO-SOURCE
+[17:58:18]: ▸ > Task :firebase_crashlytics:copyReleaseJniLibsProjectOnly
+[17:58:18]: ▸ > Task :firebase_storage:mergeReleaseJniLibFolders
+[17:58:18]: ▸ > Task :firebase_storage:mergeReleaseNativeLibs NO-SOURCE
+[17:58:18]: ▸ > Task :firebase_storage:stripReleaseDebugSymbols NO-SOURCE
+[17:58:18]: ▸ > Task :firebase_storage:copyReleaseJniLibsProjectOnly
+[17:58:18]: ▸ > Task :flutter_chat_bubble:mergeReleaseJniLibFolders
+[17:58:18]: ▸ > Task :flutter_chat_bubble:mergeReleaseNativeLibs NO-SOURCE
+[17:58:18]: ▸ > Task :flutter_chat_bubble:stripReleaseDebugSymbols NO-SOURCE
+[17:58:18]: ▸ > Task :flutter_chat_bubble:copyReleaseJniLibsProjectOnly
+[17:58:18]: ▸ > Task :flutter_plugin_android_lifecycle:mergeReleaseJniLibFolders
+[17:58:18]: ▸ > Task :flutter_plugin_android_lifecycle:mergeReleaseNativeLibs NO-SOURCE
+[17:58:18]: ▸ > Task :flutter_plugin_android_lifecycle:stripReleaseDebugSymbols NO-SOURCE
+[17:58:18]: ▸ > Task :flutter_plugin_android_lifecycle:copyReleaseJniLibsProjectOnly
+[17:58:18]: ▸ > Task :fluttertoast:mergeReleaseJniLibFolders
+[17:58:18]: ▸ > Task :fluttertoast:mergeReleaseNativeLibs NO-SOURCE
+[17:58:18]: ▸ > Task :fluttertoast:stripReleaseDebugSymbols NO-SOURCE
+[17:58:18]: ▸ > Task :fluttertoast:copyReleaseJniLibsProjectOnly
+[17:58:18]: ▸ > Task :image_picker_android:mergeReleaseJniLibFolders
+[17:58:18]: ▸ > Task :image_picker_android:mergeReleaseNativeLibs NO-SOURCE
+[17:58:18]: ▸ > Task :image_picker_android:stripReleaseDebugSymbols NO-SOURCE
+[17:58:18]: ▸ > Task :image_picker_android:copyReleaseJniLibsProjectOnly
+[17:58:18]: ▸ > Task :location:mergeReleaseJniLibFolders
+[17:58:18]: ▸ > Task :location:mergeReleaseNativeLibs NO-SOURCE
+[17:58:18]: ▸ > Task :location:stripReleaseDebugSymbols NO-SOURCE
+[17:58:18]: ▸ > Task :location:copyReleaseJniLibsProjectOnly
+[17:58:18]: ▸ > Task :mobile_scanner:mergeReleaseJniLibFolders
+[17:58:18]: ▸ > Task :mobile_scanner:mergeReleaseNativeLibs NO-SOURCE
+[17:58:18]: ▸ > Task :mobile_scanner:stripReleaseDebugSymbols NO-SOURCE
+[17:58:18]: ▸ > Task :mobile_scanner:copyReleaseJniLibsProjectOnly
+[17:58:18]: ▸ > Task :path_provider_android:mergeReleaseJniLibFolders
+[17:58:18]: ▸ > Task :path_provider_android:mergeReleaseNativeLibs NO-SOURCE
+[17:58:18]: ▸ > Task :path_provider_android:stripReleaseDebugSymbols NO-SOURCE
+[17:58:18]: ▸ > Task :path_provider_android:copyReleaseJniLibsProjectOnly
+[17:58:18]: ▸ > Task :pay_android:mergeReleaseJniLibFolders
+[17:58:18]: ▸ > Task :pay_android:mergeReleaseNativeLibs NO-SOURCE
+[17:58:18]: ▸ > Task :pay_android:stripReleaseDebugSymbols NO-SOURCE
+[17:58:18]: ▸ > Task :pay_android:copyReleaseJniLibsProjectOnly
+[17:58:18]: ▸ > Task :url_launcher_android:mergeReleaseJniLibFolders
+[17:58:18]: ▸ > Task :url_launcher_android:mergeReleaseNativeLibs NO-SOURCE
+[17:58:18]: ▸ > Task :url_launcher_android:stripReleaseDebugSymbols NO-SOURCE
+[17:58:18]: ▸ > Task :url_launcher_android:copyReleaseJniLibsProjectOnly
+[17:58:18]: ▸ > Task :pay_android:compileReleaseKotlin
+[17:58:18]: ▸ w: /opt/hostedtoolcache/flutter/3.0.1-stable/x64/.pub-cache/hosted/pub.dartlang.org/pay_android-1.0.7/android/src/main/kotlin/io/flutter/plugins/pay_android/PayMethodCallHandler.kt: (28, 48): 'Registrar' is deprecated. Deprecated in Java
+[17:58:18]: ▸ w: /opt/hostedtoolcache/flutter/3.0.1-stable/x64/.pub-cache/hosted/pub.dartlang.org/pay_android-1.0.7/android/src/main/kotlin/io/flutter/plugins/pay_android/PayMethodCallHandler.kt: (50, 28): 'Registrar' is deprecated. Deprecated in Java
+[17:58:18]: ▸ w: /opt/hostedtoolcache/flutter/3.0.1-stable/x64/.pub-cache/hosted/pub.dartlang.org/pay_android-1.0.7/android/src/main/kotlin/io/flutter/plugins/pay_android/PayPlugin.kt: (23, 48): 'Registrar' is deprecated. Deprecated in Java
+[17:58:18]: ▸ w: /opt/hostedtoolcache/flutter/3.0.1-stable/x64/.pub-cache/hosted/pub.dartlang.org/pay_android-1.0.7/android/src/main/kotlin/io/flutter/plugins/pay_android/PayPlugin.kt: (35, 37): 'Registrar' is deprecated. Deprecated in Java
+[17:58:18]: ▸ w: /opt/hostedtoolcache/flutter/3.0.1-stable/x64/.pub-cache/hosted/pub.dartlang.org/pay_android-1.0.7/android/src/main/kotlin/io/flutter/plugins/pay_android/util/PaymentsUtil.kt: (53, 38): 'toLowerCase(Locale): String' is deprecated. Use lowercase() instead.
+[17:58:19]: ▸ > Task :pay_android:compileReleaseJavaWithJavac
+[17:58:19]: ▸ > Task :pay_android:bundleLibCompileToJarRelease
+[17:58:19]: ▸ > Task :app:mergeReleaseNativeLibs
+[17:58:20]: ▸ > Task :app:stripReleaseDebugSymbols
+[17:58:20]: ▸ > Task :app:extractReleaseNativeSymbolTables
+[17:58:20]: ▸ > Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
+[17:58:20]: ▸ > Task :cloud_firestore:prepareReleaseArtProfile UP-TO-DATE
+[17:58:20]: ▸ > Task :firebase_auth:prepareReleaseArtProfile UP-TO-DATE
+[17:58:20]: ▸ > Task :firebase_core:prepareReleaseArtProfile UP-TO-DATE
+[17:58:20]: ▸ > Task :firebase_crashlytics:prepareReleaseArtProfile UP-TO-DATE
+[17:58:20]: ▸ > Task :firebase_storage:prepareReleaseArtProfile UP-TO-DATE
+[17:58:20]: ▸ > Task :flutter_chat_bubble:prepareReleaseArtProfile UP-TO-DATE
+[17:58:20]: ▸ > Task :flutter_plugin_android_lifecycle:prepareReleaseArtProfile UP-TO-DATE
+[17:58:20]: ▸ > Task :fluttertoast:prepareReleaseArtProfile UP-TO-DATE
+[17:58:20]: ▸ > Task :image_picker_android:prepareReleaseArtProfile UP-TO-DATE
+[17:58:20]: ▸ > Task :location:prepareReleaseArtProfile UP-TO-DATE
+[17:58:20]: ▸ > Task :mobile_scanner:prepareReleaseArtProfile UP-TO-DATE
+[17:58:20]: ▸ > Task :path_provider_android:prepareReleaseArtProfile UP-TO-DATE
+[17:58:20]: ▸ > Task :pay_android:prepareReleaseArtProfile UP-TO-DATE
+[17:58:20]: ▸ > Task :url_launcher_android:prepareReleaseArtProfile UP-TO-DATE
+[17:58:20]: ▸ > Task :app:mergeReleaseArtProfile UP-TO-DATE
+[17:58:20]: ▸ > Task :firebase_crashlytics:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+[17:58:20]: ▸ > Task :firebase_crashlytics:exportReleaseConsumerProguardFiles UP-TO-DATE
+[17:58:20]: ▸ > Task :cloud_firestore:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+[17:58:20]: ▸ > Task :cloud_firestore:exportReleaseConsumerProguardFiles UP-TO-DATE
+[17:58:20]: ▸ > Task :firebase_auth:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+[17:58:20]: ▸ > Task :firebase_auth:exportReleaseConsumerProguardFiles UP-TO-DATE
+[17:58:20]: ▸ > Task :firebase_storage:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+[17:58:20]: ▸ > Task :firebase_storage:exportReleaseConsumerProguardFiles UP-TO-DATE
+[17:58:20]: ▸ > Task :firebase_core:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+[17:58:20]: ▸ > Task :firebase_core:exportReleaseConsumerProguardFiles UP-TO-DATE
+[17:58:20]: ▸ > Task :image_picker_android:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+[17:58:20]: ▸ > Task :image_picker_android:exportReleaseConsumerProguardFiles UP-TO-DATE
+[17:58:20]: ▸ > Task :flutter_plugin_android_lifecycle:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+[17:58:20]: ▸ > Task :flutter_plugin_android_lifecycle:exportReleaseConsumerProguardFiles
+[17:58:20]: ▸ > Task :url_launcher_android:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+[17:58:20]: ▸ > Task :url_launcher_android:exportReleaseConsumerProguardFiles UP-TO-DATE
+[17:58:20]: ▸ > Task :path_provider_android:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+[17:58:20]: ▸ > Task :path_provider_android:exportReleaseConsumerProguardFiles UP-TO-DATE
+[17:58:20]: ▸ > Task :pay_android:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+[17:58:20]: ▸ > Task :pay_android:exportReleaseConsumerProguardFiles UP-TO-DATE
+[17:58:20]: ▸ > Task :flutter_chat_bubble:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+[17:58:20]: ▸ > Task :flutter_chat_bubble:exportReleaseConsumerProguardFiles UP-TO-DATE
+[17:58:20]: ▸ > Task :fluttertoast:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+[17:58:20]: ▸ > Task :fluttertoast:exportReleaseConsumerProguardFiles UP-TO-DATE
+[17:58:21]: ▸ > Task :location:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+[17:58:21]: ▸ > Task :location:exportReleaseConsumerProguardFiles UP-TO-DATE
+[17:58:21]: ▸ > Task :mobile_scanner:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+[17:58:21]: ▸ > Task :mobile_scanner:exportReleaseConsumerProguardFiles UP-TO-DATE
+[17:58:21]: ▸ > Task :app:buildKotlinToolingMetadata
+[17:58:21]: ▸ > Task :app:compileReleaseKotlin
+[17:58:21]: ▸ > Task :app:checkReleaseDuplicateClasses
+[17:58:21]: ▸ > Task :app:compileReleaseJavaWithJavac
+[17:58:21]: ▸ > Task :app:compileReleaseSources
+[17:58:21]: ▸ > Task :app:extractProguardFiles
+[17:58:21]: ▸ > Task :app:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+[17:58:21]: ▸ > Task :app:processReleaseJavaRes NO-SOURCE
+[17:58:21]: ▸ > Task :cloud_firestore:processReleaseJavaRes NO-SOURCE
+[17:58:21]: ▸ > Task :cloud_firestore:bundleLibResRelease NO-SOURCE
+[17:58:21]: ▸ > Task :firebase_auth:processReleaseJavaRes NO-SOURCE
+[17:58:21]: ▸ > Task :firebase_auth:bundleLibResRelease NO-SOURCE
+[17:58:21]: ▸ > Task :firebase_core:processReleaseJavaRes NO-SOURCE
+[17:58:21]: ▸ > Task :firebase_core:bundleLibResRelease NO-SOURCE
+[17:58:21]: ▸ > Task :firebase_crashlytics:processReleaseJavaRes NO-SOURCE
+[17:58:21]: ▸ > Task :firebase_crashlytics:bundleLibResRelease NO-SOURCE
+[17:58:21]: ▸ > Task :firebase_storage:processReleaseJavaRes NO-SOURCE
+[17:58:21]: ▸ > Task :firebase_storage:bundleLibResRelease NO-SOURCE
+[17:58:21]: ▸ > Task :flutter_chat_bubble:processReleaseJavaRes NO-SOURCE
+[17:58:21]: ▸ > Task :flutter_plugin_android_lifecycle:processReleaseJavaRes NO-SOURCE
+[17:58:21]: ▸ > Task :flutter_chat_bubble:bundleLibResRelease
+[17:58:21]: ▸ > Task :flutter_plugin_android_lifecycle:bundleLibResRelease NO-SOURCE
+[17:58:21]: ▸ > Task :fluttertoast:processReleaseJavaRes NO-SOURCE
+[17:58:21]: ▸ > Task :fluttertoast:bundleLibResRelease
+[17:58:21]: ▸ > Task :image_picker_android:processReleaseJavaRes NO-SOURCE
+[17:58:21]: ▸ > Task :image_picker_android:bundleLibResRelease NO-SOURCE
+[17:58:21]: ▸ > Task :location:processReleaseJavaRes NO-SOURCE
+[17:58:21]: ▸ > Task :mobile_scanner:processReleaseJavaRes NO-SOURCE
+[17:58:21]: ▸ > Task :mobile_scanner:bundleLibResRelease
+[17:58:21]: ▸ > Task :path_provider_android:processReleaseJavaRes NO-SOURCE
+[17:58:21]: ▸ > Task :path_provider_android:bundleLibResRelease NO-SOURCE
+[17:58:21]: ▸ > Task :pay_android:processReleaseJavaRes NO-SOURCE
+[17:58:21]: ▸ > Task :location:bundleLibResRelease
+[17:58:21]: ▸ > Task :url_launcher_android:processReleaseJavaRes NO-SOURCE
+[17:58:21]: ▸ > Task :url_launcher_android:bundleLibResRelease NO-SOURCE
+[17:58:21]: ▸ > Task :pay_android:bundleLibResRelease
+[17:58:21]: ▸ > Task :cloud_firestore:bundleLibRuntimeToJarRelease
+[17:58:21]: ▸ > Task :firebase_auth:bundleLibRuntimeToJarRelease
+[17:58:21]: ▸ > Task :firebase_core:bundleLibRuntimeToJarRelease
+[17:58:21]: ▸ > Task :firebase_crashlytics:bundleLibRuntimeToJarRelease
+[17:58:21]: ▸ > Task :firebase_storage:bundleLibRuntimeToJarRelease
+[17:58:21]: ▸ > Task :flutter_chat_bubble:bundleLibRuntimeToJarRelease
+[17:58:21]: ▸ > Task :flutter_plugin_android_lifecycle:bundleLibRuntimeToJarRelease
+[17:58:21]: ▸ > Task :fluttertoast:bundleLibRuntimeToJarRelease
+[17:58:21]: ▸ > Task :image_picker_android:bundleLibRuntimeToJarRelease
+[17:58:21]: ▸ > Task :location:bundleLibRuntimeToJarRelease
+[17:58:21]: ▸ > Task :mobile_scanner:bundleLibRuntimeToJarRelease
+[17:58:21]: ▸ > Task :path_provider_android:bundleLibRuntimeToJarRelease
+[17:58:21]: ▸ > Task :pay_android:bundleLibRuntimeToJarRelease
+[17:58:21]: ▸ > Task :url_launcher_android:bundleLibRuntimeToJarRelease
+[17:58:22]: ▸ > Task :app:compressReleaseAssets
+[17:58:22]: ▸ Execution optimizations have been disabled for task ':app:compressReleaseAssets' to ensure correctness due to the following reasons:
+[17:58:22]: ▸ - Gradle detected a problem with the following location: '/home/runner/work/lessimp/lessimp/build/app/intermediates/merged_assets/release/out'. Reason: Task ':app:compressReleaseAssets' uses this output of task ':app:copyFlutterAssetsRelease' without declaring an explicit or implicit dependency. This can lead to incorrect results being produced, depending on what order the tasks are executed. Please refer to https://docs.gradle.org/7.4.2/userguide/validation_problems.html#implicit_dependency for more details about this problem.
+[17:58:22]: ▸ > Task :app:mergeReleaseJavaResource
+[17:58:23]: ▸ > Task :app:collectReleaseDependencies
+[17:58:53]: ▸ > Task :app:minifyReleaseWithR8
+[17:59:19]: ▸ > Task :app:compileReleaseArtProfile UP-TO-DATE
+[17:59:19]: ▸ > Task :app:sdkReleaseDependencyData
+[17:59:19]: ▸ > Task :app:validateSigningRelease
+[17:59:19]: ▸ > Task :app:writeReleaseAppMetadata
+[17:59:19]: ▸ > Task :app:writeReleaseSigningConfigVersions
+[17:59:19]: ▸ > Task :cloud_firestore:copyReleaseJniLibsProjectAndLocalJars
+[17:59:19]: ▸ > Task :cloud_firestore:extractReleaseAnnotations
+[17:59:19]: ▸ > Task :cloud_firestore:mergeReleaseConsumerProguardFiles UP-TO-DATE
+[17:59:19]: ▸ > Task :cloud_firestore:prepareLintJarForPublish UP-TO-DATE
+[17:59:19]: ▸ > Task :cloud_firestore:mergeReleaseJavaResource
+[17:59:19]: ▸ > Task :cloud_firestore:syncReleaseLibJars
+[17:59:19]: ▸ > Task :cloud_firestore:bundleReleaseAar
+[17:59:19]: ▸ > Task :cloud_firestore:compileReleaseSources
+[17:59:19]: ▸ > Task :cloud_firestore:mergeReleaseResources
+[17:59:19]: ▸ > Task :firebase_core:compileReleaseLibraryResources
+[17:59:20]: ▸ > Task :cloud_firestore:verifyReleaseResources
+[17:59:20]: ▸ > Task :cloud_firestore:assembleRelease
+[17:59:20]: ▸ > Task :firebase_auth:copyReleaseJniLibsProjectAndLocalJars
+[17:59:20]: ▸ > Task :firebase_auth:extractReleaseAnnotations
+[17:59:20]: ▸ > Task :firebase_auth:mergeReleaseConsumerProguardFiles UP-TO-DATE
+[17:59:20]: ▸ > Task :firebase_auth:prepareLintJarForPublish UP-TO-DATE
+[17:59:20]: ▸ > Task :firebase_auth:mergeReleaseJavaResource
+[17:59:20]: ▸ > Task :firebase_auth:syncReleaseLibJars
+[17:59:20]: ▸ > Task :firebase_auth:bundleReleaseAar
+[17:59:20]: ▸ > Task :firebase_auth:compileReleaseSources
+[17:59:21]: ▸ > Task :firebase_auth:mergeReleaseResources
+[17:59:22]: ▸ > Task :firebase_auth:verifyReleaseResources
+[17:59:22]: ▸ > Task :firebase_auth:assembleRelease
+[17:59:22]: ▸ > Task :firebase_core:copyReleaseJniLibsProjectAndLocalJars
+[17:59:22]: ▸ > Task :firebase_core:extractReleaseAnnotations
+[17:59:22]: ▸ > Task :firebase_core:mergeReleaseConsumerProguardFiles UP-TO-DATE
+[17:59:22]: ▸ > Task :firebase_core:prepareLintJarForPublish UP-TO-DATE
+[17:59:22]: ▸ > Task :firebase_core:mergeReleaseJavaResource
+[17:59:22]: ▸ > Task :firebase_core:syncReleaseLibJars
+[17:59:22]: ▸ > Task :firebase_core:bundleReleaseAar
+[17:59:22]: ▸ > Task :firebase_core:compileReleaseSources
+[17:59:22]: ▸ > Task :firebase_core:mergeReleaseResources
+[17:59:22]: ▸ > Task :firebase_core:verifyReleaseResources
+[17:59:22]: ▸ > Task :firebase_core:assembleRelease
+[17:59:22]: ▸ > Task :firebase_crashlytics:copyReleaseJniLibsProjectAndLocalJars
+[17:59:22]: ▸ > Task :firebase_crashlytics:extractReleaseAnnotations
+[17:59:22]: ▸ > Task :firebase_crashlytics:mergeReleaseConsumerProguardFiles UP-TO-DATE
+[17:59:22]: ▸ > Task :firebase_crashlytics:prepareLintJarForPublish UP-TO-DATE
+[17:59:22]: ▸ > Task :firebase_crashlytics:mergeReleaseJavaResource
+[17:59:22]: ▸ > Task :firebase_crashlytics:syncReleaseLibJars
+[17:59:22]: ▸ > Task :firebase_crashlytics:bundleReleaseAar
+[17:59:22]: ▸ > Task :firebase_crashlytics:compileReleaseSources
+[17:59:23]: ▸ > Task :firebase_crashlytics:mergeReleaseResources
+[17:59:23]: ▸ > Task :firebase_crashlytics:verifyReleaseResources
+[17:59:23]: ▸ > Task :firebase_crashlytics:assembleRelease
+[17:59:23]: ▸ > Task :firebase_storage:copyReleaseJniLibsProjectAndLocalJars
+[17:59:23]: ▸ > Task :firebase_storage:extractReleaseAnnotations
+[17:59:23]: ▸ > Task :firebase_storage:mergeReleaseConsumerProguardFiles UP-TO-DATE
+[17:59:23]: ▸ > Task :firebase_storage:prepareLintJarForPublish UP-TO-DATE
+[17:59:23]: ▸ > Task :firebase_storage:mergeReleaseJavaResource
+[17:59:23]: ▸ > Task :firebase_storage:syncReleaseLibJars
+[17:59:23]: ▸ > Task :firebase_storage:bundleReleaseAar
+[17:59:23]: ▸ > Task :firebase_storage:compileReleaseSources
+[17:59:23]: ▸ > Task :firebase_storage:mergeReleaseResources
+[17:59:24]: ▸ > Task :firebase_storage:verifyReleaseResources
+[17:59:24]: ▸ > Task :firebase_storage:assembleRelease
+[17:59:24]: ▸ > Task :flutter_chat_bubble:copyReleaseJniLibsProjectAndLocalJars
+[17:59:24]: ▸ > Task :flutter_chat_bubble:extractReleaseAnnotations
+[17:59:24]: ▸ > Task :flutter_chat_bubble:mergeReleaseConsumerProguardFiles UP-TO-DATE
+[17:59:24]: ▸ > Task :flutter_chat_bubble:prepareLintJarForPublish UP-TO-DATE
+[17:59:24]: ▸ > Task :flutter_chat_bubble:mergeReleaseJavaResource
+[17:59:24]: ▸ > Task :flutter_chat_bubble:syncReleaseLibJars
+[17:59:24]: ▸ > Task :flutter_chat_bubble:bundleReleaseAar
+[17:59:24]: ▸ > Task :flutter_chat_bubble:compileReleaseSources
+[17:59:24]: ▸ > Task :flutter_chat_bubble:mergeReleaseResources
+[17:59:24]: ▸ > Task :flutter_chat_bubble:verifyReleaseResources
+[17:59:24]: ▸ > Task :flutter_chat_bubble:assembleRelease
+[17:59:24]: ▸ > Task :flutter_plugin_android_lifecycle:copyReleaseJniLibsProjectAndLocalJars
+[17:59:24]: ▸ > Task :flutter_plugin_android_lifecycle:extractReleaseAnnotations
+[17:59:24]: ▸ > Task :flutter_plugin_android_lifecycle:mergeReleaseConsumerProguardFiles
+[17:59:24]: ▸ > Task :flutter_plugin_android_lifecycle:prepareLintJarForPublish UP-TO-DATE
+[17:59:24]: ▸ > Task :flutter_plugin_android_lifecycle:mergeReleaseJavaResource
+[17:59:24]: ▸ > Task :flutter_plugin_android_lifecycle:syncReleaseLibJars
+[17:59:24]: ▸ > Task :flutter_plugin_android_lifecycle:bundleReleaseAar
+[17:59:25]: ▸ > Task :flutter_plugin_android_lifecycle:mergeReleaseResources
+[17:59:25]: ▸ > Task :flutter_plugin_android_lifecycle:compileReleaseSources
+[17:59:25]: ▸ > Task :app:shrinkReleaseRes
+[17:59:25]: ▸ > Task :flutter_plugin_android_lifecycle:verifyReleaseResources
+[17:59:25]: ▸ > Task :flutter_plugin_android_lifecycle:assembleRelease
+[17:59:25]: ▸ > Task :fluttertoast:copyReleaseJniLibsProjectAndLocalJars
+[17:59:25]: ▸ > Task :fluttertoast:extractReleaseAnnotations
+[17:59:25]: ▸ > Task :fluttertoast:mergeReleaseConsumerProguardFiles UP-TO-DATE
+[17:59:25]: ▸ > Task :fluttertoast:prepareLintJarForPublish UP-TO-DATE
+[17:59:25]: ▸ > Task :fluttertoast:mergeReleaseJavaResource
+[17:59:25]: ▸ > Task :fluttertoast:syncReleaseLibJars
+[17:59:25]: ▸ > Task :fluttertoast:bundleReleaseAar
+[17:59:25]: ▸ > Task :fluttertoast:compileReleaseSources
+[17:59:25]: ▸ > Task :fluttertoast:mergeReleaseResources
+[17:59:26]: ▸ > Task :app:optimizeReleaseResources
+[17:59:26]: ▸ > Task :fluttertoast:verifyReleaseResources
+[17:59:26]: ▸ > Task :fluttertoast:assembleRelease
+[17:59:26]: ▸ > Task :image_picker_android:copyReleaseJniLibsProjectAndLocalJars
+[17:59:26]: ▸ > Task :image_picker_android:extractReleaseAnnotations
+[17:59:26]: ▸ > Task :image_picker_android:mergeReleaseConsumerProguardFiles UP-TO-DATE
+[17:59:26]: ▸ > Task :image_picker_android:prepareLintJarForPublish UP-TO-DATE
+[17:59:26]: ▸ > Task :image_picker_android:mergeReleaseJavaResource
+[17:59:26]: ▸ > Task :image_picker_android:syncReleaseLibJars
+[17:59:26]: ▸ > Task :image_picker_android:bundleReleaseAar
+[17:59:26]: ▸ > Task :image_picker_android:mergeReleaseResources
+[17:59:26]: ▸ > Task :image_picker_android:compileReleaseSources
+[17:59:26]: ▸ > Task :flutter_plugin_android_lifecycle:compileReleaseLibraryResources
+[17:59:26]: ▸ > Task :image_picker_android:verifyReleaseResources
+[17:59:26]: ▸ > Task :image_picker_android:assembleRelease
+[17:59:26]: ▸ > Task :location:copyReleaseJniLibsProjectAndLocalJars
+[17:59:26]: ▸ > Task :location:extractReleaseAnnotations
+[17:59:26]: ▸ > Task :location:mergeReleaseConsumerProguardFiles UP-TO-DATE
+[17:59:26]: ▸ > Task :location:prepareLintJarForPublish UP-TO-DATE
+[17:59:26]: ▸ > Task :location:mergeReleaseJavaResource
+[17:59:26]: ▸ > Task :location:syncReleaseLibJars
+[17:59:26]: ▸ > Task :location:bundleReleaseAar
+[17:59:26]: ▸ > Task :location:compileReleaseSources
+[17:59:27]: ▸ > Task :location:mergeReleaseResources
+[17:59:27]: ▸ > Task :location:verifyReleaseResources
+[17:59:27]: ▸ > Task :location:assembleRelease
+[17:59:27]: ▸ > Task :mobile_scanner:copyReleaseJniLibsProjectAndLocalJars
+[17:59:27]: ▸ > Task :mobile_scanner:extractReleaseAnnotations
+[17:59:27]: ▸ > Task :mobile_scanner:mergeReleaseConsumerProguardFiles UP-TO-DATE
+[17:59:27]: ▸ > Task :mobile_scanner:prepareLintJarForPublish UP-TO-DATE
+[17:59:27]: ▸ > Task :mobile_scanner:mergeReleaseJavaResource
+[17:59:27]: ▸ > Task :mobile_scanner:syncReleaseLibJars
+[17:59:27]: ▸ > Task :mobile_scanner:bundleReleaseAar
+[17:59:27]: ▸ > Task :mobile_scanner:compileReleaseSources
+[17:59:28]: ▸ > Task :mobile_scanner:mergeReleaseResources
+[17:59:29]: ▸ > Task :mobile_scanner:verifyReleaseResources
+[17:59:29]: ▸ > Task :mobile_scanner:assembleRelease
+[17:59:29]: ▸ > Task :path_provider_android:copyReleaseJniLibsProjectAndLocalJars
+[17:59:29]: ▸ > Task :path_provider_android:extractReleaseAnnotations
+[17:59:29]: ▸ > Task :path_provider_android:mergeReleaseConsumerProguardFiles UP-TO-DATE
+[17:59:29]: ▸ > Task :path_provider_android:prepareLintJarForPublish UP-TO-DATE
+[17:59:29]: ▸ > Task :path_provider_android:mergeReleaseJavaResource
+[17:59:29]: ▸ > Task :path_provider_android:syncReleaseLibJars
+[17:59:29]: ▸ > Task :path_provider_android:bundleReleaseAar
+[17:59:29]: ▸ > Task :path_provider_android:mergeReleaseResources
+[17:59:29]: ▸ > Task :path_provider_android:compileReleaseSources
+[17:59:29]: ▸ > Task :path_provider_android:verifyReleaseResources
+[17:59:29]: ▸ > Task :path_provider_android:assembleRelease
+[17:59:29]: ▸ > Task :pay_android:copyReleaseJniLibsProjectAndLocalJars
+[17:59:29]: ▸ > Task :pay_android:extractReleaseAnnotations
+[17:59:29]: ▸ > Task :pay_android:mergeReleaseConsumerProguardFiles UP-TO-DATE
+[17:59:29]: ▸ > Task :pay_android:prepareLintJarForPublish UP-TO-DATE
+[17:59:29]: ▸ > Task :pay_android:mergeReleaseJavaResource
+[17:59:29]: ▸ > Task :pay_android:syncReleaseLibJars
+[17:59:29]: ▸ > Task :pay_android:bundleReleaseAar
+[17:59:29]: ▸ > Task :pay_android:compileReleaseSources
+[17:59:30]: ▸ > Task :pay_android:mergeReleaseResources
+[17:59:30]: ▸ > Task :pay_android:verifyReleaseResources
+[17:59:30]: ▸ > Task :pay_android:assembleRelease
+[17:59:30]: ▸ > Task :url_launcher_android:copyReleaseJniLibsProjectAndLocalJars
+[17:59:30]: ▸ > Task :url_launcher_android:extractReleaseAnnotations
+[17:59:30]: ▸ > Task :url_launcher_android:mergeReleaseConsumerProguardFiles UP-TO-DATE
+[17:59:30]: ▸ > Task :url_launcher_android:prepareLintJarForPublish UP-TO-DATE
+[17:59:30]: ▸ > Task :url_launcher_android:mergeReleaseJavaResource
+[17:59:30]: ▸ > Task :url_launcher_android:syncReleaseLibJars
+[17:59:30]: ▸ > Task :url_launcher_android:bundleReleaseAar
+[17:59:30]: ▸ > Task :url_launcher_android:mergeReleaseResources
+[17:59:30]: ▸ > Task :url_launcher_android:compileReleaseSources
+[17:59:31]: ▸ > Task :url_launcher_android:verifyReleaseResources
+[17:59:31]: ▸ > Task :url_launcher_android:assembleRelease
+[17:59:34]: ▸ > Task :app:packageRelease
+[17:59:34]: ▸ > Task :app:assembleRelease
+[17:59:34]: ▸ Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+[17:59:34]: ▸ You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+[17:59:34]: ▸ See https://docs.gradle.org/7.4.2/userguide/command_line_interface.html#sec:command_line_warnings
+[17:59:34]: ▸ Execution optimizations have been disabled for 1 invalid unit(s) of work during this build to ensure correctness.
+[17:59:34]: ▸ Please consult deprecation warnings for more details.
+[17:59:34]: ▸ BUILD SUCCESSFUL in 2m 43s
+[17:59:34]: ▸ 462 actionable tasks: 375 executed, 87 up-to-date
+[17:59:34]: Couldn't find any new signed apk files...
+[17:59:34]: ---------------------------
+[17:59:34]: --- Step: bundleRelease ---
+[17:59:34]: ---------------------------
+[17:59:34]: $ /home/runner/work/lessimp/lessimp/android/gradlew bundleRelease -p .
+[17:59:36]: ▸ WARNING:We recommend using a newer Android Gradle plugin to use compileSdk = 32
+[17:59:36]: ▸ This Android Gradle plugin (7.0.1) was tested up to compileSdk = 31
+[17:59:36]: ▸ This warning can be suppressed by adding
+[17:59:36]: ▸ android.suppressUnsupportedCompileSdk=32
+[17:59:36]: ▸ to this project's gradle.properties
+[17:59:36]: ▸ The build will continue, but you are strongly encouraged to update your project to
+[17:59:36]: ▸ use a newer Android Gradle Plugin that has been tested with compileSdk = 32
+[17:59:36]: ▸ WARNING:We recommend using a newer Android Gradle plugin to use compileSdk = 32
+[17:59:36]: ▸ This Android Gradle plugin (7.0.1) was tested up to compileSdk = 31
+[17:59:36]: ▸ This warning can be suppressed by adding
+[17:59:36]: ▸ android.suppressUnsupportedCompileSdk=32
+[17:59:36]: ▸ to this project's gradle.properties
+[17:59:36]: ▸ The build will continue, but you are strongly encouraged to update your project to
+[17:59:36]: ▸ use a newer Android Gradle Plugin that has been tested with compileSdk = 32
+[17:59:37]: ▸ > Task :app:preBuild UP-TO-DATE
+[17:59:37]: ▸ > Task :app:preReleaseBuild UP-TO-DATE
+[17:59:37]: ▸ > Task :app:cleanMergeReleaseAssets
+[17:59:37]: ▸ > Task :app:mergeReleaseShaders UP-TO-DATE
+[17:59:37]: ▸ > Task :app:compileReleaseShaders NO-SOURCE
+[17:59:37]: ▸ > Task :app:generateReleaseAssets UP-TO-DATE
+[17:59:41]: ▸ > Task :app:compileFlutterBuildRelease
+[17:59:41]: ▸ > Task :app:packLibsflutterBuildRelease UP-TO-DATE
+[17:59:41]: ▸ > Task :cloud_firestore:preBuild UP-TO-DATE
+[17:59:41]: ▸ > Task :cloud_firestore:preReleaseBuild UP-TO-DATE
+[17:59:41]: ▸ > Task :cloud_firestore:mergeReleaseShaders UP-TO-DATE
+[17:59:41]: ▸ > Task :cloud_firestore:compileReleaseShaders NO-SOURCE
+[17:59:41]: ▸ > Task :cloud_firestore:generateReleaseAssets UP-TO-DATE
+[17:59:41]: ▸ > Task :cloud_firestore:packageReleaseAssets UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_auth:preBuild UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_auth:preReleaseBuild UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_auth:mergeReleaseShaders UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_auth:compileReleaseShaders NO-SOURCE
+[17:59:41]: ▸ > Task :firebase_auth:generateReleaseAssets UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_auth:packageReleaseAssets UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_core:preBuild UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_core:preReleaseBuild UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_core:mergeReleaseShaders UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_core:compileReleaseShaders NO-SOURCE
+[17:59:41]: ▸ > Task :firebase_core:generateReleaseAssets UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_core:packageReleaseAssets UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_crashlytics:preBuild UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_crashlytics:preReleaseBuild UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_crashlytics:mergeReleaseShaders UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_crashlytics:compileReleaseShaders NO-SOURCE
+[17:59:41]: ▸ > Task :firebase_crashlytics:generateReleaseAssets UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_crashlytics:packageReleaseAssets UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_storage:preBuild UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_storage:preReleaseBuild UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_storage:mergeReleaseShaders UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_storage:compileReleaseShaders NO-SOURCE
+[17:59:41]: ▸ > Task :firebase_storage:generateReleaseAssets UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_storage:packageReleaseAssets UP-TO-DATE
+[17:59:41]: ▸ > Task :flutter_chat_bubble:preBuild UP-TO-DATE
+[17:59:41]: ▸ > Task :flutter_chat_bubble:preReleaseBuild UP-TO-DATE
+[17:59:41]: ▸ > Task :flutter_chat_bubble:mergeReleaseShaders UP-TO-DATE
+[17:59:41]: ▸ > Task :flutter_chat_bubble:compileReleaseShaders NO-SOURCE
+[17:59:41]: ▸ > Task :flutter_chat_bubble:generateReleaseAssets UP-TO-DATE
+[17:59:41]: ▸ > Task :flutter_chat_bubble:packageReleaseAssets UP-TO-DATE
+[17:59:41]: ▸ > Task :flutter_plugin_android_lifecycle:preBuild UP-TO-DATE
+[17:59:41]: ▸ > Task :flutter_plugin_android_lifecycle:preReleaseBuild UP-TO-DATE
+[17:59:41]: ▸ > Task :flutter_plugin_android_lifecycle:mergeReleaseShaders UP-TO-DATE
+[17:59:41]: ▸ > Task :flutter_plugin_android_lifecycle:compileReleaseShaders NO-SOURCE
+[17:59:41]: ▸ > Task :flutter_plugin_android_lifecycle:generateReleaseAssets UP-TO-DATE
+[17:59:41]: ▸ > Task :flutter_plugin_android_lifecycle:packageReleaseAssets UP-TO-DATE
+[17:59:41]: ▸ > Task :fluttertoast:preBuild UP-TO-DATE
+[17:59:41]: ▸ > Task :fluttertoast:preReleaseBuild UP-TO-DATE
+[17:59:41]: ▸ > Task :fluttertoast:mergeReleaseShaders UP-TO-DATE
+[17:59:41]: ▸ > Task :fluttertoast:compileReleaseShaders NO-SOURCE
+[17:59:41]: ▸ > Task :fluttertoast:generateReleaseAssets UP-TO-DATE
+[17:59:41]: ▸ > Task :fluttertoast:packageReleaseAssets UP-TO-DATE
+[17:59:41]: ▸ > Task :image_picker_android:preBuild UP-TO-DATE
+[17:59:41]: ▸ > Task :image_picker_android:preReleaseBuild UP-TO-DATE
+[17:59:41]: ▸ > Task :image_picker_android:mergeReleaseShaders UP-TO-DATE
+[17:59:41]: ▸ > Task :image_picker_android:compileReleaseShaders NO-SOURCE
+[17:59:41]: ▸ > Task :image_picker_android:generateReleaseAssets UP-TO-DATE
+[17:59:41]: ▸ > Task :image_picker_android:packageReleaseAssets UP-TO-DATE
+[17:59:41]: ▸ > Task :location:preBuild UP-TO-DATE
+[17:59:41]: ▸ > Task :location:preReleaseBuild UP-TO-DATE
+[17:59:41]: ▸ > Task :location:mergeReleaseShaders UP-TO-DATE
+[17:59:41]: ▸ > Task :location:compileReleaseShaders NO-SOURCE
+[17:59:41]: ▸ > Task :location:generateReleaseAssets UP-TO-DATE
+[17:59:41]: ▸ > Task :location:packageReleaseAssets UP-TO-DATE
+[17:59:41]: ▸ > Task :mobile_scanner:preBuild UP-TO-DATE
+[17:59:41]: ▸ > Task :mobile_scanner:preReleaseBuild UP-TO-DATE
+[17:59:41]: ▸ > Task :mobile_scanner:mergeReleaseShaders UP-TO-DATE
+[17:59:41]: ▸ > Task :mobile_scanner:compileReleaseShaders NO-SOURCE
+[17:59:41]: ▸ > Task :mobile_scanner:generateReleaseAssets UP-TO-DATE
+[17:59:41]: ▸ > Task :mobile_scanner:packageReleaseAssets UP-TO-DATE
+[17:59:41]: ▸ > Task :path_provider_android:preBuild UP-TO-DATE
+[17:59:41]: ▸ > Task :path_provider_android:preReleaseBuild UP-TO-DATE
+[17:59:41]: ▸ > Task :path_provider_android:mergeReleaseShaders UP-TO-DATE
+[17:59:41]: ▸ > Task :path_provider_android:compileReleaseShaders NO-SOURCE
+[17:59:41]: ▸ > Task :path_provider_android:generateReleaseAssets UP-TO-DATE
+[17:59:41]: ▸ > Task :path_provider_android:packageReleaseAssets UP-TO-DATE
+[17:59:41]: ▸ > Task :pay_android:preBuild UP-TO-DATE
+[17:59:41]: ▸ > Task :pay_android:preReleaseBuild UP-TO-DATE
+[17:59:41]: ▸ > Task :pay_android:mergeReleaseShaders UP-TO-DATE
+[17:59:41]: ▸ > Task :pay_android:compileReleaseShaders NO-SOURCE
+[17:59:41]: ▸ > Task :pay_android:generateReleaseAssets UP-TO-DATE
+[17:59:41]: ▸ > Task :pay_android:packageReleaseAssets UP-TO-DATE
+[17:59:41]: ▸ > Task :url_launcher_android:preBuild UP-TO-DATE
+[17:59:41]: ▸ > Task :url_launcher_android:preReleaseBuild UP-TO-DATE
+[17:59:41]: ▸ > Task :url_launcher_android:mergeReleaseShaders UP-TO-DATE
+[17:59:41]: ▸ > Task :url_launcher_android:compileReleaseShaders NO-SOURCE
+[17:59:41]: ▸ > Task :url_launcher_android:generateReleaseAssets UP-TO-DATE
+[17:59:41]: ▸ > Task :url_launcher_android:packageReleaseAssets UP-TO-DATE
+[17:59:41]: ▸ > Task :app:mergeReleaseAssets
+[17:59:41]: ▸ > Task :firebase_core:compileReleaseAidl NO-SOURCE
+[17:59:41]: ▸ > Task :firebase_core:compileReleaseRenderscript NO-SOURCE
+[17:59:41]: ▸ > Task :firebase_core:generateReleaseBuildConfig UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_core:generateReleaseResValues UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_core:generateReleaseResources UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_core:packageReleaseResources UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_core:parseReleaseLocalResources UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_core:processReleaseManifest UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_core:generateReleaseRFile UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_core:javaPreCompileRelease UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_core:compileReleaseJavaWithJavac UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_core:bundleLibCompileToJarRelease UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_crashlytics:compileReleaseAidl NO-SOURCE
+[17:59:41]: ▸ > Task :firebase_core:packageReleaseRenderscript NO-SOURCE
+[17:59:41]: ▸ > Task :firebase_crashlytics:compileReleaseRenderscript NO-SOURCE
+[17:59:41]: ▸ > Task :firebase_crashlytics:generateReleaseBuildConfig UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_crashlytics:generateReleaseResValues UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_crashlytics:generateReleaseResources UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_crashlytics:packageReleaseResources UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_crashlytics:parseReleaseLocalResources UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_crashlytics:processReleaseManifest UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_crashlytics:generateReleaseRFile UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_crashlytics:javaPreCompileRelease UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_crashlytics:compileReleaseJavaWithJavac UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_crashlytics:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_crashlytics:exportReleaseConsumerProguardFiles UP-TO-DATE
+[17:59:41]: ▸ > Task :cloud_firestore:compileReleaseAidl NO-SOURCE
+[17:59:41]: ▸ > Task :cloud_firestore:compileReleaseRenderscript NO-SOURCE
+[17:59:41]: ▸ > Task :cloud_firestore:generateReleaseBuildConfig UP-TO-DATE
+[17:59:41]: ▸ > Task :cloud_firestore:generateReleaseResValues UP-TO-DATE
+[17:59:41]: ▸ > Task :cloud_firestore:generateReleaseResources UP-TO-DATE
+[17:59:41]: ▸ > Task :cloud_firestore:packageReleaseResources UP-TO-DATE
+[17:59:41]: ▸ > Task :cloud_firestore:parseReleaseLocalResources UP-TO-DATE
+[17:59:41]: ▸ > Task :cloud_firestore:processReleaseManifest UP-TO-DATE
+[17:59:41]: ▸ > Task :cloud_firestore:generateReleaseRFile UP-TO-DATE
+[17:59:41]: ▸ > Task :cloud_firestore:javaPreCompileRelease UP-TO-DATE
+[17:59:41]: ▸ > Task :cloud_firestore:compileReleaseJavaWithJavac UP-TO-DATE
+[17:59:41]: ▸ > Task :cloud_firestore:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+[17:59:41]: ▸ > Task :cloud_firestore:exportReleaseConsumerProguardFiles UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_auth:compileReleaseAidl NO-SOURCE
+[17:59:41]: ▸ > Task :firebase_auth:compileReleaseRenderscript NO-SOURCE
+[17:59:41]: ▸ > Task :firebase_auth:generateReleaseBuildConfig UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_auth:generateReleaseResValues UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_auth:generateReleaseResources UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_auth:packageReleaseResources UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_auth:parseReleaseLocalResources UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_auth:processReleaseManifest UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_auth:generateReleaseRFile UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_auth:javaPreCompileRelease UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_auth:compileReleaseJavaWithJavac UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_auth:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_auth:exportReleaseConsumerProguardFiles UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_storage:compileReleaseAidl NO-SOURCE
+[17:59:41]: ▸ > Task :firebase_storage:compileReleaseRenderscript NO-SOURCE
+[17:59:41]: ▸ > Task :firebase_storage:generateReleaseBuildConfig UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_storage:generateReleaseResValues UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_storage:generateReleaseResources UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_storage:packageReleaseResources UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_storage:parseReleaseLocalResources UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_storage:processReleaseManifest UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_storage:generateReleaseRFile UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_storage:javaPreCompileRelease UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_storage:compileReleaseJavaWithJavac UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_storage:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_storage:exportReleaseConsumerProguardFiles UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_core:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+[17:59:41]: ▸ > Task :firebase_core:exportReleaseConsumerProguardFiles UP-TO-DATE
+[17:59:41]: ▸ > Task :flutter_plugin_android_lifecycle:compileReleaseAidl NO-SOURCE
+[17:59:41]: ▸ > Task :flutter_plugin_android_lifecycle:compileReleaseRenderscript NO-SOURCE
+[17:59:41]: ▸ > Task :flutter_plugin_android_lifecycle:generateReleaseBuildConfig UP-TO-DATE
+[17:59:41]: ▸ > Task :flutter_plugin_android_lifecycle:generateReleaseResValues UP-TO-DATE
+[17:59:41]: ▸ > Task :flutter_plugin_android_lifecycle:generateReleaseResources UP-TO-DATE
+[17:59:41]: ▸ > Task :flutter_plugin_android_lifecycle:packageReleaseResources UP-TO-DATE
+[17:59:41]: ▸ > Task :flutter_plugin_android_lifecycle:parseReleaseLocalResources UP-TO-DATE
+[17:59:41]: ▸ > Task :flutter_plugin_android_lifecycle:processReleaseManifest UP-TO-DATE
+[17:59:41]: ▸ > Task :flutter_plugin_android_lifecycle:generateReleaseRFile UP-TO-DATE
+[17:59:41]: ▸ > Task :flutter_plugin_android_lifecycle:javaPreCompileRelease UP-TO-DATE
+[17:59:41]: ▸ > Task :flutter_plugin_android_lifecycle:compileReleaseJavaWithJavac UP-TO-DATE
+[17:59:41]: ▸ > Task :flutter_plugin_android_lifecycle:bundleLibCompileToJarRelease UP-TO-DATE
+[17:59:41]: ▸ > Task :image_picker_android:compileReleaseAidl NO-SOURCE
+[17:59:41]: ▸ > Task :flutter_plugin_android_lifecycle:packageReleaseRenderscript NO-SOURCE
+[17:59:41]: ▸ > Task :image_picker_android:compileReleaseRenderscript NO-SOURCE
+[17:59:41]: ▸ > Task :image_picker_android:generateReleaseBuildConfig UP-TO-DATE
+[17:59:41]: ▸ > Task :image_picker_android:generateReleaseResValues UP-TO-DATE
+[17:59:41]: ▸ > Task :image_picker_android:generateReleaseResources UP-TO-DATE
+[17:59:41]: ▸ > Task :image_picker_android:packageReleaseResources UP-TO-DATE
+[17:59:41]: ▸ > Task :image_picker_android:parseReleaseLocalResources UP-TO-DATE
+[17:59:41]: ▸ > Task :image_picker_android:processReleaseManifest UP-TO-DATE
+[17:59:41]: ▸ > Task :image_picker_android:generateReleaseRFile UP-TO-DATE
+[17:59:41]: ▸ > Task :image_picker_android:javaPreCompileRelease UP-TO-DATE
+[17:59:41]: ▸ > Task :image_picker_android:compileReleaseJavaWithJavac UP-TO-DATE
+[17:59:41]: ▸ > Task :image_picker_android:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+[17:59:41]: ▸ > Task :image_picker_android:exportReleaseConsumerProguardFiles UP-TO-DATE
+[17:59:41]: ▸ > Task :flutter_plugin_android_lifecycle:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+[17:59:41]: ▸ > Task :flutter_plugin_android_lifecycle:exportReleaseConsumerProguardFiles UP-TO-DATE
+[17:59:41]: ▸ > Task :url_launcher_android:compileReleaseAidl NO-SOURCE
+[17:59:41]: ▸ > Task :url_launcher_android:compileReleaseRenderscript NO-SOURCE
+[17:59:41]: ▸ > Task :url_launcher_android:generateReleaseBuildConfig UP-TO-DATE
+[17:59:41]: ▸ > Task :url_launcher_android:generateReleaseResValues UP-TO-DATE
+[17:59:41]: ▸ > Task :url_launcher_android:generateReleaseResources UP-TO-DATE
+[17:59:41]: ▸ > Task :url_launcher_android:packageReleaseResources UP-TO-DATE
+[17:59:41]: ▸ > Task :url_launcher_android:parseReleaseLocalResources UP-TO-DATE
+[17:59:41]: ▸ > Task :url_launcher_android:processReleaseManifest UP-TO-DATE
+[17:59:41]: ▸ > Task :url_launcher_android:generateReleaseRFile UP-TO-DATE
+[17:59:41]: ▸ > Task :url_launcher_android:javaPreCompileRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :url_launcher_android:compileReleaseJavaWithJavac UP-TO-DATE
+[17:59:42]: ▸ > Task :url_launcher_android:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+[17:59:42]: ▸ > Task :url_launcher_android:exportReleaseConsumerProguardFiles UP-TO-DATE
+[17:59:42]: ▸ > Task :path_provider_android:compileReleaseAidl NO-SOURCE
+[17:59:42]: ▸ > Task :path_provider_android:compileReleaseRenderscript NO-SOURCE
+[17:59:42]: ▸ > Task :path_provider_android:generateReleaseBuildConfig UP-TO-DATE
+[17:59:42]: ▸ > Task :path_provider_android:generateReleaseResValues UP-TO-DATE
+[17:59:42]: ▸ > Task :path_provider_android:generateReleaseResources UP-TO-DATE
+[17:59:42]: ▸ > Task :path_provider_android:packageReleaseResources UP-TO-DATE
+[17:59:42]: ▸ > Task :path_provider_android:parseReleaseLocalResources UP-TO-DATE
+[17:59:42]: ▸ > Task :path_provider_android:processReleaseManifest UP-TO-DATE
+[17:59:42]: ▸ > Task :path_provider_android:generateReleaseRFile UP-TO-DATE
+[17:59:42]: ▸ > Task :path_provider_android:javaPreCompileRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :path_provider_android:compileReleaseJavaWithJavac UP-TO-DATE
+[17:59:42]: ▸ > Task :path_provider_android:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+[17:59:42]: ▸ > Task :path_provider_android:exportReleaseConsumerProguardFiles UP-TO-DATE
+[17:59:42]: ▸ > Task :pay_android:compileReleaseAidl NO-SOURCE
+[17:59:42]: ▸ > Task :pay_android:compileReleaseRenderscript NO-SOURCE
+[17:59:42]: ▸ > Task :pay_android:generateReleaseBuildConfig UP-TO-DATE
+[17:59:42]: ▸ > Task :pay_android:generateReleaseResValues UP-TO-DATE
+[17:59:42]: ▸ > Task :pay_android:generateReleaseResources UP-TO-DATE
+[17:59:42]: ▸ > Task :pay_android:packageReleaseResources UP-TO-DATE
+[17:59:42]: ▸ > Task :pay_android:parseReleaseLocalResources UP-TO-DATE
+[17:59:42]: ▸ > Task :pay_android:processReleaseManifest UP-TO-DATE
+[17:59:42]: ▸ > Task :pay_android:generateReleaseRFile UP-TO-DATE
+[17:59:42]: ▸ > Task :pay_android:compileReleaseKotlin UP-TO-DATE
+[17:59:42]: ▸ > Task :pay_android:javaPreCompileRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :pay_android:compileReleaseJavaWithJavac UP-TO-DATE
+[17:59:42]: ▸ > Task :pay_android:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+[17:59:42]: ▸ > Task :pay_android:exportReleaseConsumerProguardFiles UP-TO-DATE
+[17:59:42]: ▸ > Task :flutter_chat_bubble:compileReleaseAidl NO-SOURCE
+[17:59:42]: ▸ > Task :flutter_chat_bubble:compileReleaseRenderscript NO-SOURCE
+[17:59:42]: ▸ > Task :flutter_chat_bubble:generateReleaseBuildConfig UP-TO-DATE
+[17:59:42]: ▸ > Task :flutter_chat_bubble:generateReleaseResValues UP-TO-DATE
+[17:59:42]: ▸ > Task :flutter_chat_bubble:generateReleaseResources UP-TO-DATE
+[17:59:42]: ▸ > Task :flutter_chat_bubble:packageReleaseResources UP-TO-DATE
+[17:59:42]: ▸ > Task :flutter_chat_bubble:parseReleaseLocalResources UP-TO-DATE
+[17:59:42]: ▸ > Task :flutter_chat_bubble:processReleaseManifest UP-TO-DATE
+[17:59:42]: ▸ > Task :flutter_chat_bubble:generateReleaseRFile UP-TO-DATE
+[17:59:42]: ▸ > Task :flutter_chat_bubble:compileReleaseKotlin UP-TO-DATE
+[17:59:42]: ▸ > Task :flutter_chat_bubble:javaPreCompileRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :flutter_chat_bubble:compileReleaseJavaWithJavac UP-TO-DATE
+[17:59:42]: ▸ > Task :flutter_chat_bubble:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+[17:59:42]: ▸ > Task :flutter_chat_bubble:exportReleaseConsumerProguardFiles UP-TO-DATE
+[17:59:42]: ▸ > Task :fluttertoast:compileReleaseAidl NO-SOURCE
+[17:59:42]: ▸ > Task :fluttertoast:compileReleaseRenderscript NO-SOURCE
+[17:59:42]: ▸ > Task :fluttertoast:generateReleaseBuildConfig UP-TO-DATE
+[17:59:42]: ▸ > Task :fluttertoast:generateReleaseResValues UP-TO-DATE
+[17:59:42]: ▸ > Task :fluttertoast:generateReleaseResources UP-TO-DATE
+[17:59:42]: ▸ > Task :fluttertoast:packageReleaseResources UP-TO-DATE
+[17:59:42]: ▸ > Task :fluttertoast:parseReleaseLocalResources UP-TO-DATE
+[17:59:42]: ▸ > Task :fluttertoast:processReleaseManifest UP-TO-DATE
+[17:59:42]: ▸ > Task :fluttertoast:generateReleaseRFile UP-TO-DATE
+[17:59:42]: ▸ > Task :fluttertoast:compileReleaseKotlin UP-TO-DATE
+[17:59:42]: ▸ > Task :fluttertoast:javaPreCompileRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :fluttertoast:compileReleaseJavaWithJavac UP-TO-DATE
+[17:59:42]: ▸ > Task :fluttertoast:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+[17:59:42]: ▸ > Task :fluttertoast:exportReleaseConsumerProguardFiles UP-TO-DATE
+[17:59:42]: ▸ > Task :location:compileReleaseAidl NO-SOURCE
+[17:59:42]: ▸ > Task :location:compileReleaseRenderscript NO-SOURCE
+[17:59:42]: ▸ > Task :location:generateReleaseBuildConfig UP-TO-DATE
+[17:59:42]: ▸ > Task :location:generateReleaseResValues UP-TO-DATE
+[17:59:42]: ▸ > Task :location:generateReleaseResources UP-TO-DATE
+[17:59:42]: ▸ > Task :location:packageReleaseResources UP-TO-DATE
+[17:59:42]: ▸ > Task :location:parseReleaseLocalResources UP-TO-DATE
+[17:59:42]: ▸ > Task :location:processReleaseManifest UP-TO-DATE
+[17:59:42]: ▸ > Task :location:generateReleaseRFile UP-TO-DATE
+[17:59:42]: ▸ > Task :location:compileReleaseKotlin UP-TO-DATE
+[17:59:42]: ▸ > Task :location:javaPreCompileRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :location:compileReleaseJavaWithJavac UP-TO-DATE
+[17:59:42]: ▸ > Task :location:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+[17:59:42]: ▸ > Task :location:exportReleaseConsumerProguardFiles UP-TO-DATE
+[17:59:42]: ▸ > Task :mobile_scanner:compileReleaseAidl NO-SOURCE
+[17:59:42]: ▸ > Task :mobile_scanner:compileReleaseRenderscript NO-SOURCE
+[17:59:42]: ▸ > Task :mobile_scanner:generateReleaseBuildConfig UP-TO-DATE
+[17:59:42]: ▸ > Task :mobile_scanner:generateReleaseResValues UP-TO-DATE
+[17:59:42]: ▸ > Task :mobile_scanner:generateReleaseResources UP-TO-DATE
+[17:59:42]: ▸ > Task :mobile_scanner:packageReleaseResources UP-TO-DATE
+[17:59:42]: ▸ > Task :mobile_scanner:parseReleaseLocalResources UP-TO-DATE
+[17:59:42]: ▸ > Task :mobile_scanner:processReleaseManifest UP-TO-DATE
+[17:59:42]: ▸ > Task :mobile_scanner:generateReleaseRFile UP-TO-DATE
+[17:59:42]: ▸ > Task :mobile_scanner:compileReleaseKotlin UP-TO-DATE
+[17:59:42]: ▸ > Task :mobile_scanner:javaPreCompileRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :mobile_scanner:compileReleaseJavaWithJavac UP-TO-DATE
+[17:59:42]: ▸ > Task :mobile_scanner:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+[17:59:42]: ▸ > Task :mobile_scanner:exportReleaseConsumerProguardFiles UP-TO-DATE
+[17:59:42]: ▸ > Task :app:buildKotlinToolingMetadata UP-TO-DATE
+[17:59:42]: ▸ > Task :app:checkReleaseDuplicateClasses UP-TO-DATE
+[17:59:42]: ▸ > Task :app:compileReleaseAidl NO-SOURCE
+[17:59:42]: ▸ > Task :cloud_firestore:packageReleaseRenderscript NO-SOURCE
+[17:59:42]: ▸ > Task :firebase_auth:packageReleaseRenderscript NO-SOURCE
+[17:59:42]: ▸ > Task :firebase_crashlytics:packageReleaseRenderscript NO-SOURCE
+[17:59:42]: ▸ > Task :firebase_storage:packageReleaseRenderscript NO-SOURCE
+[17:59:42]: ▸ > Task :flutter_chat_bubble:packageReleaseRenderscript NO-SOURCE
+[17:59:42]: ▸ > Task :fluttertoast:packageReleaseRenderscript NO-SOURCE
+[17:59:42]: ▸ > Task :image_picker_android:packageReleaseRenderscript NO-SOURCE
+[17:59:42]: ▸ > Task :location:packageReleaseRenderscript NO-SOURCE
+[17:59:42]: ▸ > Task :mobile_scanner:packageReleaseRenderscript NO-SOURCE
+[17:59:42]: ▸ > Task :path_provider_android:packageReleaseRenderscript NO-SOURCE
+[17:59:42]: ▸ > Task :pay_android:packageReleaseRenderscript NO-SOURCE
+[17:59:42]: ▸ > Task :url_launcher_android:packageReleaseRenderscript NO-SOURCE
+[17:59:42]: ▸ > Task :app:compileReleaseRenderscript NO-SOURCE
+[17:59:42]: ▸ > Task :app:generateReleaseBuildConfig UP-TO-DATE
+[17:59:42]: ▸ > Task :cloud_firestore:writeReleaseAarMetadata UP-TO-DATE
+[17:59:42]: ▸ > Task :firebase_auth:writeReleaseAarMetadata UP-TO-DATE
+[17:59:42]: ▸ > Task :firebase_core:writeReleaseAarMetadata UP-TO-DATE
+[17:59:42]: ▸ > Task :firebase_crashlytics:writeReleaseAarMetadata UP-TO-DATE
+[17:59:42]: ▸ > Task :firebase_storage:writeReleaseAarMetadata UP-TO-DATE
+[17:59:42]: ▸ > Task :flutter_chat_bubble:writeReleaseAarMetadata UP-TO-DATE
+[17:59:42]: ▸ > Task :flutter_plugin_android_lifecycle:writeReleaseAarMetadata UP-TO-DATE
+[17:59:42]: ▸ > Task :fluttertoast:writeReleaseAarMetadata UP-TO-DATE
+[17:59:42]: ▸ > Task :image_picker_android:writeReleaseAarMetadata UP-TO-DATE
+[17:59:42]: ▸ > Task :location:writeReleaseAarMetadata UP-TO-DATE
+[17:59:42]: ▸ > Task :mobile_scanner:writeReleaseAarMetadata UP-TO-DATE
+[17:59:42]: ▸ > Task :path_provider_android:writeReleaseAarMetadata UP-TO-DATE
+[17:59:42]: ▸ > Task :pay_android:writeReleaseAarMetadata UP-TO-DATE
+[17:59:42]: ▸ > Task :url_launcher_android:writeReleaseAarMetadata UP-TO-DATE
+[17:59:42]: ▸ > Task :app:checkReleaseAarMetadata UP-TO-DATE
+[17:59:42]: ▸ > Task :app:copyFlutterAssetsRelease
+[17:59:42]: ▸ > Task :app:generateReleaseResValues UP-TO-DATE
+[17:59:42]: ▸ > Task :app:generateReleaseResources UP-TO-DATE
+[17:59:42]: ▸ > Task :app:processReleaseGoogleServices UP-TO-DATE
+[17:59:42]: ▸ > Task :app:mergeReleaseResources UP-TO-DATE
+[17:59:42]: ▸ > Task :app:createReleaseCompatibleScreenManifests UP-TO-DATE
+[17:59:42]: ▸ > Task :app:extractDeepLinksRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :cloud_firestore:extractDeepLinksRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :firebase_auth:extractDeepLinksRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :firebase_core:extractDeepLinksRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :firebase_crashlytics:extractDeepLinksRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :firebase_storage:extractDeepLinksRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :flutter_chat_bubble:extractDeepLinksRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :flutter_plugin_android_lifecycle:extractDeepLinksRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :fluttertoast:extractDeepLinksRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :image_picker_android:extractDeepLinksRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :location:extractDeepLinksRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :mobile_scanner:extractDeepLinksRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :path_provider_android:extractDeepLinksRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :pay_android:extractDeepLinksRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :url_launcher_android:extractDeepLinksRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :app:processReleaseMainManifest UP-TO-DATE
+[17:59:42]: ▸ > Task :app:processReleaseManifest UP-TO-DATE
+[17:59:42]: ▸ > Task :app:processReleaseManifestForPackage UP-TO-DATE
+[17:59:42]: ▸ > Task :app:processReleaseResources UP-TO-DATE
+[17:59:42]: ▸ > Task :cloud_firestore:bundleLibCompileToJarRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :firebase_auth:bundleLibCompileToJarRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :firebase_crashlytics:bundleLibCompileToJarRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :firebase_storage:bundleLibCompileToJarRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :flutter_chat_bubble:bundleLibCompileToJarRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :fluttertoast:bundleLibCompileToJarRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :image_picker_android:bundleLibCompileToJarRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :location:bundleLibCompileToJarRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :mobile_scanner:bundleLibCompileToJarRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :path_provider_android:bundleLibCompileToJarRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :pay_android:bundleLibCompileToJarRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :url_launcher_android:bundleLibCompileToJarRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :app:compileReleaseKotlin UP-TO-DATE
+[17:59:42]: ▸ > Task :app:javaPreCompileRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :app:compileReleaseJavaWithJavac UP-TO-DATE
+[17:59:42]: ▸ > Task :app:extractProguardFiles UP-TO-DATE
+[17:59:42]: ▸ > Task :app:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+[17:59:42]: ▸ > Task :app:processReleaseJavaRes NO-SOURCE
+[17:59:42]: ▸ > Task :cloud_firestore:processReleaseJavaRes NO-SOURCE
+[17:59:42]: ▸ > Task :cloud_firestore:bundleLibResRelease NO-SOURCE
+[17:59:42]: ▸ > Task :firebase_auth:processReleaseJavaRes NO-SOURCE
+[17:59:42]: ▸ > Task :firebase_auth:bundleLibResRelease NO-SOURCE
+[17:59:42]: ▸ > Task :firebase_core:processReleaseJavaRes NO-SOURCE
+[17:59:42]: ▸ > Task :firebase_core:bundleLibResRelease NO-SOURCE
+[17:59:42]: ▸ > Task :firebase_crashlytics:processReleaseJavaRes NO-SOURCE
+[17:59:42]: ▸ > Task :firebase_crashlytics:bundleLibResRelease NO-SOURCE
+[17:59:42]: ▸ > Task :firebase_storage:processReleaseJavaRes NO-SOURCE
+[17:59:42]: ▸ > Task :firebase_storage:bundleLibResRelease NO-SOURCE
+[17:59:42]: ▸ > Task :flutter_chat_bubble:processReleaseJavaRes NO-SOURCE
+[17:59:42]: ▸ > Task :flutter_chat_bubble:bundleLibResRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :flutter_plugin_android_lifecycle:processReleaseJavaRes NO-SOURCE
+[17:59:42]: ▸ > Task :flutter_plugin_android_lifecycle:bundleLibResRelease NO-SOURCE
+[17:59:42]: ▸ > Task :fluttertoast:processReleaseJavaRes NO-SOURCE
+[17:59:42]: ▸ > Task :fluttertoast:bundleLibResRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :image_picker_android:processReleaseJavaRes NO-SOURCE
+[17:59:42]: ▸ > Task :image_picker_android:bundleLibResRelease NO-SOURCE
+[17:59:42]: ▸ > Task :location:processReleaseJavaRes NO-SOURCE
+[17:59:42]: ▸ > Task :location:bundleLibResRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :mobile_scanner:processReleaseJavaRes NO-SOURCE
+[17:59:42]: ▸ > Task :mobile_scanner:bundleLibResRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :path_provider_android:processReleaseJavaRes NO-SOURCE
+[17:59:42]: ▸ > Task :path_provider_android:bundleLibResRelease NO-SOURCE
+[17:59:42]: ▸ > Task :pay_android:processReleaseJavaRes NO-SOURCE
+[17:59:42]: ▸ > Task :pay_android:bundleLibResRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :url_launcher_android:processReleaseJavaRes NO-SOURCE
+[17:59:42]: ▸ > Task :url_launcher_android:bundleLibResRelease NO-SOURCE
+[17:59:42]: ▸ > Task :app:mergeReleaseJavaResource UP-TO-DATE
+[17:59:42]: ▸ > Task :cloud_firestore:bundleLibRuntimeToJarRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :firebase_auth:bundleLibRuntimeToJarRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :firebase_core:bundleLibRuntimeToJarRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :firebase_crashlytics:bundleLibRuntimeToJarRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :firebase_storage:bundleLibRuntimeToJarRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :flutter_chat_bubble:bundleLibRuntimeToJarRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :flutter_plugin_android_lifecycle:bundleLibRuntimeToJarRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :fluttertoast:bundleLibRuntimeToJarRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :image_picker_android:bundleLibRuntimeToJarRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :location:bundleLibRuntimeToJarRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :mobile_scanner:bundleLibRuntimeToJarRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :path_provider_android:bundleLibRuntimeToJarRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :pay_android:bundleLibRuntimeToJarRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :url_launcher_android:bundleLibRuntimeToJarRelease UP-TO-DATE
+[17:59:42]: ▸ > Task :app:minifyReleaseWithR8 UP-TO-DATE
+[17:59:42]: ▸ > Task :app:processApplicationManifestReleaseForBundle
+[17:59:42]: ▸ > Task :app:mergeReleaseJniLibFolders UP-TO-DATE
+[17:59:42]: ▸ > Task :cloud_firestore:mergeReleaseJniLibFolders UP-TO-DATE
+[17:59:42]: ▸ > Task :cloud_firestore:mergeReleaseNativeLibs NO-SOURCE
+[17:59:42]: ▸ > Task :cloud_firestore:stripReleaseDebugSymbols NO-SOURCE
+[17:59:43]: ▸ > Task :cloud_firestore:copyReleaseJniLibsProjectOnly UP-TO-DATE
+[17:59:43]: ▸ > Task :firebase_auth:mergeReleaseJniLibFolders UP-TO-DATE
+[17:59:43]: ▸ > Task :firebase_auth:mergeReleaseNativeLibs NO-SOURCE
+[17:59:43]: ▸ > Task :firebase_auth:stripReleaseDebugSymbols NO-SOURCE
+[17:59:43]: ▸ > Task :firebase_auth:copyReleaseJniLibsProjectOnly UP-TO-DATE
+[17:59:43]: ▸ > Task :firebase_core:mergeReleaseJniLibFolders UP-TO-DATE
+[17:59:43]: ▸ > Task :firebase_core:mergeReleaseNativeLibs NO-SOURCE
+[17:59:43]: ▸ > Task :firebase_core:stripReleaseDebugSymbols NO-SOURCE
+[17:59:43]: ▸ > Task :firebase_core:copyReleaseJniLibsProjectOnly UP-TO-DATE
+[17:59:43]: ▸ > Task :firebase_crashlytics:mergeReleaseJniLibFolders UP-TO-DATE
+[17:59:43]: ▸ > Task :firebase_crashlytics:mergeReleaseNativeLibs NO-SOURCE
+[17:59:43]: ▸ > Task :firebase_crashlytics:stripReleaseDebugSymbols NO-SOURCE
+[17:59:43]: ▸ > Task :firebase_crashlytics:copyReleaseJniLibsProjectOnly UP-TO-DATE
+[17:59:43]: ▸ > Task :firebase_storage:mergeReleaseJniLibFolders UP-TO-DATE
+[17:59:43]: ▸ > Task :firebase_storage:mergeReleaseNativeLibs NO-SOURCE
+[17:59:43]: ▸ > Task :firebase_storage:stripReleaseDebugSymbols NO-SOURCE
+[17:59:43]: ▸ > Task :firebase_storage:copyReleaseJniLibsProjectOnly UP-TO-DATE
+[17:59:43]: ▸ > Task :flutter_chat_bubble:mergeReleaseJniLibFolders UP-TO-DATE
+[17:59:43]: ▸ > Task :flutter_chat_bubble:mergeReleaseNativeLibs NO-SOURCE
+[17:59:43]: ▸ > Task :flutter_chat_bubble:stripReleaseDebugSymbols NO-SOURCE
+[17:59:43]: ▸ > Task :flutter_chat_bubble:copyReleaseJniLibsProjectOnly UP-TO-DATE
+[17:59:43]: ▸ > Task :flutter_plugin_android_lifecycle:mergeReleaseJniLibFolders UP-TO-DATE
+[17:59:43]: ▸ > Task :flutter_plugin_android_lifecycle:mergeReleaseNativeLibs NO-SOURCE
+[17:59:43]: ▸ > Task :flutter_plugin_android_lifecycle:stripReleaseDebugSymbols NO-SOURCE
+[17:59:43]: ▸ > Task :flutter_plugin_android_lifecycle:copyReleaseJniLibsProjectOnly UP-TO-DATE
+[17:59:43]: ▸ > Task :fluttertoast:mergeReleaseJniLibFolders UP-TO-DATE
+[17:59:43]: ▸ > Task :fluttertoast:mergeReleaseNativeLibs NO-SOURCE
+[17:59:43]: ▸ > Task :fluttertoast:stripReleaseDebugSymbols NO-SOURCE
+[17:59:43]: ▸ > Task :fluttertoast:copyReleaseJniLibsProjectOnly UP-TO-DATE
+[17:59:43]: ▸ > Task :image_picker_android:mergeReleaseJniLibFolders UP-TO-DATE
+[17:59:43]: ▸ > Task :image_picker_android:mergeReleaseNativeLibs NO-SOURCE
+[17:59:43]: ▸ > Task :image_picker_android:stripReleaseDebugSymbols NO-SOURCE
+[17:59:43]: ▸ > Task :image_picker_android:copyReleaseJniLibsProjectOnly UP-TO-DATE
+[17:59:43]: ▸ > Task :location:mergeReleaseJniLibFolders UP-TO-DATE
+[17:59:43]: ▸ > Task :location:mergeReleaseNativeLibs NO-SOURCE
+[17:59:43]: ▸ > Task :location:stripReleaseDebugSymbols NO-SOURCE
+[17:59:43]: ▸ > Task :location:copyReleaseJniLibsProjectOnly UP-TO-DATE
+[17:59:43]: ▸ > Task :mobile_scanner:mergeReleaseJniLibFolders UP-TO-DATE
+[17:59:43]: ▸ > Task :mobile_scanner:mergeReleaseNativeLibs NO-SOURCE
+[17:59:43]: ▸ > Task :mobile_scanner:stripReleaseDebugSymbols NO-SOURCE
+[17:59:43]: ▸ > Task :mobile_scanner:copyReleaseJniLibsProjectOnly UP-TO-DATE
+[17:59:43]: ▸ > Task :path_provider_android:mergeReleaseJniLibFolders UP-TO-DATE
+[17:59:43]: ▸ > Task :path_provider_android:mergeReleaseNativeLibs NO-SOURCE
+[17:59:43]: ▸ > Task :path_provider_android:stripReleaseDebugSymbols NO-SOURCE
+[17:59:43]: ▸ > Task :path_provider_android:copyReleaseJniLibsProjectOnly UP-TO-DATE
+[17:59:43]: ▸ > Task :pay_android:mergeReleaseJniLibFolders UP-TO-DATE
+[17:59:43]: ▸ > Task :pay_android:mergeReleaseNativeLibs NO-SOURCE
+[17:59:43]: ▸ > Task :pay_android:stripReleaseDebugSymbols NO-SOURCE
+[17:59:43]: ▸ > Task :pay_android:copyReleaseJniLibsProjectOnly UP-TO-DATE
+[17:59:43]: ▸ > Task :url_launcher_android:mergeReleaseJniLibFolders UP-TO-DATE
+[17:59:43]: ▸ > Task :url_launcher_android:mergeReleaseNativeLibs NO-SOURCE
+[17:59:43]: ▸ > Task :url_launcher_android:stripReleaseDebugSymbols NO-SOURCE
+[17:59:43]: ▸ > Task :url_launcher_android:copyReleaseJniLibsProjectOnly UP-TO-DATE
+[17:59:43]: ▸ > Task :app:mergeReleaseNativeLibs UP-TO-DATE
+[17:59:43]: ▸ > Task :app:stripReleaseDebugSymbols UP-TO-DATE
+[17:59:43]: ▸ > Task :cloud_firestore:prepareReleaseArtProfile UP-TO-DATE
+[17:59:43]: ▸ > Task :firebase_auth:prepareReleaseArtProfile UP-TO-DATE
+[17:59:43]: ▸ > Task :firebase_core:prepareReleaseArtProfile UP-TO-DATE
+[17:59:43]: ▸ > Task :firebase_crashlytics:prepareReleaseArtProfile UP-TO-DATE
+[17:59:43]: ▸ > Task :firebase_storage:prepareReleaseArtProfile UP-TO-DATE
+[17:59:43]: ▸ > Task :flutter_chat_bubble:prepareReleaseArtProfile UP-TO-DATE
+[17:59:43]: ▸ > Task :flutter_plugin_android_lifecycle:prepareReleaseArtProfile UP-TO-DATE
+[17:59:43]: ▸ > Task :fluttertoast:prepareReleaseArtProfile UP-TO-DATE
+[17:59:43]: ▸ > Task :image_picker_android:prepareReleaseArtProfile UP-TO-DATE
+[17:59:43]: ▸ > Task :location:prepareReleaseArtProfile UP-TO-DATE
+[17:59:43]: ▸ > Task :mobile_scanner:prepareReleaseArtProfile UP-TO-DATE
+[17:59:43]: ▸ > Task :path_provider_android:prepareReleaseArtProfile UP-TO-DATE
+[17:59:43]: ▸ > Task :pay_android:prepareReleaseArtProfile UP-TO-DATE
+[17:59:43]: ▸ > Task :url_launcher_android:prepareReleaseArtProfile UP-TO-DATE
+[17:59:43]: ▸ > Task :app:mergeReleaseArtProfile UP-TO-DATE
+[17:59:43]: ▸ > Task :app:compileReleaseArtProfile UP-TO-DATE
+[17:59:43]: ▸ > Task :app:collectReleaseDependencies UP-TO-DATE
+[17:59:43]: ▸ > Task :app:configureReleaseDependencies
+[17:59:43]: ▸ > Task :app:extractReleaseNativeSymbolTables UP-TO-DATE
+[17:59:43]: ▸ > Task :app:parseReleaseIntegrityConfig
+[17:59:43]: ▸ > Task :app:writeReleaseAppMetadata UP-TO-DATE
+[17:59:43]: ▸ > Task :app:validateSigningRelease UP-TO-DATE
+[17:59:43]: ▸ > Task :app:bundleReleaseResources
+[17:59:46]: ▸ > Task :app:shrinkReleaseResources
+[17:59:46]: ▸ Removed unused resources: Binary resource data reduced from 806KB to 737KB: Removed 8%
+[17:59:47]: ▸ > Task :app:buildReleasePreBundle
+[17:59:49]: ▸ > Task :app:packageReleaseBundle
+[17:59:56]: ▸ > Task :app:signReleaseBundle
+[17:59:56]: ▸ > Task :app:produceReleaseBundleIdeListingFile
+[17:59:56]: ▸ > Task :app:bundleRelease
+[17:59:56]: ▸ Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+[17:59:56]: ▸ You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+[17:59:56]: ▸ See https://docs.gradle.org/7.4.2/userguide/command_line_interface.html#sec:command_line_warnings
+[17:59:56]: ▸ BUILD SUCCESSFUL in 21s
+[17:59:56]: ▸ 320 actionable tasks: 13 executed, 307 up-to-date
+[17:59:56]: Couldn't find any new signed apk files...
+[17:59:56]: -----------------------------
+[17:59:56]: --- Step: flutter_version ---
+[17:59:56]: -----------------------------
+[17:59:56]: The full version is: 1.0.0+1
+[17:59:56]: The version name: 1.0.0
+[17:59:56]: The version code: 1
+[17:59:56]: Could not find service account json file at path '/home/runner/work/lessimp/lessimp/android/service_account_key.json'
+[17:59:56]: You passed invalid parameters to 'upload_to_play_store'.
+[17:59:56]: Check out the error below and available options by running `fastlane action upload_to_play_store`
++-------------------------------------+---------------------+
+|                       Lane Context                        |
++-------------------------------------+---------------------+
+| DEFAULT_PLATFORM                    | android             |
+| PLATFORM_NAME                       | android             |
+| LANE_NAME                           | android closed_beta |
+| GRADLE_ALL_APK_OUTPUT_PATHS         | []                  |
+| GRADLE_ALL_AAB_OUTPUT_PATHS         | []                  |
+| GRADLE_ALL_OUTPUT_JSON_OUTPUT_PATHS | []                  |
+| GRADLE_ALL_MAPPING_TXT_OUTPUT_PATHS | []                  |
+| GRADLE_BUILD_TYPE                   | Release             |
++-------------------------------------+---------------------+
+[17:59:56]: Invalid default value for json_key, doesn't match verify_block
++------+-----------------------+-------------+
+|              fastlane summary              |
++------+-----------------------+-------------+
+| Step | Action                | Time (in s) |
++------+-----------------------+-------------+
+| 1    | default_platform      | 0           |
+| 2    | clean assembleRelease | 163         |
+| 3    | bundleRelease         | 21          |
+| 4    | flutter_version       | 0           |
++------+-----------------------+-------------+
+[17:59:56]: fastlane finished with errors
+[!] Invalid default value for json_key, doesn't match verify_block
+Error: Error: Executing lane closed_beta failed.
+Error: Executing lane closed_beta failed.
