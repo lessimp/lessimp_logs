@@ -1,0 +1,220 @@
+Launching lib/main.dart on iPhone (3) in debug mode...
+Automatically signing iOS for device deployment using specified development team in Xcode project: SJAV7HZQZ6
+Running pod install...
+Running Xcode build...
+Xcode build done.                                           1073.6s
+Failed to build iOS app
+Error output from Xcode build:
+↳
+    2022-06-23 22:45:30.478 xcodebuild[39311:209655] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionSentinelHostApplications for extension Xcode.DebuggerFoundation.AppExtensionHosts.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
+    2022-06-23 22:45:30.479 xcodebuild[39311:209655] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionPointIdentifierToBundleIdentifier for extension Xcode.DebuggerFoundation.AppExtensionToBundleIdentifierMap.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
+    ** BUILD FAILED **
+
+
+Xcode's output:
+↳
+    Writing result bundle at path:
+    	/var/folders/kk/myzww_6s6vnd669d4x9yr_nw0000gn/T/flutter_tools.CO9IDy/flutter_ios_build_temp_dirMGorUK/temporary_xcresult_bundle
+
+    /Users/ken/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:41:22: warning: expression implicitly coerced from 'String?' to 'Any'
+          "displayName": displayName,
+                         ^~~~~~~~~~~
+    /Users/ken/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:41:22: note: provide a default value to avoid this warning
+          "displayName": displayName,
+                         ^~~~~~~~~~~
+                                     ?? <#default value#>
+    /Users/ken/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:41:22: note: force-unwrap the value to avoid this warning
+          "displayName": displayName,
+                         ^~~~~~~~~~~
+                                    !
+    /Users/ken/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:41:22: note: explicitly cast to 'Any' with 'as Any' to silence this warning
+          "displayName": displayName,
+                         ^~~~~~~~~~~
+                                     as Any
+    /Users/ken/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:42:18: warning: expression implicitly coerced from 'String?' to 'Any'
+          "network": network?.rawValue,
+                     ^~~~~~~~~~~~~~~~~
+    /Users/ken/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:42:27: note: provide a default value to avoid this warning
+          "network": network?.rawValue,
+                     ~~~~~~~~~^~~~~~~~
+                                       ?? <#default value#>
+    /Users/ken/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:42:27: note: force-unwrap the value to avoid this warning
+          "network": network?.rawValue,
+                     ~~~~~~~~~^~~~~~~~
+                                      !
+    /Users/ken/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:42:27: note: explicitly cast to 'Any' with 'as Any' to silence this warning
+          "network": network?.rawValue,
+                     ~~~~~~~~~^~~~~~~~
+                                       as Any
+    /Users/ken/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:68:21: warning: expression implicitly coerced from 'String?' to 'Any'
+          "namePrefix": namePrefix,
+                        ^~~~~~~~~~
+    /Users/ken/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:68:21: note: provide a default value to avoid this warning
+          "namePrefix": namePrefix,
+                        ^~~~~~~~~~
+                                   ?? <#default value#>
+    /Users/ken/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:68:21: note: force-unwrap the value to avoid this warning
+          "namePrefix": namePrefix,
+                        ^~~~~~~~~~
+                                  !
+    /Users/ken/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:68:21: note: explicitly cast to 'Any' with 'as Any' to silence this warning
+          "namePrefix": namePrefix,
+                        ^~~~~~~~~~
+                                   as Any
+    /Users/ken/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:69:20: warning: expression implicitly coerced from 'String?' to 'Any'
+          "givenName": givenName,
+                       ^~~~~~~~~
+    /Users/ken/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:69:20: note: provide a default value to avoid this warning
+          "givenName": givenName,
+                       ^~~~~~~~~
+                                 ?? <#default value#>
+    /Users/ken/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:69:20: note: force-unwrap the value to avoid this warning
+          "givenName": givenName,
+                       ^~~~~~~~~
+                                !
+    /Users/ken/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:69:20: note: explicitly cast to 'Any' with 'as Any' to silence this warning
+          "givenName": givenName,
+                       ^~~~~~~~~
+                                 as Any
+    /Users/ken/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:70:21: warning: expression implicitly coerced from 'String?' to 'Any'
+          "middleName": middleName,
+                        ^~~~~~~~~~
+    /Users/ken/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:70:21: note: provide a default value to avoid this warning
+          "middleName": middleName,
+                        ^~~~~~~~~~
+                                   ?? <#default value#>
+    /Users/ken/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:70:21: note: force-unwrap the value to avoid this warning
+          "middleName": middleName,
+                        ^~~~~~~~~~
+                                  !
+    /Users/ken/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:70:21: note: explicitly cast to 'Any' with 'as Any' to silence this warning
+          "middleName": middleName,
+                        ^~~~~~~~~~
+                                   as Any
+    /Users/ken/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:71:21: warning: expression implicitly coerced from 'String?' to 'Any'
+          "familyName": familyName,
+                        ^~~~~~~~~~
+    /Users/ken/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:71:21: note: provide a default value to avoid this warning
+          "familyName": familyName,
+                        ^~~~~~~~~~
+                                   ?? <#default value#>
+    /Users/ken/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:71:21: note: force-unwrap the value to avoid this warning
+          "familyName": familyName,
+                        ^~~~~~~~~~
+                                  !
+    /Users/ken/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:71:21: note: explicitly cast to 'Any' with 'as Any' to silence this warning
+          "familyName": familyName,
+                        ^~~~~~~~~~
+                                   as Any
+    /Users/ken/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:72:21: warning: expression implicitly coerced from 'String?' to 'Any'
+          "nameSuffix": nameSuffix,
+                        ^~~~~~~~~~
+    /Users/ken/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:72:21: note: provide a default value to avoid this warning
+          "nameSuffix": nameSuffix,
+                        ^~~~~~~~~~
+                                   ?? <#default value#>
+    /Users/ken/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:72:21: note: force-unwrap the value to avoid this warning
+          "nameSuffix": nameSuffix,
+                        ^~~~~~~~~~
+                                  !
+    /Users/ken/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:72:21: note: explicitly cast to 'Any' with 'as Any' to silence this warning
+          "nameSuffix": nameSuffix,
+                        ^~~~~~~~~~
+                                   as Any
+    /Users/ken/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:73:19: warning: expression implicitly coerced from 'String?' to 'Any'
+          "nickname": nickname,
+                      ^~~~~~~~
+    /Users/ken/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:73:19: note: provide a default value to avoid this warning
+          "nickname": nickname,
+                      ^~~~~~~~
+                               ?? <#default value#>
+    /Users/ken/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:73:19: note: force-unwrap the value to avoid this warning
+          "nickname": nickname,
+                      ^~~~~~~~
+                              !
+    /Users/ken/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:73:19: note: explicitly cast to 'Any' with 'as Any' to silence this warning
+          "nickname": nickname,
+                      ^~~~~~~~
+                               as Any
+    /Users/ken/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:74:33: warning: expression implicitly coerced from '[String : Any]?' to 'Any'
+          "phoneticRepresentation": phoneticRepresentation?.toDictionary(),
+                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    /Users/ken/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:74:57: note: provide a default value to avoid this warning
+          "phoneticRepresentation": phoneticRepresentation?.toDictionary(),
+                                    ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+                                                                           ?? <#default value#>
+    /Users/ken/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:74:57: note: force-unwrap the value to avoid this warning
+          "phoneticRepresentation": phoneticRepresentation?.toDictionary(),
+                                    ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+                                                                          !
+    /Users/ken/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:74:57: note: explicitly cast to 'Any' with 'as Any' to silence this warning
+          "phoneticRepresentation": phoneticRepresentation?.toDictionary(),
+                                    ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+                                                                           as Any
+    /Users/ken/.pub-cache/hosted/pub.dartlang.org/location-4.4.0/ios/Classes/LocationPlugin.m:176:13: warning: 'UIAlertView' is deprecated: first deprecated in iOS 9.0 - UIAlertView is deprecated. Use UIAlertController with a preferredStyle of UIAlertControllerStyleAlert instead [-Wdeprecated-declarations]
+                UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Location is Disabled"
+                ^
+    In module 'UIKit' imported from /Users/ken/Documents/Projects/lessimp/ios/Pods/Target Support Files/location/location-prefix.pch:2:
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAlertView.h:27:12: note: 'UIAlertView' has been explicitly marked deprecated here
+    @interface UIAlertView : UIView
+               ^
+    /Users/ken/.pub-cache/hosted/pub.dartlang.org/location-4.4.0/ios/Classes/LocationPlugin.m:176:48: warning: 'UIAlertView' is deprecated: first deprecated in iOS 9.0 - UIAlertView is deprecated. Use UIAlertController with a preferredStyle of UIAlertControllerStyleAlert instead [-Wdeprecated-declarations]
+                UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Location is Disabled"
+                                                   ^
+    In module 'UIKit' imported from /Users/ken/Documents/Projects/lessimp/ios/Pods/Target Support Files/location/location-prefix.pch:2:
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAlertView.h:27:12: note: 'UIAlertView' has been explicitly marked deprecated here
+    @interface UIAlertView : UIView
+               ^
+    2 warnings generated.
+    /Users/ken/Documents/Projects/lessimp/ios/Pods/AppAuth/Source/AppAuth/iOS/OIDExternalUserAgentIOSCustomBrowser.m:148:42: warning: 'openURL:' is deprecated: first deprecated in iOS 10.0 [-Wdeprecated-declarations]
+          [[UIApplication sharedApplication] openURL:_appStoreURL];
+                                             ^~~~~~~
+                                             openURL:options:completionHandler:
+    In module 'UIKit' imported from /Users/ken/Documents/Projects/lessimp/ios/Pods/Target Support Files/AppAuth/AppAuth-prefix.pch:2:
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h:124:1: note: 'openURL:' has been explicitly marked deprecated here
+    - (BOOL)openURL:(NSURL*)url API_DEPRECATED_WITH_REPLACEMENT("openURL:options:completionHandler:", ios(2.0, 10.0)) NS_EXTENSION_UNAVAILABLE_IOS("");
+    ^
+    /Users/ken/Documents/Projects/lessimp/ios/Pods/AppAuth/Source/AppAuth/iOS/OIDExternalUserAgentIOSCustomBrowser.m:156:61: warning: 'openURL:' is deprecated: first deprecated in iOS 10.0 [-Wdeprecated-declarations]
+      BOOL openedInBrowser = [[UIApplication sharedApplication] openURL:requestURL];
+                                                                ^~~~~~~
+                                                                openURL:options:completionHandler:
+    In module 'UIKit' imported from /Users/ken/Documents/Projects/lessimp/ios/Pods/Target Support Files/AppAuth/AppAuth-prefix.pch:2:
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h:124:1: note: 'openURL:' has been explicitly marked deprecated here
+    - (BOOL)openURL:(NSURL*)url API_DEPRECATED_WITH_REPLACEMENT("openURL:options:completionHandler:", ios(2.0, 10.0)) NS_EXTENSION_UNAVAILABLE_IOS("");
+    ^
+    2 warnings generated.
+    /Users/ken/Documents/Projects/lessimp/ios/Pods/AppAuth/Source/AppAuth/iOS/OIDExternalUserAgentIOS.m:168:58: warning: 'openURL:' is deprecated: first deprecated in iOS 10.0 [-Wdeprecated-declarations]
+        openedUserAgent = [[UIApplication sharedApplication] openURL:requestURL];
+                                                             ^~~~~~~
+                                                             openURL:options:completionHandler:
+    In module 'UIKit' imported from /Users/ken/Documents/Projects/lessimp/ios/Pods/Target Support Files/AppAuth/AppAuth-prefix.pch:2:
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h:124:1: note: 'openURL:' has been explicitly marked deprecated here
+    - (BOOL)openURL:(NSURL*)url API_DEPRECATED_WITH_REPLACEMENT("openURL:options:completionHandler:", ios(2.0, 10.0)) NS_EXTENSION_UNAVAILABLE_IOS("");
+    ^
+    1 warning generated.
+    1 warning generated.
+    While building module 'mobile_scanner' imported from /Users/ken/Documents/Projects/lessimp/ios/Runner/GeneratedPluginRegistrant.m:76:
+    In file included from <module-includes>:2:
+    /Users/ken/Documents/Projects/lessimp/build/ios/Debug-iphoneos/mobile_scanner/mobile_scanner.framework/Headers/mobile_scanner-Swift.h:246:31: warning: 'objc_ownership' only applies to Objective-C object or block pointer types; type here is 'CVPixelBufferRef' (aka 'struct __CVBuffer *') [-Wignored-attributes]
+    - (CVPixelBufferRef _Nullable __unsafe_unretained)copyPixelBuffer SWIFT_WARN_UNUSED_RESULT;
+                                  ^
+    1 warning generated.
+    1 warning generated.
+    error: Build input file cannot be found: '/Users/ken/Documents/Projects/lessimp/ios/Runner/Base.lproj/Main.storyboard' (in target 'Runner' from project 'Runner')
+    error: Build input file cannot be found: '/Users/ken/Documents/Projects/lessimp/ios/Runner/Base.lproj/LaunchScreen.storyboard' (in target 'Runner' from project 'Runner')
+    note: Using new build system
+    note: Planning
+    note: Build preparation complete
+    note: Building targets in dependency order
+
+    Result bundle written to path:
+    	/var/folders/kk/myzww_6s6vnd669d4x9yr_nw0000gn/T/flutter_tools.CO9IDy/flutter_ios_build_temp_dirMGorUK/temporary_xcresult_bundle
+
+
+Could not build the precompiled application for the device.
+Error (Xcode): Build input file cannot be found: '/Users/ken/Documents/Projects/lessimp/ios/Runner/Base.lproj/Main.storyboard'
+
+Error (Xcode): Build input file cannot be found: '/Users/ken/Documents/Projects/lessimp/ios/Runner/Base.lproj/LaunchScreen.storyboard'
+
+
+Error launching application on iPhone (3).
