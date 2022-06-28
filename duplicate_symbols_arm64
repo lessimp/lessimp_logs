@@ -1,0 +1,148 @@
+Launching lib/main.dart on iPhone (3) in debug mode...
+Automatically signing iOS for device deployment using specified development team in Xcode project: SJAV7HZQZ6
+Running pod install...
+Running Xcode build...
+Xcode build done.                                           91.5s
+Failed to build iOS app
+Error output from Xcode build:
+↳
+    2022-06-28 16:34:50.084 xcodebuild[3568:22044] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionSentinelHostApplications for extension Xcode.DebuggerFoundation.AppExtensionHosts.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
+    2022-06-28 16:34:50.085 xcodebuild[3568:22044] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionPointIdentifierToBundleIdentifier for extension Xcode.DebuggerFoundation.AppExtensionToBundleIdentifierMap.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
+    2022-06-28 16:34:51.323 xcodebuild[3568:22050]  DVTAssertions: Warning in /Library/Caches/com.apple.xbs/Sources/DVTiOSFrameworks/DVTiOSFrameworks-20038/DTDeviceKitBase/DTDKRemoteDeviceData.m:373
+    Details:  (null) deviceType from 00008030-0004551014E8802E was NULL when -platform called.
+    Object:   <DTDKMobileDeviceToken: 0x7fb0bc3c69c0>
+    Method:   -platform
+    Thread:   <NSThread: 0x60000377f500>{number = 6, name = (null)}
+    Please file a bug at https://feedbackassistant.apple.com with this warning message and any useful information you can provide.
+    2022-06-28 16:34:51.575 xcodebuild[3568:22050]  DVTAssertions: Warning in /Library/Caches/com.apple.xbs/Sources/DVTiOSFrameworks/DVTiOSFrameworks-20038/DTDeviceKitBase/DTDKRemoteDeviceData.m:373
+    Details:  (null) deviceType from 00008030-0004551014E8802E was NULL when -platform called.
+    Object:   <DTDKMobileDeviceToken: 0x7fb0bc3c69c0>
+    Method:   -platform
+    Thread:   <NSThread: 0x60000377f500>{number = 6, name = (null)}
+    Please file a bug at https://feedbackassistant.apple.com with this warning message and any useful information you can provide.
+    2022-06-28 16:34:51.685 xcodebuild[3568:22050]  DVTAssertions: Warning in /Library/Caches/com.apple.xbs/Sources/DVTiOSFrameworks/DVTiOSFrameworks-20038/DTDeviceKitBase/DTDKRemoteDeviceData.m:373
+    Details:  (null) deviceType from 00008030-0004551014E8802E was NULL when -platform called.
+    Object:   <DTDKMobileDeviceToken: 0x7fb0bc3c69c0>
+    Method:   -platform
+    Thread:   <NSThread: 0x60000377f500>{number = 6, name = (null)}
+    Please file a bug at https://feedbackassistant.apple.com with this warning message and any useful information you can provide.
+    ** BUILD FAILED **
+
+
+Xcode's output:
+↳
+    Writing result bundle at path:
+    	/var/folders/kk/myzww_6s6vnd669d4x9yr_nw0000gn/T/flutter_tools.6BCX09/flutter_ios_build_temp_dirkTn9Sk/temporary_xcresult_bundle
+
+    Command CompileSwiftSources failed with a nonzero exit code
+    duplicate symbol 'leveldb::FilterPolicy::~FilterPolicy()' in:
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/filter_policy.o
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/filter_policy 2.o
+    duplicate symbol 'leveldb::FilterPolicy::~FilterPolicy()' in:
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/filter_policy.o
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/filter_policy 2.o
+    duplicate symbol 'leveldb::FilterPolicy::~FilterPolicy()' in:
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/filter_policy.o
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/filter_policy 2.o
+    duplicate symbol 'vtable for leveldb::FilterPolicy' in:
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/filter_policy.o
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/filter_policy 2.o
+    duplicate symbol 'typeinfo name for leveldb::FilterPolicy' in:
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/filter_policy.o
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/filter_policy 2.o
+    duplicate symbol 'typeinfo for leveldb::FilterPolicy' in:
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/filter_policy.o
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/filter_policy 2.o
+    duplicate symbol 'leveldb::FilterPolicy::~FilterPolicy()' in:
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/filter_policy.o
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/filter_policy 3.o
+    duplicate symbol 'leveldb::FilterPolicy::~FilterPolicy()' in:
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/filter_policy.o
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/filter_policy 3.o
+    duplicate symbol 'leveldb::FilterPolicy::~FilterPolicy()' in:
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/filter_policy.o
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/filter_policy 3.o
+    duplicate symbol 'vtable for leveldb::FilterPolicy' in:
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/filter_policy.o
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/filter_policy 3.o
+    duplicate symbol 'typeinfo name for leveldb::FilterPolicy' in:
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/filter_policy.o
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/filter_policy 3.o
+    duplicate symbol 'typeinfo for leveldb::FilterPolicy' in:
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/filter_policy.o
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/filter_policy 3.o
+    duplicate symbol 'leveldb::Hash(char const*, unsigned long, unsigned int)' in:
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/hash.o
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/hash 2.o
+    duplicate symbol 'leveldb::NewEmptyIterator()' in:
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/iterator.o
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/iterator 2.o
+    duplicate symbol 'leveldb::Iterator::~Iterator()' in:
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/iterator.o
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/iterator 2.o
+    duplicate symbol 'leveldb::Iterator::Iterator()' in:
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/iterator.o
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/iterator 2.o
+    duplicate symbol 'leveldb::Iterator::~Iterator()' in:
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/iterator.o
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/iterator 2.o
+    duplicate symbol 'leveldb::Iterator::~Iterator()' in:
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/iterator.o
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/iterator 2.o
+    duplicate symbol 'leveldb::Iterator::RegisterCleanup(void (*)(void*, void*), void*, void*)' in:
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/iterator.o
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/iterator 2.o
+    duplicate symbol 'leveldb::NewErrorIterator(leveldb::Status const&)' in:
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/iterator.o
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/iterator 2.o
+    duplicate symbol 'vtable for leveldb::Iterator' in:
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/iterator.o
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/iterator 2.o
+    duplicate symbol 'typeinfo name for leveldb::Iterator' in:
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/iterator.o
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/iterator 2.o
+    duplicate symbol 'typeinfo for leveldb::Iterator' in:
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/iterator.o
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/iterator 2.o
+    duplicate symbol 'leveldb::Options::Options()' in:
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/options.o
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/options 2.o
+    duplicate symbol 'leveldb::Options::Options()' in:
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/options.o
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/options 2.o
+    duplicate symbol 'leveldb::Options::Options()' in:
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/options.o
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/options 3.o
+    duplicate symbol 'leveldb::Options::Options()' in:
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/options.o
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/options 3.o
+    duplicate symbol 'leveldb::test::RunAllTests()' in:
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/testharness.o
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/testharness 2.o
+    duplicate symbol 'leveldb::test::TmpDir()' in:
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/testharness.o
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/testharness 2.o
+    duplicate symbol 'leveldb::test::RandomSeed()' in:
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/testharness.o
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/testharness 2.o
+    duplicate symbol 'leveldb::test::RegisterTest(char const*, char const*, void (*)())' in:
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/testharness.o
+        /Users/ken/Library/Developer/Xcode/DerivedData/Runner-gkrhatyjwyfdhwbbfusmaobkxwcm/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/Objects-normal/arm64/testharness 2.o
+    ld: 31 duplicate symbols for architecture arm64
+    clang: error: linker command failed with exit code 1 (use -v to see invocation)
+    note: Using new build system
+    note: Planning
+    note: Build preparation complete
+    note: Building targets in dependency order
+
+    Result bundle written to path:
+    	/var/folders/kk/myzww_6s6vnd669d4x9yr_nw0000gn/T/flutter_tools.6BCX09/flutter_ios_build_temp_dirkTn9Sk/temporary_xcresult_bundle
+
+
+Could not build the precompiled application for the device.
+Uncategorized (Xcode): Command CompileSwiftSources failed with a nonzero exit code
+
+Error (Xcode): 31 duplicate symbols for architecture arm64
+
+
+Error launching application on iPhone (3).
