@@ -1,0 +1,530 @@
+Run flutter build ios --release --no-codesign
+  flutter build ios --release --no-codesign
+  shell: /bin/bash -e {0}
+  env:
+    FLUTTER_ROOT: /Users/runner/hostedtoolcache/flutter/3.0.1-stable/x64
+    PUB_CACHE: /Users/runner/hostedtoolcache/flutter/3.0.1-stable/x64/.pub-cache
+ 
+Warning: Building for device with codesigning disabled. You will have to manually codesign before deploying to device.
+Building *** for device (ios-release)...
+Updating project for Xcode compatibility.
+Upgrading Runner.xcscheme
+Running pod install...                                             24.5s
+CocoaPods' output:
+↳
+      Preparing
+    Analyzing dependencies
+    Inspecting targets to integrate
+      Using `ARCHS` setting to build architectures of target `Pods-Runner`: (``)
+    Finding Podfile changes
+      - Flutter
+      - cloud_firestore
+      - firebase_auth
+      - firebase_core
+      - firebase_crashlytics
+      - firebase_storage
+      - flutter_chat_bubble
+      - fluttertoast
+      - image_picker_ios
+      - integration_test
+      - location
+      - mobile_scanner
+      - path_provider_ios
+      - pay_ios
+      - url_launcher_ios
+    Fetching external sources
+    -> Fetching podspec for `Flutter` from `Flutter`
+    -> Fetching podspec for `cloud_firestore` from `.symlinks/plugins/cloud_firestore/ios`
+    cloud_firestore: Using Firebase SDK version '9.2.0' defined in 'firebase_core'
+    -> Fetching podspec for `firebase_auth` from `.symlinks/plugins/firebase_auth/ios`
+    firebase_auth: Using Firebase SDK version '9.2.0' defined in 'firebase_core'
+    -> Fetching podspec for `firebase_core` from `.symlinks/plugins/firebase_core/ios`
+    firebase_core: Using Firebase SDK version '9.2.0' defined in 'firebase_core'
+    -> Fetching podspec for `firebase_crashlytics` from `.symlinks/plugins/firebase_crashlytics/ios`
+    Warning: firebase_app_id_file.json file does not exist. This may cause issues in upload-symbols. If this error is unexpected, try running flutterfire configure again.
+    firebase_crashlytics: Using Firebase SDK version '9.2.0' defined in 'firebase_core'
+    -> Fetching podspec for `firebase_storage` from `.symlinks/plugins/firebase_storage/ios`
+    firebase_storage: Using Firebase SDK version '9.2.0' defined in 'firebase_core'
+    -> Fetching podspec for `flutter_chat_bubble` from `.symlinks/plugins/flutter_chat_bubble/ios`
+    -> Fetching podspec for `fluttertoast` from `.symlinks/plugins/fluttertoast/ios`
+    -> Fetching podspec for `image_picker_ios` from `.symlinks/plugins/image_picker_ios/ios`
+    -> Fetching podspec for `integration_test` from `.symlinks/plugins/integration_test/ios`
+    -> Fetching podspec for `location` from `.symlinks/plugins/location/ios`
+    -> Fetching podspec for `mobile_scanner` from `.symlinks/plugins/mobile_scanner/ios`
+    -> Fetching podspec for `path_provider_ios` from `.symlinks/plugins/path_provider_ios/ios`
+Error: CocoaPods's specs repository is too out-of-date to satisfy dependencies.
+To update the CocoaPods specs, run:
+  pod repo update
+    -> Fetching podspec for `pay_ios` from `.symlinks/plugins/pay_ios/ios`
+    -> Fetching podspec for `url_launcher_ios` from `.symlinks/plugins/url_launcher_ios/ios`
+    Resolving dependencies of `Podfile`
+    Adding spec repo `trunk` with CDN `https://cdn.cocoapods.org/`
+      CDN: trunk Relative path downloaded: CocoaPods-version.yml, save ETag: "62c510e1-38"
+      CDN: trunk Relative path: CocoaPods-version.yml exists! Returning local because checking is only performed in repo update
+      CDN: trunk Relative path downloaded: all_pods_versions_0_3_5.txt, save ETag: W/"62c510e1-ab0"
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/1.0.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/1.0.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/1.1.1/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/1.1.1/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/1.1.10/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/1.1.10/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/1.1.11/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/1.1.11/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/1.1.2/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/1.1.2/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/1.1.3/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/1.1.3/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/1.1.4/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/1.1.4/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/1.1.5/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/1.1.5/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/1.1.6/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/1.1.6/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/1.1.7/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/1.1.7/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/1.1.9/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/1.1.9/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/1.2.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/1.2.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/1.2.1/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/1.2.1/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/1.2.2/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/1.2.2/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/1.2.3/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/1.2.3/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/2.0.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/2.0.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/2.0.1/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/2.0.1/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/2.0.2/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/2.0.2/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/2.0.3/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/2.0.3/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/2.1.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/2.1.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/1.0.5/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/1.0.5/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/1.0.7/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/1.0.7/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/1.0.9/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/1.0.9/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/1.1.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/1.1.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/1.1.12/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/1.1.12/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/2.2.1/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/2.2.1/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/2.2.2/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/2.2.2/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/2.3.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/2.3.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/2.3.1/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/2.3.1/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/2.3.2/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/2.3.2/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/2.3.3/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/2.3.3/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/2.4.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/2.4.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/2.4.2/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/2.4.2/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/2.4.3/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/2.4.3/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/2.1.1/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/2.1.1/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/2.1.2/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/2.1.2/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/2.2.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/2.2.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/2.4.1/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/2.4.1/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/2.4.1.1/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/2.4.1.1/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/2.5.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/2.5.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/2.5.1/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/2.5.1/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/3.10.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/3.10.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/3.11.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/3.11.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/3.11.1/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/3.11.1/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/3.12.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/3.12.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/3.13.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/3.13.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/3.15.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/3.15.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/3.16.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/3.16.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/3.17.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/3.17.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/3.2.1/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/3.2.1/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/3.4.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/3.4.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/3.14.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/3.14.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/3.2.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/3.2.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/3.3.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/3.3.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/3.5.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/3.5.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/3.5.1/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/3.5.1/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/3.5.2/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/3.5.2/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/3.6.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/3.6.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/3.7.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/3.7.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/3.8.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/3.8.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/3.9.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/3.9.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/4.0.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/4.0.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/4.0.1/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/4.0.1/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/4.0.2/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/4.0.2/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/4.0.3/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/4.0.3/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/4.0.4/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/4.0.4/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/3.7.1/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/3.7.1/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/4.10.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/4.10.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/4.11.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/4.11.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/4.12.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/4.12.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/4.13.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/4.13.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/4.3.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/4.3.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/4.5.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/4.5.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/4.6.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/4.6.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/4.7.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/4.7.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/4.1.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/4.1.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/4.1.1/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/4.1.1/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/4.2.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/4.2.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/4.4.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/4.4.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/4.8.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/4.8.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/4.9.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/4.9.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/5.0.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/5.0.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/5.0.1/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/5.0.1/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/5.1.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/5.1.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/5.10.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/5.10.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/5.11.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/5.11.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/5.12.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/5.12.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/5.13.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/5.13.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/5.14.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/5.14.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/5.15.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/5.15.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/5.16.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/5.16.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/5.17.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/5.17.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/5.18.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/5.18.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/5.19.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/5.19.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/5.2.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/5.2.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/5.20.1/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/5.20.1/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/5.20.2/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/5.20.2/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/4.10.1/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/4.10.1/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/4.8.2/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/4.8.2/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/5.20.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/5.20.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/5.3.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/5.3.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/5.4.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/5.4.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/5.4.1/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/5.4.1/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/5.5.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/5.5.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/5.7.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/5.7.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/5.8.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/5.8.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/5.8.1/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/5.8.1/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/5.9.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/5.9.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/6.0.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/6.0.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/6.1.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/6.1.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/6.10.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/6.10.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/6.12.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/6.12.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/6.13.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/6.13.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/5.6.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/5.6.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/6.11.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/6.11.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/6.14.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/6.14.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/6.15.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/6.15.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/6.16.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/6.16.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/6.17.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/6.17.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/6.2.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/6.2.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/6.20.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/6.20.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/6.22.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/6.22.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/6.23.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/6.23.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/6.24.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/6.24.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/6.25.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/6.25.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/6.26.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/6.26.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/6.27.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/6.27.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/6.27.1/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/6.27.1/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/6.28.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/6.28.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/6.28.1/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/6.28.1/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/6.18.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/6.18.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/6.19.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/6.19.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/6.21.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/6.21.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/6.3.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/6.3.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/6.30.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/6.30.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/6.32.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/6.32.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/6.32.2/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/6.32.2/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/6.33.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/6.33.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/6.34.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/6.34.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/6.4.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/6.4.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/6.5.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/6.5.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/6.6.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/6.6.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/6.29.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/6.29.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/6.31.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/6.31.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/6.31.1/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/6.31.1/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/6.7.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/6.7.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/6.8.1/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/6.8.1/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/7.0.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/7.0.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/7.1.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/7.1.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/7.10.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/7.10.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/7.2.0-M1/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/7.2.0-M1/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/6.9.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/6.9.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/7.2.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/7.2.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/7.3.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/7.3.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/6.8.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/6.8.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/7.11.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/7.11.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/7.4.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/7.4.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/7.3.0-M1/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/7.3.0-M1/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/7.4.0-M1/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/7.4.0-M1/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/7.5.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/7.5.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/7.6.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/7.6.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/7.7.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/7.7.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/7.8.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/7.8.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/7.8.1/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/7.8.1/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/7.9.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/7.9.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/7.9.0-k2/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/7.9.0-k2/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/8.1.1/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/8.1.1/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/8.10.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/8.10.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/8.11.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/8.11.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/8.12.1/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/8.12.1/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/8.13.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/8.13.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/8.14.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/8.14.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/8.15.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/8.15.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/8.2.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/8.2.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/8.3.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/8.3.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/8.4.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/8.4.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/8.5.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/8.5.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/8.6.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/8.6.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/8.6.1/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/8.6.1/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/8.7.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/8.7.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/7.9.0-k1/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/7.9.0-k1/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/8.0.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/8.0.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/8.1.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/8.1.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/8.9.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/8.9.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/8.8.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/8.8.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/9.2.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/9.2.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/9.0.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/9.0.0/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/8.9.1/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/8.9.1/Firebase.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/0/3/5/Firebase/9.1.0/Firebase.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/0/3/5/Firebase/9.1.0/Firebase.podspec.json
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/1.0.0/Firebase.podspec.json, save ETag: W/"2f9-tp0Vz9ZjceK3a1goO6x8PlQiNXw"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/1.1.11/Firebase.podspec.json, save ETag: W/"33f-6mB4VnwP87Fdkb9OQzskuou71W4"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/1.1.5/Firebase.podspec.json, save ETag: W/"322-D+TEDiL4eGjyeFtgNxSmNG7whec"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/1.1.2/Firebase.podspec.json, save ETag: W/"30f-MVZIcJ2eLF9h+4HmQjqb5vzHYdY"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/1.1.10/Firebase.podspec.json, save ETag: W/"33f-SVgg6U+tsKn5KwTpKzeT1XH03ok"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/1.1.3/Firebase.podspec.json, save ETag: W/"322-z9o7DI1xtX4+ETSPv7J9nw0vF1s"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/1.2.2/Firebase.podspec.json, save ETag: W/"33d-2+6XJcApa5MvOmNEAiwPBJwrFd8"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/1.2.0/Firebase.podspec.json, save ETag: W/"33d-ij7dHf0IJzJWkGOKdGc6S01N1y8"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/1.1.4/Firebase.podspec.json, save ETag: W/"322-mgOO2LHudKipWx0oGl6JvjFSPaU"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/1.1.1/Firebase.podspec.json, save ETag: W/"30f-rAKYceglOy+abvOsCfs51nnFt6A"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/2.0.0/Firebase.podspec.json, save ETag: W/"33d-IeJkxTvYvSU1UMoPWtyvjZHzv1I"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/1.1.6/Firebase.podspec.json, save ETag: W/"33d-mkGLO0uf7k3nDI/vOL9GwCUPgXc"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/2.0.3/Firebase.podspec.json, save ETag: W/"33d-AeHvf2azg34dK/fV0dcPrPmhfBw"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/1.2.1/Firebase.podspec.json, save ETag: W/"33d-jxFcH078PLWCEAkPJclcr3zfKVU"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/1.1.9/Firebase.podspec.json, save ETag: W/"33d-CmGtBJEwHDfeUUOSxsyBIxAzuKE"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/1.2.3/Firebase.podspec.json, save ETag: W/"33d-ehtqCEhGc0hnKv6/swbGJKNRDwQ"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/1.0.5/Firebase.podspec.json, save ETag: W/"2fa-iMJUh58QPEsWhnN2XrkfhMMB5aY"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/1.1.0/Firebase.podspec.json, save ETag: W/"2fa-r9p3eafMobrfqTt89VwGLZ8On1c"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/2.1.0/Firebase.podspec.json, save ETag: W/"33d-phxj09OAbsg+JVqwqlzrqO6Wmi8"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/2.0.1/Firebase.podspec.json, save ETag: W/"33d-UW2+Pams8Z25WsVHJxSAJJJdI4k"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/1.0.7/Firebase.podspec.json, save ETag: W/"2fa-m1UCrMFJPAqm+4YnzTBAyR2Wwd4"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/2.0.2/Firebase.podspec.json, save ETag: W/"33d-QQwFhFDEhq5CbdcXmiWOc8KwRqI"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/1.1.7/Firebase.podspec.json, save ETag: W/"33d-D5mBOurRQNVOJ2V9Bb8tJyK5R5g"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/1.0.9/Firebase.podspec.json, save ETag: W/"2fa-juQYXf6YkRMOkKA55BKVOrHB+ew"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/1.1.12/Firebase.podspec.json, save ETag: W/"33f-O2bmBh+2DxT7EzdRGv60QLbhZf4"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/2.2.2/Firebase.podspec.json, save ETag: W/"33d-41zdJWG/T+qcHjhOlACpwXPRnkc"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/2.3.0/Firebase.podspec.json, save ETag: W/"41d-dmnfUNOvgS/7qYTQlkUf94EZEnQ"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/2.4.2/Firebase.podspec.json, save ETag: W/"4b4-XomO1QEsgdKMpfrhETxrYaFyvG0"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/2.2.0/Firebase.podspec.json, save ETag: W/"33d-5fnPcscqn9r34TYBK2xSomOiPKc"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/2.1.1/Firebase.podspec.json, save ETag: W/"33d-OOKzoJA4oQ0ePqFGSomLJJber0E"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/2.3.1/Firebase.podspec.json, save ETag: W/"41d-RieVrfkgKd25d3dmBif13U/VmHY"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/2.2.1/Firebase.podspec.json, save ETag: W/"33d-o9VLQvCQyidbItzfEDuKtqxvNTw"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/2.5.1/Firebase.podspec.json, save ETag: W/"4b4-NWXqiLgw8o8sd+zFJGIrxxog0IU"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/2.4.1.1/Firebase.podspec.json, save ETag: W/"4b8-R/kh8lHImC0UfZDyhFgWsh8Basw"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/2.3.2/Firebase.podspec.json, save ETag: W/"41d-Avvqz+GZcIVshyMheIGUUk8h/+0"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/3.11.0/Firebase.podspec.json, save ETag: W/"a4b-uBNOKF6zMgERW8aIvF1/ESkjvB8"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/2.4.0/Firebase.podspec.json, save ETag: W/"3db-CiIs7QU3O4Jh/gbANnkKCXGZH0c"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/2.5.0/Firebase.podspec.json, save ETag: W/"4b4-dEYXwHM7RRmPlIbr1crGTsLRDXk"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/2.1.2/Firebase.podspec.json, save ETag: W/"33d-g9QHhePT5o7TfUh8M8VBHBOy880"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/3.10.0/Firebase.podspec.json, save ETag: W/"a4b-OH83x9yolKAnCNqf81uhRwQOrp4"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/2.3.3/Firebase.podspec.json, save ETag: W/"3ff-LbYCcvaM5Ax9R+Wubt3BaXfGXUw"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/3.11.1/Firebase.podspec.json, save ETag: W/"a4b-U7I0PbHr+j6xa9tDGLi7ZTYLIiA"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/2.4.3/Firebase.podspec.json, save ETag: W/"4b4-SBeZlbVh4iYsXUBg7N/8pF+7/4s"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/2.4.1/Firebase.podspec.json, save ETag: W/"4a8-7mCiq9n8ZPP/MKbqUW0wpkDq5G8"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/3.12.0/Firebase.podspec.json, save ETag: W/"a4b-jpnrH/VTrVvMYHLMPZJbuJwSRNY"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/3.13.0/Firebase.podspec.json, save ETag: W/"a4b-W8NNe1/1eS4zhsiyjcYmXe6rDaQ"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/3.2.1/Firebase.podspec.json, save ETag: W/"bf8-bICsKNWdBr/ZFSp7bqF2JcqTGD0"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/3.4.0/Firebase.podspec.json, save ETag: W/"a6d-dUViVHr0GcwvSxUkf+5BkIGSS8I"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/3.15.0/Firebase.podspec.json, save ETag: W/"a4b-KxzfuhzahYnzKQSml8x1MyK/+dg"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/3.2.0/Firebase.podspec.json, save ETag: W/"c03-bUAS2hWYcyorQ/Ftg1XsqQ+U7Vk"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/3.14.0/Firebase.podspec.json, save ETag: W/"a4b-haWB+wTkT2Oun0+8jW2r9KTBhlM"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/3.3.0/Firebase.podspec.json, save ETag: W/"bf8-YlAHHw4kQKXExnuMtrho+GgjesM"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/3.17.0/Firebase.podspec.json, save ETag: W/"a4b-S2a1tZxD7ax0W4fwyH5CzdAnnBM"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/3.16.0/Firebase.podspec.json, save ETag: W/"a4b-Ib9KidPwG/vhGtw6XZNKSj06X9Y"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/3.7.0/Firebase.podspec.json, save ETag: W/"a49-OHXhQNd8dXLG1IUvr5QUT/zbBwQ"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/3.5.1/Firebase.podspec.json, save ETag: W/"a70-mz7e/69g1W43fcUoHpHEupNaWtk"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/3.5.0/Firebase.podspec.json, save ETag: W/"a6e-zIL0zBl5tUsbhaAsEybhWkr9OMI"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/3.5.2/Firebase.podspec.json, save ETag: W/"a6e-lOYxEu/K11ImwDVqjzAyOXuFR8k"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/3.6.0/Firebase.podspec.json, save ETag: W/"a6d-NBhyAO9JedvUhceqaF7weL9YfIY"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/3.8.0/Firebase.podspec.json, save ETag: W/"a49-/b7K23tcvvJ3SFLU+mWbna8R8q8"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/3.9.0/Firebase.podspec.json, save ETag: W/"a49-/3f/t3sxfDcg/vV6YOkzXOv5YuY"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/4.0.0/Firebase.podspec.json, save ETag: W/"a49-KE7qd5tz/f8wl5GBfafGi/+N1XI"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/4.0.1/Firebase.podspec.json, save ETag: W/"a49-+YTNRKFgvnetBZD0MuV0Viv9QIM"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/3.7.1/Firebase.podspec.json, save ETag: W/"a49-vkc0hPDVFecv/QSs8i+YF3PCPlg"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/4.0.4/Firebase.podspec.json, save ETag: W/"a49-FJK/BOG3OnNTtPss9aILrJaS80E"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/4.0.2/Firebase.podspec.json, save ETag: W/"a49-x60HMeqybRij/FR90Eiw982cY64"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/4.0.3/Firebase.podspec.json, save ETag: W/"a49-njP9+8o3yrY1xpOIPKqQpEdbhCs"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/4.1.0/Firebase.podspec.json, save ETag: W/"a49-6+v0HbfxDgx2aLbqqoV/vlmapHg"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/4.12.0/Firebase.podspec.json, save ETag: W/"c09-1/30Dk1shBhJxSkZ9Df9OgAJ3tA"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/4.11.0/Firebase.podspec.json, save ETag: W/"c09-zBPfqxA4yLRdeQPgH8aQRR1tCyQ"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/4.5.0/Firebase.podspec.json, save ETag: W/"b72-2D0oe9trHHgyBWFIJwbR/PyN38E"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/4.9.0/Firebase.podspec.json, save ETag: W/"b73-YyIWrz7X8x4740d2lH/cdUbPtXI"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/4.3.0/Firebase.podspec.json, save ETag: W/"add-gyg3YaHvbcmEbgPQgFn1FCGvvWU"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/4.1.1/Firebase.podspec.json, save ETag: W/"a49-BSwN5oj8h7QUmW7qE+Ij3Z/uP6I"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/4.4.0/Firebase.podspec.json, save ETag: W/"add-PpKISmPo920QfEOmfSq5Bx4e2hA"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/4.7.0/Firebase.podspec.json, save ETag: W/"b72-2/uYzOwtz80hq5zBtJgaPzyMXiY"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/5.14.0/Firebase.podspec.json, save ETag: W/"13e0-lj1WhfroiKVtbU2c/Oa5yXaVh5g"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/5.17.0/Firebase.podspec.json, save ETag: W/"1595-WdVX4GQhf6tqA/8Auqc8Buc4MuY"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/5.10.0/Firebase.podspec.json, save ETag: W/"1277-ZpHUdWKngMJigc6EZFGPqvyQxhA"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/4.13.0/Firebase.podspec.json, save ETag: W/"c09-XsXoY9Jp2C1mtL9WhWcm+PuPD7M"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/4.10.0/Firebase.podspec.json, save ETag: W/"b75-yYyLH7y9zNglOaNsKxepsbsO55g"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/5.19.0/Firebase.podspec.json, save ETag: W/"166b-xg1J6cJjCHWpYgfRXir/uDZJltE"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/5.1.0/Firebase.podspec.json, save ETag: W/"1119-4I+weV81cHrrHYpxXHMcRb32/VY"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/5.16.0/Firebase.podspec.json, save ETag: W/"1591-dJqP9JYvnYx53aGWbeIPb3dYPWc"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/5.11.0/Firebase.podspec.json, save ETag: W/"1277-tI+eZT2pcezOW4x0loS8i7LSa9M"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/5.15.0/Firebase.podspec.json, save ETag: W/"13e1-i7kmi/+CN08suqq7FD5yV0PDFq4"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/5.0.0/Firebase.podspec.json, save ETag: W/"1119-S9gERIqyWWeUaYdz1BUgoK8QHmU"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/5.0.1/Firebase.podspec.json, save ETag: W/"1119-1oYcIFnYwy0ebdiTLiKto0bZCjo"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/5.18.0/Firebase.podspec.json, save ETag: W/"1595-AvMoGWXAdUJhQaDOEnfp3mZJyrk"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/5.20.1/Firebase.podspec.json, save ETag: W/"166b-L1I15i8UHLhhgcOvDf5FCXBjUaw"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/4.10.1/Firebase.podspec.json, save ETag: W/"b75-ksa6WT4y2w3v3kZKmtyYHVy0n5c"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/4.2.0/Firebase.podspec.json, save ETag: W/"a49-lUjK4U1pcYrdEtdaWzEok/fvicc"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/5.13.0/Firebase.podspec.json, save ETag: W/"13e0-bfmmEUvJ8Qapj+g9VDjU2YM8IBk"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/5.2.0/Firebase.podspec.json, save ETag: W/"1119-Je0EEgNtfQCFaNH7TS6dgeqKCiw"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/5.4.0/Firebase.podspec.json, save ETag: W/"1120-1m9PKcI/ItloCNmrwXTYHY7ulo8"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/5.20.2/Firebase.podspec.json, save ETag: W/"166b-DIzzPyZkEMYas+ImXPpBIgA1HZw"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/6.0.0/Firebase.podspec.json, save ETag: W/"1836-+oC52YfKAUobqTV0lu8qAXiyixI"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/6.10.0/Firebase.podspec.json, save ETag: W/"1739-Xmt7Er+a25CYZojtwGsVbDfhCc0"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/4.8.0/Firebase.podspec.json, save ETag: W/"b72-cQ3su8bZ1IUw6aXboyCXQMNTLgU"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/5.5.0/Firebase.podspec.json, save ETag: W/"1120-jJV/nLOFK1GRgPs3iAG37uuk0og"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/6.12.0/Firebase.podspec.json, save ETag: W/"1ee6-2gMbxwEjdOO+0XpnMbiTJ7KYY7k"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/5.8.1/Firebase.podspec.json, save ETag: W/"11c7-qHDtEU12m0JAIaDI3bDIbDJQoMU"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/5.12.0/Firebase.podspec.json, save ETag: W/"13e0-kZABjilhOdk4uZUhzeDBWm6NKUY"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/6.13.0/Firebase.podspec.json, save ETag: W/"1ee6-RY0QlRIgDRrKLhubbPfWioaaSkY"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/6.1.0/Firebase.podspec.json, save ETag: W/"1836-jXe7M2JK6bYtdF2C7AI95fcPfk8"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/4.6.0/Firebase.podspec.json, save ETag: W/"b72-JzIaklqoVSBhglWnxjCFngUCzL0"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/5.6.0/Firebase.podspec.json, save ETag: W/"11c6-deqeIy7voVjBBJAoAwuPZhosy2I"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/5.7.0/Firebase.podspec.json, save ETag: W/"11c7-c0pPkpV6psQOeuP9o9k1nhiQqoc"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/5.20.0/Firebase.podspec.json, save ETag: W/"166b-UJDaS7gpABeQBBM7srIXiRk4f9k"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/5.8.0/Firebase.podspec.json, save ETag: W/"11c7-JYEvQ+elOxGuLwpfTG0S+usffNc"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/5.4.1/Firebase.podspec.json, save ETag: W/"1120-NVvVNb/ayqgqf+jZeEEV7e/W/AM"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/5.3.0/Firebase.podspec.json, save ETag: W/"1120-aK/usFRh2wLXyeMhXNooBoZw9Ko"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/6.11.0/Firebase.podspec.json, save ETag: W/"1ee6-vJz8epbHMmhlbVqqtFP/G0tTDg4"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/5.9.0/Firebase.podspec.json, save ETag: W/"1275-OD+imsqT43HKt3a0ilxmVE08IAM"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/4.8.2/Firebase.podspec.json, save ETag: W/"b73-fTuM2Detn805FldzTA1W2rjppaM"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/6.15.0/Firebase.podspec.json, save ETag: W/"1fa2-XXcQXZdAoHymsWknypcdt+hg+q8"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/6.14.0/Firebase.podspec.json, save ETag: W/"1ee7-Ahm7R4LrFAbxubBiii5iVITOkQ0"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/6.17.0/Firebase.podspec.json, save ETag: W/"2104-JnLlY2tC+XcXdxYxfmg0auXp3iU"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/6.23.0/Firebase.podspec.json, save ETag: W/"2146-WFrkZ7Pt2mpUROeI/aaIjwJNjW8"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/6.26.0/Firebase.podspec.json, save ETag: W/"2146-fPX5xn8DyztgbR1lNShuEIDlfrY"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/6.27.0/Firebase.podspec.json, save ETag: W/"2150-/Ey/bxWSY2Qxgh75o8VX5N/Z8mg"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/6.24.0/Firebase.podspec.json, save ETag: W/"2147-so5Vxg79mJY82QEf4vrFoQwroSQ"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/6.22.0/Firebase.podspec.json, save ETag: W/"214d-MvlSBoTofHrz8HBPf4gEJibWtTY"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/6.25.0/Firebase.podspec.json, save ETag: W/"2147-Vxm0+WX3ZkMkGhu4JESD/2EX2zk"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/6.16.0/Firebase.podspec.json, save ETag: W/"2009-SXFYuBbQqG/DG6u9BVRvzX5gg/8"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/6.28.0/Firebase.podspec.json, save ETag: W/"214f-3IHGxHAaqWXto7FDPRuZPj8pHns"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/6.34.0/Firebase.podspec.json, save ETag: W/"237b-wjo22eTN94d9/LqN0MWK3WY1iZk"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/6.4.0/Firebase.podspec.json, save ETag: W/"1836-lEVGllWpjpAQc39LxHIOW9pGWHM"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/6.30.0/Firebase.podspec.json, save ETag: W/"2150-IQ9ByjUgZ9g7G6T9Ln+0mgwBc5c"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/6.31.0/Firebase.podspec.json, save ETag: W/"2281-h0g/oZrP35kkRSPyOJ6TGSe5FFc"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/6.18.0/Firebase.podspec.json, save ETag: W/"2104-BJDsp2KnLk8VgjGVORU4l/FQje4"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/6.5.0/Firebase.podspec.json, save ETag: W/"1836-3tyeSOo/NkmtX2uYL4oMc1CKFLU"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/6.29.0/Firebase.podspec.json, save ETag: W/"214f-V5V8jW6z2LgKVgsdxYviRyS4n/I"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/6.2.0/Firebase.podspec.json, save ETag: W/"1836-WWW6wj5/y1+m2SbtQpyezviiAU4"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/6.32.2/Firebase.podspec.json, save ETag: W/"2281-RxdigL+6GY5TH5Cc+xYS2tIWy5Y"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/6.28.1/Firebase.podspec.json, save ETag: W/"214f-7QQlkMqgApOSJXUpqAA8Je6CvBg"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/6.31.1/Firebase.podspec.json, save ETag: W/"2281-ZYNw+gGBgmp0t8/KjWjFhWynSa4"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/6.27.1/Firebase.podspec.json, save ETag: W/"2150-kZGGyOEZ3ZNypF/R3ReoqUK8GJI"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/6.33.0/Firebase.podspec.json, save ETag: W/"237b-jbby0bLF4phO+6SUmhRYdaj2X+U"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/6.6.0/Firebase.podspec.json, save ETag: W/"1836-orWVHzD/OP07O9rpx9NA+UD9PFE"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/6.3.0/Firebase.podspec.json, save ETag: W/"1836-hDLXMpdEmK/VmH6QAaBfkPGj1iU"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/6.32.0/Firebase.podspec.json, save ETag: W/"2281-r6Aw8X9UIYEPN5pCsOXTMC0n6yY"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/6.20.0/Firebase.podspec.json, save ETag: W/"2181-/n90ASdCq0A0Ud0oPmkJuPH7NIo"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/6.21.0/Firebase.podspec.json, save ETag: W/"2181-83jIA0DdQcCtCRSvdAwCHrKCoEs"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/6.19.0/Firebase.podspec.json, save ETag: W/"2181-1V3bDguzIHFmzdwChkeDPYobW28"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/6.7.0/Firebase.podspec.json, save ETag: W/"1836-KR17Cns5PyUjWAg7XSJIhBJvpG0"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/6.8.1/Firebase.podspec.json, save ETag: W/"1737-nL5OW16q+gXckyvli3yMOCDXHog"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/7.2.0-M1/Firebase.podspec.json, save ETag: W/"1796-dpAbhnOkT38mb3weNtSM1E3oNMI"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/7.1.0/Firebase.podspec.json, save ETag: W/"178f-eOjdLjnWU95icEMq2E/otZ979Og"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/7.11.0/Firebase.podspec.json, save ETag: W/"1c50-wSH+s15BJsCzVeMxP6m0h9RzGf0"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/7.3.0/Firebase.podspec.json, save ETag: W/"178f-JiI8aV/jImMydBmMsZ3KjLflRBY"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/7.10.0/Firebase.podspec.json, save ETag: W/"18db-//3dC6uGd9BzdlODZfqpP/OImzk"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/6.8.0/Firebase.podspec.json, save ETag: W/"1737-w1kSpcFgGT3EI/Jg2sPxZ6Gnlas"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/7.0.0/Firebase.podspec.json, save ETag: W/"178f-UL5oQW9Q606y7LDnisq5oFHvld8"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/6.9.0/Firebase.podspec.json, save ETag: W/"1737-LXUMVM2lfVpq4xISz+XMgTxr5+Q"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/7.2.0/Firebase.podspec.json, save ETag: W/"178f-RW7qzBWNjFhYa3hxYZqBu58n1K4"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/7.4.0/Firebase.podspec.json, save ETag: W/"178f-CftAKHtt/I7mX3JvoLeIcZ0/Kgc"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/7.3.0-M1/Firebase.podspec.json, save ETag: W/"1796-Pl5eVWpbosIoLomQXjOjABIvTK8"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/7.6.0/Firebase.podspec.json, save ETag: W/"17bf-4eCJ2arCFaUkQlg/gYq2HePEWBs"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/7.5.0/Firebase.podspec.json, save ETag: W/"17bf-/V5NK3Viksbn7m+qwesyAiXW6X4"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/7.4.0-M1/Firebase.podspec.json, save ETag: W/"1796-jj7RHRPbTxnyebAkoVMJ0aBQcZE"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/7.8.0/Firebase.podspec.json, save ETag: W/"18c6-Hg1mEPIb3RMSMVJdfuePf55k5gY"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/7.7.0/Firebase.podspec.json, save ETag: W/"18c6-zSq4XuyBcNwmAYYVnyEHLstnmtU"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/7.8.1/Firebase.podspec.json, save ETag: W/"18c6-1ZrUEpFn+fDSpPbB8MRiJUtgAsg"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/8.1.1/Firebase.podspec.json, save ETag: W/"197e-S7Sa6HdWA0zvhw+jxABiNetG9HU"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/8.7.0/Firebase.podspec.json, save ETag: W/"19c0-vJMl1e4gQVJLrHilIT0OUwxlEwk"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/8.2.0/Firebase.podspec.json, save ETag: W/"197e-EsVoiXuAcyGWTonSsmPvTGz/PbY"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/8.10.0/Firebase.podspec.json, save ETag: W/"1b69-RCEzYvHcxSVVuTXckl7TWsVfGyA"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/8.12.1/Firebase.podspec.json, save ETag: W/"1b41-WA0J6O2vwwc+vwnAP9QuTYDTX+k"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/7.9.0-k1/Firebase.podspec.json, save ETag: W/"18ce-xm/J/28a0TVgLTqJGP8GBLKKOh8"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/7.9.0/Firebase.podspec.json, save ETag: W/"18c8-2L1r00tMftV7/dBWxm/1rc3eU6s"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/8.6.1/Firebase.podspec.json, save ETag: W/"19c0-6E2V9tOpH2NKvDhPB1HENMs67Po"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/8.5.0/Firebase.podspec.json, save ETag: W/"193d-/4xzEFuQ4z4dxsjlRF163CzNx8E"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/9.1.0/Firebase.podspec.json, save ETag: W/"1b20-kcJD11VzrG58lzXshZtyv/thNH0"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/8.11.0/Firebase.podspec.json, save ETag: W/"1b41-RN2XJMhN8YtIZjnodPMUNuqpogw"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/8.14.0/Firebase.podspec.json, save ETag: W/"1b41-fo/lKMFhuScdNlIXp0wWqvg0V44"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/8.4.0/Firebase.podspec.json, save ETag: W/"193d-VM3IvJybPeVPQ9q4bmL1p2tHA08"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/9.0.0/Firebase.podspec.json, save ETag: W/"1b5d-qHb63F6mU6N3aTN2/U+IXGJwRRI"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/8.3.0/Firebase.podspec.json, save ETag: W/"193d-gXuRcdDVHczEWLlKXo7f9rHdMj0"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/8.9.1/Firebase.podspec.json, save ETag: W/"1b51-+1EUzSv5bi/3vLAdDZoVbPX9Lwc"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/8.6.0/Firebase.podspec.json, save ETag: W/"19c0-IayfKLCai9/ABfNMmE/KhOfoeG0"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/8.0.0/Firebase.podspec.json, save ETag: W/"197e-c8PjshbsHsvFTS/91GcMZcdJ7bE"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/8.1.0/Firebase.podspec.json, save ETag: W/"197e-tZVqzdqqU6bCkr7ABkn63Rg2c0Q"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/8.13.0/Firebase.podspec.json, save ETag: W/"1b41-7psdmxgBNx4p9Vke2onrWjFKtZk"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/9.2.0/Firebase.podspec.json, save ETag: W/"1b20-S6iWy45RBdS54kfhwbYiK1SN9Vo"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/8.9.0/Firebase.podspec.json, save ETag: W/"1b51-E9jZZJniY1Qo1b8OxnXfIfldmpU"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/8.8.0/Firebase.podspec.json, save ETag: W/"19c0-YpUQ8andsjXzp8XIzrI7qIfw+BQ"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/8.15.0/Firebase.podspec.json, save ETag: W/"1b41-X4GT3/S1t8XV73KuVLt2wI4rhB0"
+      CDN: trunk Relative path downloaded: Specs/0/3/5/Firebase/7.9.0-k2/Firebase.podspec.json, save ETag: W/"18cb-hSNXJETI89lFCp3BasryAp7kbYI"
+      CDN: trunk Relative path: Specs/0/3/5/Firebase/9.2.0/Firebase.podspec.json modified during this run! Returning local
+      CDN: trunk Relative path downloaded: all_pods_versions_5_1_0.txt, save ETag: W/"62c510e1-40b"
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/5/1/0/Toast/2.0/Toast.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/5/1/0/Toast/2.0/Toast.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/5/1/0/Toast/2.1/Toast.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/5/1/0/Toast/2.1/Toast.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/5/1/0/Toast/2.2/Toast.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/5/1/0/Toast/2.2/Toast.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/5/1/0/Toast/2.3/Toast.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/5/1/0/Toast/2.3/Toast.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/5/1/0/Toast/3.0/Toast.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/5/1/0/Toast/3.0/Toast.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/5/1/0/Toast/2.4/Toast.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/5/1/0/Toast/2.4/Toast.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/5/1/0/Toast/3.1.0/Toast.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/5/1/0/Toast/3.1.0/Toast.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/5/1/0/Toast/4.0.0/Toast.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/5/1/0/Toast/4.0.0/Toast.podspec.json
+      CDN: trunk Relative path downloaded: Specs/5/1/0/Toast/2.1/Toast.podspec.json, save ETag: W/"1e1-KkXNE+hQimz2mT48zU8twidPLos"
+      CDN: trunk Relative path downloaded: Specs/5/1/0/Toast/2.2/Toast.podspec.json, save ETag: W/"1e1-0iSflVSJlWXJ5b3RwLwOStN29ZI"
+      CDN: trunk Relative path downloaded: Specs/5/1/0/Toast/2.0/Toast.podspec.json, save ETag: W/"1e1-XMAmeOSWaQhWFkqknINNBeT7MU8"
+      CDN: trunk Relative path downloaded: Specs/5/1/0/Toast/3.1.0/Toast.podspec.json, save ETag: W/"1e4-FKk2htbIv+Jyev00JBTjVmCoofM"
+      CDN: trunk Relative path downloaded: Specs/5/1/0/Toast/3.0/Toast.podspec.json, save ETag: W/"1e0-MsWSKav89BhQFiuDu5JZ3IQ3JHM"
+      CDN: trunk Relative path downloaded: Specs/5/1/0/Toast/4.0.0/Toast.podspec.json, save ETag: W/"207-kbOWxW7nKleQgW9A06lN01erwZY"
+      CDN: trunk Relative path downloaded: Specs/5/1/0/Toast/2.4/Toast.podspec.json, save ETag: W/"1e0-B3O4/A6XNSymBUUXvsfr3UEQAp0"
+      CDN: trunk Relative path downloaded: Specs/5/1/0/Toast/2.3/Toast.podspec.json, save ETag: W/"1e0-T5NYYMAtVHrj9RTZ/AbCWriM+Fg"
+      CDN: trunk Relative path: Specs/5/1/0/Toast/4.0.0/Toast.podspec.json modified during this run! Returning local
+      CDN: trunk Relative path downloaded: all_pods_versions_b_e_b.txt, save ETag: W/"62c510e1-318"
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/b/e/b/GoogleMLKit/0.60.0/GoogleMLKit.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/b/e/b/GoogleMLKit/0.60.0/GoogleMLKit.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/b/e/b/GoogleMLKit/0.61.0/GoogleMLKit.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/b/e/b/GoogleMLKit/0.61.0/GoogleMLKit.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/b/e/b/GoogleMLKit/0.62.0/GoogleMLKit.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/b/e/b/GoogleMLKit/0.62.0/GoogleMLKit.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/b/e/b/GoogleMLKit/1.0.0/GoogleMLKit.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/b/e/b/GoogleMLKit/1.0.0/GoogleMLKit.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/b/e/b/GoogleMLKit/2.0.0/GoogleMLKit.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/b/e/b/GoogleMLKit/2.0.0/GoogleMLKit.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/b/e/b/GoogleMLKit/2.1.0/GoogleMLKit.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/b/e/b/GoogleMLKit/2.1.0/GoogleMLKit.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/b/e/b/GoogleMLKit/2.2.0/GoogleMLKit.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/b/e/b/GoogleMLKit/2.2.0/GoogleMLKit.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/b/e/b/GoogleMLKit/2.3.0/GoogleMLKit.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/b/e/b/GoogleMLKit/2.3.0/GoogleMLKit.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/b/e/b/GoogleMLKit/3.1.0/GoogleMLKit.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/b/e/b/GoogleMLKit/3.1.0/GoogleMLKit.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/b/e/b/GoogleMLKit/0.63.0/GoogleMLKit.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/b/e/b/GoogleMLKit/0.63.0/GoogleMLKit.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/b/e/b/GoogleMLKit/0.64.0/GoogleMLKit.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/b/e/b/GoogleMLKit/0.64.0/GoogleMLKit.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/b/e/b/GoogleMLKit/2.4.0/GoogleMLKit.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/b/e/b/GoogleMLKit/2.4.0/GoogleMLKit.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/b/e/b/GoogleMLKit/2.5.0/GoogleMLKit.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/b/e/b/GoogleMLKit/2.5.0/GoogleMLKit.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/b/e/b/GoogleMLKit/2.6.0/GoogleMLKit.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/b/e/b/GoogleMLKit/2.6.0/GoogleMLKit.podspec.json
+      CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/b/e/b/GoogleMLKit/3.0.0/GoogleMLKit.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/b/e/b/GoogleMLKit/3.0.0/GoogleMLKit.podspec.json
+      CDN: trunk Relative path downloaded: Specs/b/e/b/GoogleMLKit/0.60.0/GoogleMLKit.podspec.json, save ETag: W/"fe0-LP6hbs6sT1VbILN6gbyKoJQMbpw"
+      CDN: trunk Relative path downloaded: Specs/b/e/b/GoogleMLKit/2.2.0/GoogleMLKit.podspec.json, save ETag: W/"15ac-hf/clkHQUxHHbbulu/kwWQh74S8"
+      CDN: trunk Relative path downloaded: Specs/b/e/b/GoogleMLKit/0.61.0/GoogleMLKit.podspec.json, save ETag: W/"fe0-4F9qFnz934JZMWhWGRe+vZIPaoI"
+      CDN: trunk Relative path downloaded: Specs/b/e/b/GoogleMLKit/1.0.0/GoogleMLKit.podspec.json, save ETag: W/"13cd-f3wl4r4TiKUe9ey+5QQaUqmX6IE"
+      CDN: trunk Relative path downloaded: Specs/b/e/b/GoogleMLKit/2.3.0/GoogleMLKit.podspec.json, save ETag: W/"1962-U9WtvuD+WnAelw8Th9LP7OzVvFA"
+      CDN: trunk Relative path downloaded: Specs/b/e/b/GoogleMLKit/2.6.0/GoogleMLKit.podspec.json, save ETag: W/"1962-dVZhxGmQqF5CJ4AV8mQAKG2YrZU"
+      CDN: trunk Relative path downloaded: Specs/b/e/b/GoogleMLKit/0.64.0/GoogleMLKit.podspec.json, save ETag: W/"13d0-PB+JVZLZViXrV7jmbU8TpdNvm0k"
+      CDN: trunk Relative path downloaded: Specs/b/e/b/GoogleMLKit/0.63.0/GoogleMLKit.podspec.json, save ETag: W/"126a-mfyEAmk/A07OpWdIWvTeK7s8oQg"
+      CDN: trunk Relative path downloaded: Specs/b/e/b/GoogleMLKit/0.62.0/GoogleMLKit.podspec.json, save ETag: W/"1126-t1MZm9a+ULSdVf/gxgrRmorsVvk"
+      CDN: trunk Relative path downloaded: Specs/b/e/b/GoogleMLKit/2.4.0/GoogleMLKit.podspec.json, save ETag: W/"1962-21AHvdt43t9Stg9AONMue9AGtRk"
+      CDN: trunk Relative path downloaded: Specs/b/e/b/GoogleMLKit/3.0.0/GoogleMLKit.podspec.json, save ETag: W/"1962-aa4DSUfKUiDIQqMJbVdHZcm2uLg"
+      CDN: trunk Relative path downloaded: Specs/b/e/b/GoogleMLKit/2.0.0/GoogleMLKit.podspec.json, save ETag: W/"1402-KpAyFwhyxEZNUWcAoEZh1uW5inc"
+      CDN: trunk Relative path downloaded: Specs/b/e/b/GoogleMLKit/3.1.0/GoogleMLKit.podspec.json, save ETag: W/"1962-nQclIpSf8O9NrlNZ/q89su8vplg"
+      CDN: trunk Relative path downloaded: Specs/b/e/b/GoogleMLKit/2.1.0/GoogleMLKit.podspec.json, save ETag: W/"1596-bKKhDeJi7hAXtSrAReiWeISs6ZI"
+      CDN: trunk Relative path downloaded: Specs/b/e/b/GoogleMLKit/2.5.0/GoogleMLKit.podspec.json, save ETag: W/"1962-DX9aovii8uqdhJoFq9voCXSw7IM"
+      CDN: trunk Relative path: Specs/b/e/b/GoogleMLKit/3.1.0/GoogleMLKit.podspec.json modified during this run! Returning local
+      CDN: trunk Relative path: Specs/b/e/b/GoogleMLKit/2.6.0/GoogleMLKit.podspec.json modified during this run! Returning local
+      CDN: trunk Relative path: Specs/0/3/5/Firebase/9.2.0/Firebase.podspec.json modified during this run! Returning local
+    [!] CocoaPods could not find compatible versions for pod "Firebase/CoreOnly":
+      In snapshot (Podfile.lock):
+        Firebase/CoreOnly (= 8.15.0)
+      In Podfile:
+        firebase_core (from `.symlinks/plugins/firebase_core/ios`) was resolved to 1.19.1, which depends on
+          Firebase/CoreOnly (= 9.2.0)
+    You have either:
+     * out-of-date source repos which you can update with `pod repo update` or with `pod install --repo-update`.
+     * changed the constraints of dependency `Firebase/CoreOnly` inside your development pod `firebase_core`.
+       You should run `pod update Firebase/CoreOnly` to apply changes you've made.
+    /usr/local/lib/ruby/gems/2.7.0/gems/molinillo-0.8.0/lib/molinillo/resolution.rb:317:in `raise_error_unless_state'
+    /usr/local/lib/ruby/gems/2.7.0/gems/molinillo-0.8.0/lib/molinillo/resolution.rb:299:in `block in unwind_for_conflict'
+    /usr/local/lib/ruby/gems/2.7.0/gems/molinillo-0.8.0/lib/molinillo/resolution.rb:297:in `tap'
+    /usr/local/lib/ruby/gems/2.7.0/gems/molinillo-0.8.0/lib/molinillo/resolution.rb:297:in `unwind_for_conflict'
+    /usr/local/lib/ruby/gems/2.7.0/gems/molinillo-0.8.0/lib/molinillo/resolution.rb:257:in `process_topmost_state'
+    /usr/local/lib/ruby/gems/2.7.0/gems/molinillo-0.8.0/lib/molinillo/resolution.rb:182:in `resolve'
+    /usr/local/lib/ruby/gems/2.7.0/gems/molinillo-0.8.0/lib/molinillo/resolver.rb:43:in `resolve'
+    /usr/local/lib/ruby/gems/2.7.0/gems/cocoapods-1.11.3/lib/cocoapods/resolver.rb:94:in `resolve'
+    /usr/local/lib/ruby/gems/2.7.0/gems/cocoapods-1.11.3/lib/cocoapods/installer/analyzer.rb:1078:in `block in resolve_dependencies'
+    /usr/local/lib/ruby/gems/2.7.0/gems/cocoapods-1.11.3/lib/cocoapods/user_interface.rb:64:in `section'
+    /usr/local/lib/ruby/gems/2.7.0/gems/cocoapods-1.11.3/lib/cocoapods/installer/analyzer.rb:1076:in `resolve_dependencies'
+    /usr/local/lib/ruby/gems/2.7.0/gems/cocoapods-1.11.3/lib/cocoapods/installer/analyzer.rb:124:in `analyze'
+    /usr/local/lib/ruby/gems/2.7.0/gems/cocoapods-1.11.3/lib/cocoapods/installer.rb:416:in `analyze'
+    /usr/local/lib/ruby/gems/2.7.0/gems/cocoapods-1.11.3/lib/cocoapods/installer.rb:241:in `block in resolve_dependencies'
+    /usr/local/lib/ruby/gems/2.7.0/gems/cocoapods-1.11.3/lib/cocoapods/user_interface.rb:64:in `section'
+    /usr/local/lib/ruby/gems/2.7.0/gems/cocoapods-1.11.3/lib/cocoapods/installer.rb:240:in `resolve_dependencies'
+    /usr/local/lib/ruby/gems/2.7.0/gems/cocoapods-1.11.3/lib/cocoapods/installer.rb:161:in `install!'
+    /usr/local/lib/ruby/gems/2.7.0/gems/cocoapods-1.11.3/lib/cocoapods/command/install.rb:52:in `run'
+    /usr/local/lib/ruby/gems/2.7.0/gems/claide-1.0.3/lib/claide/command.rb:334:in `run'
+    /usr/local/lib/ruby/gems/2.7.0/gems/cocoapods-1.11.3/lib/cocoapods/command.rb:52:in `run'
+    /usr/local/lib/ruby/gems/2.7.0/gems/cocoapods-1.11.3/bin/pod:55:in `<top (required)>'
+    /usr/local/lib/ruby/gems/2.7.0/bin/pod:25:in `load'
+    /usr/local/lib/ruby/gems/2.7.0/bin/pod:25:in `<main>'
+Error running pod install
+Error: Process completed with exit code 1.
