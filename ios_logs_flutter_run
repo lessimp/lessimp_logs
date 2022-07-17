@@ -1,0 +1,837 @@
+Launching lib/main.dart on iPhone (3) in debug mode...
+Updating project for Xcode compatibility.
+Upgrading Runner.xcscheme
+Automatically signing iOS for device deployment using specified development team in Xcode project: SJAV7HZQZ6
+Running pod install...
+Running Xcode build...
+Xcode build done.                                           1972.5s
+Failed to build iOS app
+Error output from Xcode build:
+↳
+    2022-07-15 21:06:06.483 xcodebuild[75350:302700] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionSentinelHostApplications for extension Xcode.DebuggerFoundation.AppExtensionHosts.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
+    2022-07-15 21:06:06.484 xcodebuild[75350:302700] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionPointIdentifierToBundleIdentifier for extension Xcode.DebuggerFoundation.AppExtensionToBundleIdentifierMap.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
+    ** BUILD FAILED **
+
+
+Xcode's output:
+↳
+    Writing result bundle at path:
+    	/var/folders/3t/f9twt5b918q__3t6ps76bcf80000gn/T/flutter_tools.x5TWec/flutter_ios_build_temp_dirGqZZXM/temporary_xcresult_bundle
+
+    /Users/ken/development/flutter/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:41:22: warning: expression implicitly coerced from 'String?' to 'Any'
+          "displayName": displayName,
+                         ^~~~~~~~~~~
+    /Users/ken/development/flutter/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:41:22: note: provide a default value to avoid this warning
+          "displayName": displayName,
+                         ^~~~~~~~~~~
+                                     ?? <#default value#>
+    /Users/ken/development/flutter/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:41:22: note: force-unwrap the value to avoid this warning
+          "displayName": displayName,
+                         ^~~~~~~~~~~
+                                    !
+    /Users/ken/development/flutter/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:41:22: note: explicitly cast to 'Any' with 'as Any' to silence this warning
+          "displayName": displayName,
+                         ^~~~~~~~~~~
+                                     as Any
+    /Users/ken/development/flutter/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:42:18: warning: expression implicitly coerced from 'String?' to 'Any'
+          "network": network?.rawValue,
+                     ^~~~~~~~~~~~~~~~~
+    /Users/ken/development/flutter/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:42:27: note: provide a default value to avoid this warning
+          "network": network?.rawValue,
+                     ~~~~~~~~~^~~~~~~~
+                                       ?? <#default value#>
+    /Users/ken/development/flutter/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:42:27: note: force-unwrap the value to avoid this warning
+          "network": network?.rawValue,
+                     ~~~~~~~~~^~~~~~~~
+                                      !
+    /Users/ken/development/flutter/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:42:27: note: explicitly cast to 'Any' with 'as Any' to silence this warning
+          "network": network?.rawValue,
+                     ~~~~~~~~~^~~~~~~~
+                                       as Any
+    /Users/ken/development/flutter/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:68:21: warning: expression implicitly coerced from 'String?' to 'Any'
+          "namePrefix": namePrefix,
+                        ^~~~~~~~~~
+    /Users/ken/development/flutter/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:68:21: note: provide a default value to avoid this warning
+          "namePrefix": namePrefix,
+                        ^~~~~~~~~~
+                                   ?? <#default value#>
+    /Users/ken/development/flutter/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:68:21: note: force-unwrap the value to avoid this warning
+          "namePrefix": namePrefix,
+                        ^~~~~~~~~~
+                                  !
+    /Users/ken/development/flutter/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:68:21: note: explicitly cast to 'Any' with 'as Any' to silence this warning
+          "namePrefix": namePrefix,
+                        ^~~~~~~~~~
+                                   as Any
+    /Users/ken/development/flutter/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:69:20: warning: expression implicitly coerced from 'String?' to 'Any'
+          "givenName": givenName,
+                       ^~~~~~~~~
+    /Users/ken/development/flutter/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:69:20: note: provide a default value to avoid this warning
+          "givenName": givenName,
+                       ^~~~~~~~~
+                                 ?? <#default value#>
+    /Users/ken/development/flutter/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:69:20: note: force-unwrap the value to avoid this warning
+          "givenName": givenName,
+                       ^~~~~~~~~
+                                !
+    /Users/ken/development/flutter/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:69:20: note: explicitly cast to 'Any' with 'as Any' to silence this warning
+          "givenName": givenName,
+                       ^~~~~~~~~
+                                 as Any
+    /Users/ken/development/flutter/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:70:21: warning: expression implicitly coerced from 'String?' to 'Any'
+          "middleName": middleName,
+                        ^~~~~~~~~~
+    /Users/ken/development/flutter/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:70:21: note: provide a default value to avoid this warning
+          "middleName": middleName,
+                        ^~~~~~~~~~
+                                   ?? <#default value#>
+    /Users/ken/development/flutter/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:70:21: note: force-unwrap the value to avoid this warning
+          "middleName": middleName,
+                        ^~~~~~~~~~
+                                  !
+    /Users/ken/development/flutter/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:70:21: note: explicitly cast to 'Any' with 'as Any' to silence this warning
+          "middleName": middleName,
+                        ^~~~~~~~~~
+                                   as Any
+    /Users/ken/development/flutter/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:71:21: warning: expression implicitly coerced from 'String?' to 'Any'
+          "familyName": familyName,
+                        ^~~~~~~~~~
+    /Users/ken/development/flutter/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:71:21: note: provide a default value to avoid this warning
+          "familyName": familyName,
+                        ^~~~~~~~~~
+                                   ?? <#default value#>
+    /Users/ken/development/flutter/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:71:21: note: force-unwrap the value to avoid this warning
+          "familyName": familyName,
+                        ^~~~~~~~~~
+                                  !
+    /Users/ken/development/flutter/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:71:21: note: explicitly cast to 'Any' with 'as Any' to silence this warning
+          "familyName": familyName,
+                        ^~~~~~~~~~
+                                   as Any
+    /Users/ken/development/flutter/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:72:21: warning: expression implicitly coerced from 'String?' to 'Any'
+          "nameSuffix": nameSuffix,
+                        ^~~~~~~~~~
+    /Users/ken/development/flutter/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:72:21: note: provide a default value to avoid this warning
+          "nameSuffix": nameSuffix,
+                        ^~~~~~~~~~
+                                   ?? <#default value#>
+    /Users/ken/development/flutter/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:72:21: note: force-unwrap the value to avoid this warning
+          "nameSuffix": nameSuffix,
+                        ^~~~~~~~~~
+                                  !
+    /Users/ken/development/flutter/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:72:21: note: explicitly cast to 'Any' with 'as Any' to silence this warning
+          "nameSuffix": nameSuffix,
+                        ^~~~~~~~~~
+                                   as Any
+    /Users/ken/development/flutter/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:73:19: warning: expression implicitly coerced from 'String?' to 'Any'
+          "nickname": nickname,
+                      ^~~~~~~~
+    /Users/ken/development/flutter/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:73:19: note: provide a default value to avoid this warning
+          "nickname": nickname,
+                      ^~~~~~~~
+                               ?? <#default value#>
+    /Users/ken/development/flutter/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:73:19: note: force-unwrap the value to avoid this warning
+          "nickname": nickname,
+                      ^~~~~~~~
+                              !
+    /Users/ken/development/flutter/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:73:19: note: explicitly cast to 'Any' with 'as Any' to silence this warning
+          "nickname": nickname,
+                      ^~~~~~~~
+                               as Any
+    /Users/ken/development/flutter/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:74:33: warning: expression implicitly coerced from '[String : Any]?' to 'Any'
+          "phoneticRepresentation": phoneticRepresentation?.toDictionary(),
+                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    /Users/ken/development/flutter/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:74:57: note: provide a default value to avoid this warning
+          "phoneticRepresentation": phoneticRepresentation?.toDictionary(),
+                                    ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+                                                                           ?? <#default value#>
+    /Users/ken/development/flutter/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:74:57: note: force-unwrap the value to avoid this warning
+          "phoneticRepresentation": phoneticRepresentation?.toDictionary(),
+                                    ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+                                                                          !
+    /Users/ken/development/flutter/.pub-cache/hosted/pub.dartlang.org/pay_ios-1.0.7/ios/Classes/PaymentExtensions.swift:74:57: note: explicitly cast to 'Any' with 'as Any' to silence this warning
+          "phoneticRepresentation": phoneticRepresentation?.toDictionary(),
+                                    ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+                                                                           as Any
+    /Users/ken/development/flutter/.pub-cache/hosted/pub.dartlang.org/location-4.4.0/ios/Classes/LocationPlugin.m:176:13: warning: 'UIAlertView' is deprecated: first deprecated in iOS 9.0 - UIAlertView is deprecated. Use UIAlertController with a preferredStyle of UIAlertControllerStyleAlert instead [-Wdeprecated-declarations]
+                UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Location is Disabled"
+                ^
+    In module 'UIKit' imported from /Users/ken/Documents/GitHub/lessimp/ios/Pods/Target Support Files/location/location-prefix.pch:2:
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAlertView.h:27:12: note: 'UIAlertView' has been explicitly marked deprecated here
+    @interface UIAlertView : UIView
+               ^
+    /Users/ken/development/flutter/.pub-cache/hosted/pub.dartlang.org/location-4.4.0/ios/Classes/LocationPlugin.m:176:48: warning: 'UIAlertView' is deprecated: first deprecated in iOS 9.0 - UIAlertView is deprecated. Use UIAlertController with a preferredStyle of UIAlertControllerStyleAlert instead [-Wdeprecated-declarations]
+                UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Location is Disabled"
+                                                   ^
+    In module 'UIKit' imported from /Users/ken/Documents/GitHub/lessimp/ios/Pods/Target Support Files/location/location-prefix.pch:2:
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAlertView.h:27:12: note: 'UIAlertView' has been explicitly marked deprecated here
+    @interface UIAlertView : UIView
+               ^
+    2 warnings generated.
+    In file included from /Users/ken/development/flutter/.pub-cache/hosted/pub.dartlang.org/mobile_scanner-2.0.0/ios/Classes/MobileScannerPlugin.m:3:
+    /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/mobile_scanner/mobile_scanner.framework/Headers/mobile_scanner-Swift.h:246:31: warning: 'objc_ownership' only applies to Objective-C object or block pointer types; type here is 'CVPixelBufferRef' (aka 'struct __CVBuffer *') [-Wignored-attributes]
+    - (CVPixelBufferRef _Nullable __unsafe_unretained)copyPixelBuffer SWIFT_WARN_UNUSED_RESULT;
+                                  ^
+    1 warning generated.
+    In file included from /Users/ken/Documents/GitHub/lessimp/ios/Pods/FirebaseFirestore/Firestore/core/src/local/leveldb_index_manager.cc:43:
+    /Users/ken/Documents/GitHub/lessimp/ios/Pods/FirebaseFirestore/Firestore/core/src/util/set_util.h:36:11: warning: parameter 'before' not found in the function declaration [-Wdocumentation]
+     * @param before - The elements that exist in the original set.
+              ^~~~~~
+    /Users/ken/Documents/GitHub/lessimp/ios/Pods/FirebaseFirestore/Firestore/core/src/util/set_util.h:37:11: warning: parameter 'after' not found in the function declaration [-Wdocumentation]
+     * @param after - The elements to diff against the original set.
+              ^~~~~
+    2 warnings generated.
+    /Users/ken/Documents/GitHub/lessimp/ios/Pods/FirebaseFirestore/Firestore/Source/API/FIRFirestore.mm:343:20: warning: implicit conversion loses integer precision: 'NSInteger' (aka 'long') to 'int' [-Wshorten-64-to-32]
+        max_attempts = options.maxAttempts;
+                     ~ ^~~~~~~~~~~~~~~~~~~
+    1 warning generated.
+    /Users/ken/Documents/GitHub/lessimp/ios/Pods/Firebase/CoreOnly/Sources/module.modulemap:1:8: error: redefinition of module 'Firebase'
+    module Firebase {
+           ^
+    /Users/ken/Library/Developer/Xcode/DerivedData/Runner-ekhepxiajfebhrhhfbhkqtsdyhvl/SourcePackages/checkouts/firebase-ios-sdk/CoreOnly/Sources/module.modulemap:1:8: note: previously defined here
+    module Firebase {
+           ^
+    /Users/ken/Documents/GitHub/lessimp/ios/Pods/Firebase/CoreOnly/Sources/module.modulemap:1:8: error: redefinition of module 'Firebase'
+    module Firebase {
+           ^
+    /Users/ken/Library/Developer/Xcode/DerivedData/Runner-ekhepxiajfebhrhhfbhkqtsdyhvl/SourcePackages/checkouts/firebase-ios-sdk/CoreOnly/Sources/module.modulemap:1:8: note: previously defined here
+    module Firebase {
+           ^
+    /Users/ken/Documents/GitHub/lessimp/ios/Pods/Firebase/CoreOnly/Sources/module.modulemap:1:8: error: redefinition of module 'Firebase'
+    module Firebase {
+           ^
+    /Users/ken/Library/Developer/Xcode/DerivedData/Runner-ekhepxiajfebhrhhfbhkqtsdyhvl/SourcePackages/checkouts/firebase-ios-sdk/CoreOnly/Sources/module.modulemap:1:8: note: previously defined here
+    module Firebase {
+           ^
+    /Users/ken/Documents/GitHub/lessimp/ios/Pods/Firebase/CoreOnly/Sources/module.modulemap:1:8: error: redefinition of module 'Firebase'
+    module Firebase {
+           ^
+    /Users/ken/Library/Developer/Xcode/DerivedData/Runner-ekhepxiajfebhrhhfbhkqtsdyhvl/SourcePackages/checkouts/firebase-ios-sdk/CoreOnly/Sources/module.modulemap:1:8: note: previously defined here
+    module Firebase {
+           ^
+    /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:9: note: while building module 'Flutter' imported from /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:
+    #import <Flutter/Flutter.h>
+            ^
+    /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterAppDelegate.h:8:9: note: while building module 'UIKit' imported from /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterAppDelegate.h:8:
+    #import <UIKit/UIKit.h>
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:8:9: note: while building module 'Foundation' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:8:
+    #import <Foundation/Foundation.h>
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:10: note: while building module 'CoreFoundation' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:
+    #include <CoreFoundation/CoreFoundation.h>
+             ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFStream.h:20:10: note: while building module 'Dispatch' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFStream.h:20:
+    #include <dispatch/dispatch.h>
+             ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/usr/include/dispatch/dispatch.h:63:10: note: while building module 'os_object' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/usr/include/dispatch/dispatch.h:63:
+    #include <os/object.h>
+             ^
+    <module-includes>:1:9: note: in file included from <module-includes>:1:
+    #import "os/object.h"
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/usr/include/os/object.h:111:9: error: could not build module 'ObjectiveC'
+    #import <objc/NSObject.h>
+            ^
+    /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:9: note: while building module 'Flutter' imported from /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:
+    #import <Flutter/Flutter.h>
+            ^
+    /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterAppDelegate.h:8:9: note: while building module 'UIKit' imported from /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterAppDelegate.h:8:
+    #import <UIKit/UIKit.h>
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:8:9: note: while building module 'Foundation' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:8:
+    #import <Foundation/Foundation.h>
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:10: note: while building module 'CoreFoundation' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:
+    #include <CoreFoundation/CoreFoundation.h>
+             ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFStream.h:20:10: note: while building module 'Dispatch' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFStream.h:20:
+    #include <dispatch/dispatch.h>
+             ^
+    <module-includes>:1:9: note: in file included from <module-includes>:1:
+    #import "dispatch.h"
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/usr/include/dispatch/dispatch.h:63:10: error: could not build module 'os_object'
+    #include <os/object.h>
+             ^
+    /Users/ken/Documents/GitHub/lessimp/ios/Pods/Firebase/CoreOnly/Sources/module.modulemap:1:8: error: redefinition of module 'Firebase'
+    module Firebase {
+           ^
+    /Users/ken/Library/Developer/Xcode/DerivedData/Runner-ekhepxiajfebhrhhfbhkqtsdyhvl/SourcePackages/checkouts/firebase-ios-sdk/CoreOnly/Sources/module.modulemap:1:8: note: previously defined here
+    module Firebase {
+           ^
+    /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:9: note: while building module 'Flutter' imported from /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:
+    #import <Flutter/Flutter.h>
+            ^
+    /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterAppDelegate.h:8:9: note: while building module 'UIKit' imported from /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterAppDelegate.h:8:
+    #import <UIKit/UIKit.h>
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:8:9: note: while building module 'Foundation' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:8:
+    #import <Foundation/Foundation.h>
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:10: note: while building module 'CoreFoundation' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:
+    #include <CoreFoundation/CoreFoundation.h>
+             ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFStream.h:20:10: note: while building module 'Dispatch' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFStream.h:20:
+    #include <dispatch/dispatch.h>
+             ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/usr/include/dispatch/dispatch.h:64:10: note: while building module 'os_workgroup' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/usr/include/dispatch/dispatch.h:64:
+    #include <os/workgroup.h>
+             ^
+    <module-includes>:1:9: note: in file included from <module-includes>:1:
+    #import "os/workgroup.h"
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/usr/include/os/workgroup.h:29:10: note: in file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/usr/include/os/workgroup.h:29:
+    #include <os/workgroup_base.h>
+             ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/usr/include/os/workgroup_base.h:19:10: error: could not build module 'os_object'
+    #include <os/object.h>
+             ^
+    /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:9: note: while building module 'Flutter' imported from /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:
+    #import <Flutter/Flutter.h>
+            ^
+    /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterAppDelegate.h:8:9: note: while building module 'UIKit' imported from /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterAppDelegate.h:8:
+    #import <UIKit/UIKit.h>
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:8:9: note: while building module 'Foundation' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:8:
+    #import <Foundation/Foundation.h>
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:10: note: while building module 'CoreFoundation' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:
+    #include <CoreFoundation/CoreFoundation.h>
+             ^
+    <module-includes>:1:9: note: in file included from <module-includes>:1:
+    #import "Headers/CoreFoundation.h"
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:60:10: note: in file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:60:
+    #include <CoreFoundation/CFPropertyList.h>
+             ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFPropertyList.h:17:10: note: in file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFPropertyList.h:17:
+    #include <CoreFoundation/CFStream.h>
+             ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFStream.h:20:10: error: could not build module 'Dispatch'
+    #include <dispatch/dispatch.h>
+             ^
+    /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:9: note: while building module 'Flutter' imported from /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:
+    #import <Flutter/Flutter.h>
+            ^
+    /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterAppDelegate.h:8:9: note: while building module 'UIKit' imported from /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterAppDelegate.h:8:
+    #import <UIKit/UIKit.h>
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:8:9: note: while building module 'Foundation' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:8:
+    #import <Foundation/Foundation.h>
+            ^
+    <module-includes>:1:9: note: in file included from <module-includes>:1:
+    #import "Headers/Foundation.h"
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:10: error: could not build module 'CoreFoundation'
+    #include <CoreFoundation/CoreFoundation.h>
+             ^
+    /Users/ken/Documents/GitHub/lessimp/ios/Pods/Firebase/CoreOnly/Sources/module.modulemap:1:8: error: redefinition of module 'Firebase'
+    module Firebase {
+           ^
+    /Users/ken/Library/Developer/Xcode/DerivedData/Runner-ekhepxiajfebhrhhfbhkqtsdyhvl/SourcePackages/checkouts/firebase-ios-sdk/CoreOnly/Sources/module.modulemap:1:8: note: previously defined here
+    module Firebase {
+           ^
+    /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:9: note: while building module 'Flutter' imported from /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:
+    #import <Flutter/Flutter.h>
+            ^
+    /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterAppDelegate.h:8:9: note: while building module 'UIKit' imported from /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterAppDelegate.h:8:
+    #import <UIKit/UIKit.h>
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:8:9: note: while building module 'Foundation' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:8:
+    #import <Foundation/Foundation.h>
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSURLCredential.h:9:9: note: while building module 'Security' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSURLCredential.h:9:
+    #import <Security/Security.h>
+            ^
+    <module-includes>:1:9: note: in file included from <module-includes>:1:
+    #import "Headers/Security.h"
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.h:27:10: note: in file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.h:27:
+    #include <Security/SecBase.h>
+             ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/Security.framework/Headers/SecBase.h:28:10: error: could not build module 'CoreFoundation'
+    #include <CoreFoundation/CFBase.h>
+             ^
+    /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:9: note: while building module 'Flutter' imported from /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:
+    #import <Flutter/Flutter.h>
+            ^
+    /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterAppDelegate.h:8:9: note: while building module 'UIKit' imported from /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterAppDelegate.h:8:
+    #import <UIKit/UIKit.h>
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:8:9: note: while building module 'Foundation' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:8:
+    #import <Foundation/Foundation.h>
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSURLError.h:12:9: note: while building module 'CFNetwork' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSURLError.h:12:
+    #import <CFNetwork/CFNetwork.h>
+            ^
+    <module-includes>:1:9: note: in file included from <module-includes>:1:
+    #import "Headers/CFNetwork.h"
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFNetwork.h:18:10: error: could not build module 'CoreFoundation'
+    #include <CoreFoundation/CoreFoundation.h>
+             ^
+    /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:9: note: while building module 'Flutter' imported from /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:
+    #import <Flutter/Flutter.h>
+            ^
+    /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterAppDelegate.h:8:9: note: while building module 'UIKit' imported from /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterAppDelegate.h:8:
+    #import <UIKit/UIKit.h>
+            ^
+    <module-includes>:1:9: note: in file included from <module-includes>:1:
+    #import "Headers/UIKit.h"
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:8:9: error: could not build module 'Foundation'
+    #import <Foundation/Foundation.h>
+            ^
+    /Users/ken/Documents/GitHub/lessimp/ios/Pods/Firebase/CoreOnly/Sources/module.modulemap:1:8: error: redefinition of module 'Firebase'
+    module Firebase {
+           ^
+    /Users/ken/Library/Developer/Xcode/DerivedData/Runner-ekhepxiajfebhrhhfbhkqtsdyhvl/SourcePackages/checkouts/firebase-ios-sdk/CoreOnly/Sources/module.modulemap:1:8: note: previously defined here
+    module Firebase {
+           ^
+    /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:9: note: while building module 'Flutter' imported from /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:
+    #import <Flutter/Flutter.h>
+            ^
+    /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterAppDelegate.h:8:9: note: while building module 'UIKit' imported from /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterAppDelegate.h:8:
+    #import <UIKit/UIKit.h>
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIBezierPath.h:10:9: note: while building module 'CoreGraphics' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIBezierPath.h:10:
+    #import <CoreGraphics/CoreGraphics.h>
+            ^
+    <module-includes>:1:9: note: in file included from <module-includes>:1:
+    #import "Headers/CoreGraphics.h"
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.h:8:10: note: in file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.h:8:
+    #include <CoreGraphics/CGBase.h>
+             ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGBase.h:12:10: error: could not build module 'CoreFoundation'
+    #include <CoreFoundation/CFBase.h>
+             ^
+    /Users/ken/Documents/GitHub/lessimp/ios/Pods/Firebase/CoreOnly/Sources/module.modulemap:1:8: error: redefinition of module 'Firebase'
+    module Firebase {
+           ^
+    /Users/ken/Library/Developer/Xcode/DerivedData/Runner-ekhepxiajfebhrhhfbhkqtsdyhvl/SourcePackages/checkouts/firebase-ios-sdk/CoreOnly/Sources/module.modulemap:1:8: note: previously defined here
+    module Firebase {
+           ^
+    /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:9: note: while building module 'Flutter' imported from /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:
+    #import <Flutter/Flutter.h>
+            ^
+    /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterAppDelegate.h:8:9: note: while building module 'UIKit' imported from /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterAppDelegate.h:8:
+    #import <UIKit/UIKit.h>
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIColor.h:13:9: note: while building module 'CoreImage' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIColor.h:13:
+    #import <CoreImage/CoreImage.h>
+            ^
+    <module-includes>:1:9: note: in file included from <module-includes>:1:
+    #import "Headers/CoreImage.h"
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.h:8:9: note: in file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.h:8:
+    #import <CoreImage/CoreImageDefines.h>
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImageDefines.h:17:10: error: could not build module 'CoreGraphics'
+    #include <CoreGraphics/CoreGraphics.h>
+             ^
+    /Users/ken/Documents/GitHub/lessimp/ios/Pods/Firebase/CoreOnly/Sources/module.modulemap:1:8: error: redefinition of module 'Firebase'
+    module Firebase {
+           ^
+    /Users/ken/Library/Developer/Xcode/DerivedData/Runner-ekhepxiajfebhrhhfbhkqtsdyhvl/SourcePackages/checkouts/firebase-ios-sdk/CoreOnly/Sources/module.modulemap:1:8: note: previously defined here
+    module Firebase {
+           ^
+    /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:9: note: while building module 'Flutter' imported from /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:
+    #import <Flutter/Flutter.h>
+            ^
+    /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterAppDelegate.h:8:9: note: while building module 'UIKit' imported from /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterAppDelegate.h:8:
+    #import <UIKit/UIKit.h>
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIColor.h:13:9: note: while building module 'CoreImage' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIColor.h:13:
+    #import <CoreImage/CoreImage.h>
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CIImage.h:10:9: note: while building module 'CoreVideo' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CIImage.h:10:
+    #import <CoreVideo/CoreVideo.h>
+            ^
+    <module-includes>:1:9: note: in file included from <module-includes>:1:
+Could not build the precompiled application for the device.
+    #import "Headers/CoreVideo.h"
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreVideo.framework/Headers/CoreVideo.h:20:10: note: in file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreVideo.framework/Headers/CoreVideo.h:20:
+    #include <CoreVideo/CVReturn.h>
+             ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreVideo.framework/Headers/CVReturn.h:21:10: note: in file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreVideo.framework/Headers/CVReturn.h:21:
+    #include <CoreVideo/CVBase.h>
+             ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreVideo.framework/Headers/CVBase.h:30:10: error: could not build module 'CoreFoundation'
+    #include <CoreFoundation/CFBase.h>
+             ^
+    /Users/ken/Documents/GitHub/lessimp/ios/Pods/Firebase/CoreOnly/Sources/module.modulemap:1:8: error: redefinition of module 'Firebase'
+    module Firebase {
+           ^
+    /Users/ken/Library/Developer/Xcode/DerivedData/Runner-ekhepxiajfebhrhhfbhkqtsdyhvl/SourcePackages/checkouts/firebase-ios-sdk/CoreOnly/Sources/module.modulemap:1:8: note: previously defined here
+    module Firebase {
+           ^
+    /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:9: note: while building module 'Flutter' imported from /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:
+    #import <Flutter/Flutter.h>
+            ^
+    /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterAppDelegate.h:8:9: note: while building module 'UIKit' imported from /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterAppDelegate.h:8:
+    #import <UIKit/UIKit.h>
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIColor.h:13:9: note: while building module 'CoreImage' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIColor.h:13:
+    #import <CoreImage/CoreImage.h>
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CIImage.h:10:9: note: while building module 'CoreVideo' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CIImage.h:10:
+    #import <CoreVideo/CoreVideo.h>
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreVideo.framework/Headers/CVPixelBufferIOSurface.h:26:10: note: while building module 'IOSurface' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreVideo.framework/Headers/CVPixelBufferIOSurface.h:26:
+    #include <IOSurface/IOSurfaceRef.h>
+             ^
+    <module-includes>:1:9: note: in file included from <module-includes>:1:
+    #import "Headers/IOSurfaceBase.h"
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/IOSurface.framework/Headers/IOSurfaceBase.h:36:10: error: could not build module 'CoreFoundation'
+    #include <CoreFoundation/CoreFoundation.h>
+             ^
+    /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:9: note: while building module 'Flutter' imported from /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:
+    #import <Flutter/Flutter.h>
+            ^
+    /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterAppDelegate.h:8:9: note: while building module 'UIKit' imported from /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterAppDelegate.h:8:
+    #import <UIKit/UIKit.h>
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIColor.h:13:9: note: while building module 'CoreImage' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIColor.h:13:
+    #import <CoreImage/CoreImage.h>
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CIImage.h:10:9: note: while building module 'CoreVideo' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CIImage.h:10:
+    #import <CoreVideo/CoreVideo.h>
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreVideo.framework/Headers/CVOpenGLESTexture.h:23:10: note: while building module 'OpenGLES' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreVideo.framework/Headers/CVOpenGLESTexture.h:23:
+    #include <OpenGLES/gltypes.h>
+             ^
+    <module-includes>:1:9: note: in file included from <module-includes>:1:
+    #import "Headers/EAGL.h"
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h:8:10: error: could not build module 'Foundation'
+    #include <Foundation/Foundation.h>
+             ^
+    /Users/ken/Documents/GitHub/lessimp/ios/Pods/Firebase/CoreOnly/Sources/module.modulemap:1:8: error: redefinition of module 'Firebase'
+    module Firebase {
+           ^
+    /Users/ken/Library/Developer/Xcode/DerivedData/Runner-ekhepxiajfebhrhhfbhkqtsdyhvl/SourcePackages/checkouts/firebase-ios-sdk/CoreOnly/Sources/module.modulemap:1:8: note: previously defined here
+    module Firebase {
+           ^
+    /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:9: note: while building module 'Flutter' imported from /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:
+    #import <Flutter/Flutter.h>
+            ^
+    /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterAppDelegate.h:8:9: note: while building module 'UIKit' imported from /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterAppDelegate.h:8:
+    #import <UIKit/UIKit.h>
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIColor.h:13:9: note: while building module 'CoreImage' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIColor.h:13:
+    #import <CoreImage/CoreImage.h>
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CIImage.h:10:9: note: while building module 'CoreVideo' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CIImage.h:10:
+    #import <CoreVideo/CoreVideo.h>
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreVideo.framework/Headers/CVMetalTextureCache.h:41:9: note: while building module 'Metal' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreVideo.framework/Headers/CVMetalTextureCache.h:41:
+    #import <Metal/MTLPixelFormat.h>
+            ^
+    <module-includes>:1:9: note: in file included from <module-includes>:1:
+    #import "Headers/Metal.h"
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.h:9:9: note: in file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.h:9:
+    #import <Metal/MTLTypes.h>
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/Metal.framework/Headers/MTLTypes.h:8:9: error: could not build module 'Foundation'
+    #import <Foundation/Foundation.h>
+            ^
+    /Users/ken/Documents/GitHub/lessimp/ios/Pods/Firebase/CoreOnly/Sources/module.modulemap:1:8: error: redefinition of module 'Firebase'
+    module Firebase {
+           ^
+    /Users/ken/Library/Developer/Xcode/DerivedData/Runner-ekhepxiajfebhrhhfbhkqtsdyhvl/SourcePackages/checkouts/firebase-ios-sdk/CoreOnly/Sources/module.modulemap:1:8: note: previously defined here
+    module Firebase {
+           ^
+    /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:9: note: while building module 'Flutter' imported from /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:
+    #import <Flutter/Flutter.h>
+            ^
+    /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterAppDelegate.h:8:9: note: while building module 'UIKit' imported from /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterAppDelegate.h:8:
+    #import <UIKit/UIKit.h>
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIColor.h:13:9: note: while building module 'CoreImage' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIColor.h:13:
+    #import <CoreImage/CoreImage.h>
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CIImage.h:11:9: note: while building module 'ImageIO' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CIImage.h:11:
+    #import <ImageIO/ImageIO.h>
+            ^
+    <module-includes>:1:9: note: in file included from <module-includes>:1:
+    #import "Headers/ImageIO.h"
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/ImageIO.framework/Headers/ImageIO.h:10:10: note: in file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/ImageIO.framework/Headers/ImageIO.h:10:
+    #include <ImageIO/ImageIOBase.h>
+             ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/ImageIO.framework/Headers/ImageIOBase.h:16:10: error: could not build module 'CoreFoundation'
+    #include <CoreFoundation/CoreFoundation.h>
+             ^
+    /Users/ken/Documents/GitHub/lessimp/ios/Pods/Firebase/CoreOnly/Sources/module.modulemap:1:8: error: redefinition of module 'Firebase'
+    module Firebase {
+           ^
+    /Users/ken/Library/Developer/Xcode/DerivedData/Runner-ekhepxiajfebhrhhfbhkqtsdyhvl/SourcePackages/checkouts/firebase-ios-sdk/CoreOnly/Sources/module.modulemap:1:8: note: previously defined here
+    module Firebase {
+           ^
+    /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:9: note: while building module 'Flutter' imported from /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:
+    #import <Flutter/Flutter.h>
+            ^
+    /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterAppDelegate.h:8:9: note: while building module 'UIKit' imported from /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterAppDelegate.h:8:
+    #import <UIKit/UIKit.h>
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/NSText.h:12:9: note: while building module 'CoreText' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/NSText.h:12:
+    #import <CoreText/CTParagraphStyle.h>
+            ^
+    <module-includes>:1:9: note: in file included from <module-includes>:1:
+    #import "Headers/CoreText.h"
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.h:20:10: note: in file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.h:20:
+    #include <CoreText/CTFont.h>
+             ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CTFont.h:20:10: note: in file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CTFont.h:20:
+    #include <CoreText/CTFontDescriptor.h>
+             ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CTFontDescriptor.h:20:10: note: in file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CTFontDescriptor.h:20:
+    #include <CoreText/CTFontTraits.h>
+             ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CTFontTraits.h:14:10: error: could not build module 'CoreFoundation'
+    #include <CoreFoundation/CoreFoundation.h>
+             ^
+    /Users/ken/Documents/GitHub/lessimp/ios/Pods/Firebase/CoreOnly/Sources/module.modulemap:1:8: error: redefinition of module 'Firebase'
+    module Firebase {
+           ^
+    /Users/ken/Library/Developer/Xcode/DerivedData/Runner-ekhepxiajfebhrhhfbhkqtsdyhvl/SourcePackages/checkouts/firebase-ios-sdk/CoreOnly/Sources/module.modulemap:1:8: note: previously defined here
+    module Firebase {
+           ^
+    /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:9: note: while building module 'Flutter' imported from /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:
+    #import <Flutter/Flutter.h>
+            ^
+    /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterAppDelegate.h:8:9: note: while building module 'UIKit' imported from /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterAppDelegate.h:8:
+    #import <UIKit/UIKit.h>
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIView.h:10:9: note: while building module 'QuartzCore' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIView.h:10:
+    #import <QuartzCore/QuartzCore.h>
+            ^
+    <module-includes>:1:9: note: in file included from <module-includes>:1:
+    #import "Headers/QuartzCore.h"
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h:9:10: note: in file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h:9:
+    #include <QuartzCore/CoreAnimation.h>
+             ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CoreAnimation.h:9:10: note: in file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CoreAnimation.h:9:
+    #include <QuartzCore/CABase.h>
+             ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CABase.h:16:10: error: could not build module 'CoreFoundation'
+    #include <CoreFoundation/CoreFoundation.h>
+             ^
+    /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:9: note: while building module 'Flutter' imported from /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:
+    #import <Flutter/Flutter.h>
+            ^
+    /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterAppDelegate.h:8:9: note: while building module 'UIKit' imported from /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterAppDelegate.h:8:
+    #import <UIKit/UIKit.h>
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/NSFileProviderExtension.h:15:9: note: while building module 'FileProvider' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/NSFileProviderExtension.h:15:
+    #import <FileProvider/NSFileProviderExtension.h>
+            ^
+    <module-includes>:1:9: note: in file included from <module-includes>:1:
+    #import "Headers/FileProvider.h"
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/FileProvider.framework/Headers/FileProvider.h:16:9: note: in file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/FileProvider.framework/Headers/FileProvider.h:16:
+    #import <FileProvider/NSFileProviderDomain.h>
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/FileProvider.framework/Headers/NSFileProviderDomain.h:8:9: error: could not build module 'Foundation'
+    #import <Foundation/Foundation.h>
+            ^
+    /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:9: note: while building module 'Flutter' imported from /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:
+    #import <Flutter/Flutter.h>
+            ^
+    /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterAppDelegate.h:8:9: note: while building module 'UIKit' imported from /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterAppDelegate.h:8:
+    #import <UIKit/UIKit.h>
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UNNotificationResponse+UIKitAdditions.h:10:9: note: while building module 'UserNotifications' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UNNotificationResponse+UIKitAdditions.h:10:
+    #import <UserNotifications/UNNotificationResponse.h>
+            ^
+    <module-includes>:1:9: note: in file included from <module-includes>:1:
+    #import "Headers/UserNotifications.h"
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.h:8:9: note: in file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.h:8:
+    #import <UserNotifications/NSString+UserNotifications.h>
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/NSString+UserNotifications.h:8:9: error: could not build module 'Foundation'
+    #import <Foundation/Foundation.h>
+            ^
+    /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:9: note: while building module 'Flutter' imported from /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:
+    #import <Flutter/Flutter.h>
+            ^
+    <module-includes>:1:9: note: in file included from <module-includes>:1:
+    #import "Headers/Flutter.h"
+            ^
+    /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/Flutter.h:8:9: note: in file included from /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/Flutter.h:8:
+    #import "FlutterAppDelegate.h"
+            ^
+    /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterAppDelegate.h:8:9: error: could not build module 'UIKit'
+    #import <UIKit/UIKit.h>
+            ^
+    /Users/ken/Documents/GitHub/lessimp/ios/Pods/Firebase/CoreOnly/Sources/module.modulemap:1:8: error: redefinition of module 'Firebase'
+    module Firebase {
+           ^
+    /Users/ken/Library/Developer/Xcode/DerivedData/Runner-ekhepxiajfebhrhhfbhkqtsdyhvl/SourcePackages/checkouts/firebase-ios-sdk/CoreOnly/Sources/module.modulemap:1:8: note: previously defined here
+    module Firebase {
+           ^
+    /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:9: note: while building module 'Flutter' imported from /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:
+    #import <Flutter/Flutter.h>
+            ^
+    /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterTexture.h:8:9: note: while building module 'CoreMedia' imported from /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterTexture.h:8:
+    #import <CoreMedia/CoreMedia.h>
+            ^
+    <module-includes>:1:9: note: in file included from <module-includes>:1:
+    #import "Headers/CoreMedia.h"
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.h:12:10: note: in file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.h:12:
+    #include <CoreMedia/CMBase.h>
+             ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CMBase.h:167:10: error: could not build module 'CoreFoundation'
+    #include <CoreFoundation/CFBase.h>              // OSStatus, Boolean, Float32, Float64, CF_NOESCAPE
+             ^
+    /Users/ken/Documents/GitHub/lessimp/ios/Pods/Firebase/CoreOnly/Sources/module.modulemap:1:8: error: redefinition of module 'Firebase'
+    module Firebase {
+           ^
+    /Users/ken/Library/Developer/Xcode/DerivedData/Runner-ekhepxiajfebhrhhfbhkqtsdyhvl/SourcePackages/checkouts/firebase-ios-sdk/CoreOnly/Sources/module.modulemap:1:8: note: previously defined here
+    module Firebase {
+           ^
+    /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:9: note: while building module 'Flutter' imported from /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:
+    #import <Flutter/Flutter.h>
+            ^
+    /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterTexture.h:8:9: note: while building module 'CoreMedia' imported from /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterTexture.h:8:
+    #import <CoreMedia/CoreMedia.h>
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CMFormatDescription.h:26:10: note: while building module 'CoreAudio' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CMFormatDescription.h:26:
+    #include <CoreAudio/CoreAudioTypes.h>
+             ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/CoreAudioTypes.h:4:10: note: while building module 'CoreAudioTypes' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/CoreAudioTypes.h:4:
+    #include <CoreAudioTypes/CoreAudioTypes.h>
+             ^
+    <module-includes>:1:9: note: in file included from <module-includes>:1:
+    #import "Headers/CoreAudioTypes.h"
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.h:8:10: note: in file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.h:8:
+    #include <CoreAudioTypes/CoreAudioBaseTypes.h>
+             ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioBaseTypes.h:18:10: error: could not build module 'CoreFoundation'
+    #include <CoreFoundation/CFBase.h>
+             ^
+    /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:9: note: while building module 'Flutter' imported from /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:
+    #import <Flutter/Flutter.h>
+            ^
+    /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterTexture.h:8:9: note: while building module 'CoreMedia' imported from /Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterTexture.h:8:
+    #import <CoreMedia/CoreMedia.h>
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CMFormatDescription.h:26:10: note: while building module 'CoreAudio' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CMFormatDescription.h:26:
+    #include <CoreAudio/CoreAudioTypes.h>
+             ^
+    <module-includes>:1:9: note: in file included from <module-includes>:1:
+    #import "Headers/CoreAudioTypes.h"
+            ^
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/CoreAudioTypes.h:4:10: error: could not build module 'CoreAudioTypes'
+    #include <CoreAudioTypes/CoreAudioTypes.h>
+             ^
+    /Users/ken/Documents/GitHub/lessimp/ios/Runner/Runner-Bridging-Header.h:1:9: note: in file included from /Users/ken/Documents/GitHub/lessimp/ios/Runner/Runner-Bridging-Header.h:1:
+    #import "GeneratedPluginRegistrant.h"
+            ^
+    /Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:10:9: error: could not build module 'Flutter'
+    #import <Flutter/Flutter.h>
+            ^
+    40 errors generated.
+    <unknown>:0: error: failed to emit precompiled header '/Users/ken/Library/Developer/Xcode/DerivedData/Runner-ekhepxiajfebhrhhfbhkqtsdyhvl/Build/Intermediates.noindex/PrecompiledHeaders/Runner-Bridging-Header-swift_34NCQQDOXKC32-clang_2HEGKKXLRPHZ2.pch' for bridging header '/Users/ken/Documents/GitHub/lessimp/ios/Runner/Runner-Bridging-Header.h'
+    80 errors generated.
+    error: generate-pch command failed with exit code 1 (use -v to see invocation)
+    note: Using new build system
+    note: Planning
+    note: Build preparation complete
+    note: Building targets in dependency order
+    /Users/ken/Documents/GitHub/lessimp/ios/Pods/Pods.xcodeproj: warning: The iOS deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 8.0, but the range of supported deployment target versions is 9.0 to 15.5.99. (in target 'leveldb-library' from project 'Pods')
+    /Users/ken/Documents/GitHub/lessimp/ios/Pods/Pods.xcodeproj: warning: The iOS deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 8.0, but the range of supported deployment target versions is 9.0 to 15.5.99. (in target 'Toast' from project 'Pods')
+
+    Result bundle written to path:
+    	/var/folders/3t/f9twt5b918q__3t6ps76bcf80000gn/T/flutter_tools.x5TWec/flutter_ios_build_temp_dirGqZZXM/temporary_xcresult_bundle
+
+
+Error (Xcode): redefinition of module 'Firebase'
+/Users/ken/Documents/GitHub/lessimp/ios/Pods/Firebase/CoreOnly/Sources/module.modulemap:0:7
+
+Error (Xcode): could not build module 'ObjectiveC'
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/usr/include/os/object.h:110:8
+
+Error (Xcode): could not build module 'os_object'
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/usr/include/dispatch/dispatch.h:62:9
+
+Error (Xcode): could not build module 'os_object'
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/usr/include/os/workgroup_base.h:18:9
+
+Error (Xcode): could not build module 'Dispatch'
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFStream.h:19:9
+
+Error (Xcode): could not build module 'CoreFoundation'
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:5:9
+
+Error (Xcode): could not build module 'CoreFoundation'
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/Security.framework/Headers/SecBase.h:27:9
+
+Error (Xcode): could not build module 'CoreFoundation'
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFNetwork.h:17:9
+
+Error (Xcode): could not build module 'Foundation'
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:7:8
+
+Error (Xcode): could not build module 'CoreFoundation'
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGBase.h:11:9
+
+Error (Xcode): could not build module 'CoreGraphics'
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImageDefines.h:16:9
+
+Error (Xcode): could not build module 'CoreFoundation'
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreVideo.framework/Headers/CVBase.h:29:9
+
+Error (Xcode): could not build module 'CoreFoundation'
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/IOSurface.framework/Headers/IOSurfaceBase.h:35:9
+
+Error (Xcode): could not build module 'Foundation'
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h:7:9
+
+Error (Xcode): could not build module 'Foundation'
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/Metal.framework/Headers/MTLTypes.h:7:8
+
+Error (Xcode): could not build module 'CoreFoundation'
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/ImageIO.framework/Headers/ImageIOBase.h:15:9
+
+Error (Xcode): could not build module 'CoreFoundation'
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CTFontTraits.h:13:9
+
+Error (Xcode): could not build module 'CoreFoundation'
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CABase.h:15:9
+
+Error (Xcode): could not build module 'Foundation'
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/FileProvider.framework/Headers/NSFileProviderDomain.h:7:8
+
+Error (Xcode): could not build module 'Foundation'
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/NSString+UserNotifications.h:7:8
+
+Error (Xcode): could not build module 'UIKit'
+/Users/ken/Documents/GitHub/lessimp/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterAppDelegate.h:7:8
+
+Error (Xcode): could not build module 'CoreFoundation'
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CMBase.h:166:9
+
+Error (Xcode): could not build module 'CoreFoundation'
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioBaseTypes.h:17:9
+
+Error (Xcode): could not build module 'CoreAudioTypes'
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/CoreAudioTypes.h:3:9
+
+Error (Xcode): could not build module 'Flutter'
+/Users/ken/Documents/GitHub/lessimp/ios/Runner/GeneratedPluginRegistrant.h:9:8
+
+Error (Xcode): failed to emit precompiled header '/Users/ken/Library/Developer/Xcode/DerivedData/Runner-ekhepxiajfebhrhhfbhkqtsdyhvl/Build/Intermediates.noindex/PrecompiledHeaders/Runner-Bridging-Header-swift_34NCQQDOXKC32-clang_2HEGKKXLRPHZ2.pch' for bridging header '/Users/ken/Documents/GitHub/lessimp/ios/Runner/Runner-Bridging-Header.h'
+
+
+Error launching application on iPhone (3).
